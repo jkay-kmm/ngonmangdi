@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_riverpod: ^2.6.1
   http: ^1.3.0
+  go_router: ^15.1.1
 
 dev_dependencies:
   flutter_test:
@@ -24,6 +25,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/recipes.json
+    - assets/all_recipes.json
 
 flutter_launcher_icons:
   android: true

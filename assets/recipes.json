@@ -1,0 +1,26 @@
+[
+  {
+    "image": "assets/images/1.jpg",
+    "title": "Cơm văn phòng",
+    "desc": "Bỏ ra 20 phút để tự nấu cơm ngon ...",
+    "rating": 4.8,
+    "country": "Việt Nam",
+    "bgColor": "#FFE0C0"
+  },
+  {
+    "image": "assets/images/2.jpg",
+    "title": "Mì Ý sốt bò bằm",
+    "desc": "Sợi mì dai, sốt bò đậm đà, cực dễ nấu",
+    "rating": 4.5,
+    "country": "Ý",
+    "bgColor": "#D2F6C5"
+  },
+  {
+    "image": "assets/images/3.jpg",
+    "title": "Sushi cuộn",
+    "desc": "Ẩm thực Nhật Bản ngay tại nhà",
+    "rating": 4.9,
+    "country": "Nhật Bản",
+    "bgColor": "#CDEBFF"
+  }
+]
