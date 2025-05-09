@@ -9,18 +9,26 @@
   },
   {
     "image": "assets/images/2.jpg",
-    "title": "Mì Ý sốt bò bằm",
-    "desc": "Sợi mì dai, sốt bò đậm đà, cực dễ nấu",
+    "title": "Ăn dặm cho bé",
+    "desc": "Sự đa dạng món ăn giúp bé thích thú hơn...",
     "rating": 4.5,
-    "country": "Ý",
+    "country": "Việt Nam",
     "bgColor": "#D2F6C5"
   },
   {
-    "image": "assets/images/3.jpg",
-    "title": "Sushi cuộn",
-    "desc": "Ẩm thực Nhật Bản ngay tại nhà",
+    "image": "assets/images/26.jpg",
+    "title": "Cơm nhà",
+    "desc": "Bữa cơm nhà ấm cúng, hâm nóng tình cảm cả nhà....",
     "rating": 4.9,
-    "country": "Nhật Bản",
+    "country": "Việt Nam",
     "bgColor": "#CDEBFF"
+  },
+  {
+    "image": "assets/images/3.jpg",
+    "title": "Đồ ngâm chua",
+    "desc": "Bữa cơm nhà ấm cúng, hâm nóng tình cảm cả nhà....",
+    "rating": 4.9,
+    "country": "Việt Nam",
+    "bgColor": "#DED2F9"
   }
 ]

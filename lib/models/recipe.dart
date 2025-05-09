@@ -15,6 +15,9 @@ class Recipe {
   final int servings;
   final String difficulty;
   final String author;
+  final int? cookTime;
+  final int? totalTime;
+  final String? notes;
 
   Recipe({
     required this.id,
@@ -29,6 +32,10 @@ class Recipe {
     required this.servings,
     required this.difficulty,
     required this.author,
+    required this.cookTime,
+    required this.totalTime,
+    required this.notes,
+
   });
 
   factory Recipe.fromJson(Map<String, dynamic> json) {
@@ -48,6 +55,9 @@ class Recipe {
       servings: json['servings'],
       difficulty: json['difficulty'],
       author: json['author'],
+      cookTime: json['cookTime'],
+      totalTime: json['totalTime'],
+      notes: json['notes'],
     );
   }
 }
