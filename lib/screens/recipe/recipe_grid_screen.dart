@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../providers/recipe_service.dart';
+import 'package:ngon_mang_di/services/recipe_service.dart' show RecipeService;
 import '../../widgets/loading_text.dart';
 
 class RecipeGridScreen extends StatelessWidget {

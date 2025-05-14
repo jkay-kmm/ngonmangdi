@@ -1,19 +1,178 @@
 [
     {
-    "id": "h1",
-    "title": "Cách làm Bánh Ngói Hạnh Nhân giòn tan",
-    "description": "Nhắc đến bánh quy sao có thể bỏ quên em Bánh Ngói Hạnh Nhân giòn tan này được nhỉ! Cách làm thì dễ, nguyên liệu lại cơ bản, để kinh doanh...",
-    "imageUrl": "assets/images/banh_ngoi_hanh_nhan.jpg",
-    "views": 1298,
-    "likes": 79
+        "id": "h1",
+        "title": "Cách làm Bánh Ngói Hạnh Nhân giòn tan",
+        "description": "Nhắc đến bánh quy sao có thể bỏ quên em Bánh Ngói Hạnh Nhân giòn tan này được nhỉ! Cách làm thì dễ, nguyên liệu lại cơ bản, để kinh doanh...",
+        "imageUrl": "assets/images/banh_ngoi_hanh_nhan.jpg",
+        "views": 1298,
+        "likes": 79
     },
     {
-    "id": "h2",
-    "title": "Bánh Quy Bơ Truyền Thống",
-    "description": "Bánh quy bơ thơm lừng, giòn tan, thích hợp cho mọi dịp lễ tết.",
-    "imageUrl": "assets/images/banh_quy_bo.jpg",
-    "views": 850,
-    "likes": 45
+        "id": "h2",
+        "title": "Bánh Quy Bơ Truyền Thống",
+        "description": "Bánh quy bơ thơm lừng, giòn tan, thích hợp cho mọi dịp lễ tết.",
+        "imageUrl": "assets/images/banh_quy_bo.jpg",
+        "views": 850,
+        "likes": 45
+    },
+    {
+        "id": "h3",
+        "title": "Bánh Quy Chocolate Chip",
+        "description": "Một phiên bản ngọt ngào với vị chocolate tan chảy, giòn bên ngoài, mềm bên trong – tuyệt vời cho tín đồ socola.",
+        "imageUrl": "assets/images/banh_quy_chocolate_chip.jpg",
+        "views": 1743,
+        "likes": 112
+    },
+    {
+        "id": "h4",
+        "title": "Bánh Quy Yến Mạch Mật Ong",
+        "description": "Ngon miệng lại tốt cho sức khỏe, bánh quy yến mạch mật ong phù hợp cho cả trẻ nhỏ và người lớn.",
+        "imageUrl": "assets/images/banh_quy_yen_mach.jpg",
+        "views": 980,
+        "likes": 68
+    },
+    {
+        "id": "h5",
+        "title": "Bánh Quy Phô Mai Mặn Mặn",
+        "description": "Kết hợp vị béo của phô mai và độ giòn tan khó cưỡng – món bánh tuyệt vời để nhâm nhi cùng trà.",
+        "imageUrl": "assets/images/banh_quy_pho_mai.jpg",
+        "views": 1125,
+        "likes": 70
+    },
+    {
+        "id": "h6",
+        "title": "Bánh Quy Dừa Nướng",
+        "description": "Thơm nức mùi dừa, giòn rụm từng miếng – món bánh mang hương vị tuổi thơ khó quên.",
+        "imageUrl": "assets/images/banh_quy_dua.jpg",
+        "views": 1020,
+        "likes": 59
+    },
+    {
+        "id": "h7",
+        "title": "Bánh Quy Trà Xanh Nhật Bản",
+        "description": "Bánh quy thơm mùi matcha, ngọt nhẹ, thanh mát – cực kỳ hợp cho người thích vị trà xanh.",
+        "imageUrl": "assets/images/banh_quy_tra_xanh.jpg",
+        "views": 1322,
+        "likes": 77
+    },
+    {
+        "id": "h8",
+        "title": "Bánh Quy Gừng Cay Nồng",
+        "description": "Mỗi miếng bánh đều mang hương vị đậm đà của gừng – thích hợp cho mùa đông se lạnh.",
+        "imageUrl": "assets/images/banh_quy_gung.jpg",
+        "views": 865,
+        "likes": 50
+    },
+    {
+        "id": "h9",
+        "title": "Bánh Quy Cà Phê Sữa",
+        "description": "Kết hợp độc đáo giữa vị cà phê đậm đà và vị sữa ngọt ngào, bánh quy cà phê là lựa chọn tuyệt vời cho buổi xế chiều.",
+        "imageUrl": "assets/images/banh_quy_ca_phe.jpg",
+        "views": 990,
+        "likes": 61
+    },
+    {
+        "id": "h10",
+        "title": "Bánh Quy Mè Đen Giòn Rụm",
+        "description": "Mè đen thơm bùi kết hợp với công thức bánh quy giòn truyền thống tạo nên món ăn vặt tuyệt hảo.",
+        "imageUrl": "assets/images/banh_quy_me_den.jpg",
+        "views": 778,
+        "likes": 43
+    },
+    {
+        "id": "h11",
+        "title": "Bánh Quy Bơ Dứa Chua Ngọt",
+        "description": "Lớp bơ thơm béo cùng nhân dứa chua nhẹ, ngọt thanh – một món bánh lạ miệng cho ngày mới.",
+        "imageUrl": "assets/images/banh_quy_bo_dua.jpg",
+        "views": 1220,
+        "likes": 66
+    },
+    {
+        "id": "h12",
+        "title": "Bánh Quy Hạt Điều Béo Ngậy",
+        "description": "Béo bùi hạt điều rang cùng vị ngọt vừa phải của bánh quy – một sự kết hợp hấp dẫn.",
+        "imageUrl": "assets/images/banh_quy_hat_dieu.jpg",
+        "views": 1355,
+        "likes": 88
+    },
+    {
+        "id": "h13",
+        "title": "Macaron Pháp Ngọt Ngào",
+        "description": "Món bánh nổi tiếng nước Pháp với lớp vỏ giòn rụm, nhân kem mềm mại, đủ vị: dâu, chanh, chocolate...",
+        "imageUrl": "assets/images/macaron_phap.jpg",
+        "views": 1580,
+        "likes": 95
+    },
+    {
+        "id": "h14",
+        "title": "Bánh Mochi Nhân Kem Nhật Bản",
+        "description": "Lớp vỏ gạo dẻo dai bọc bên trong là nhân kem lạnh mát lạnh, tạo nên món tráng miệng thú vị.",
+        "imageUrl": "assets/images/mochi_nhat.jpg",
+        "views": 1402,
+        "likes": 82
+    },
+    {
+        "id": "h15",
+        "title": "Bánh Tart Trứng Hồng Kông",
+        "description": "Lớp vỏ bánh giòn, nhân kem trứng béo ngậy – món ăn vặt nổi tiếng châu Á.",
+        "imageUrl": "assets/images/tart_trung_hongkong.jpg",
+        "views": 1677,
+        "likes": 99
+    },
+    {
+        "id": "h16",
+        "title": "Bánh Rán Đường Kiểu Mỹ (Donut)",
+        "description": "Donut ngọt ngào với nhiều loại topping như socola, dâu, rắc đường,... hấp dẫn cả trẻ em lẫn người lớn.",
+        "imageUrl": "assets/images/donut_my.jpg",
+        "views": 1900,
+        "likes": 120
+    },
+    {
+        "id": "h17",
+        "title": "Bánh Dứa Đài Loan",
+        "description": "Vỏ bánh thơm bơ, nhân dứa chua ngọt – món quà lưu niệm không thể thiếu khi đến Đài Loan.",
+        "imageUrl": "assets/images/banh_dua_dai_loan.jpg",
+        "views": 1344,
+        "likes": 76
+    },
+    {
+        "id": "h18",
+        "title": "Kẹo Hạnh Nhân Caramel",
+        "description": "Kẹo ngọt dẻo thơm vị caramel, giòn bùi từ hạnh nhân – món ăn vặt handmade lý tưởng.",
+        "imageUrl": "assets/images/keo_hanh_nhan_caramel.jpg",
+        "views": 890,
+        "likes": 52
+    },
+    {
+        "id": "h19",
+        "title": "Bánh Quy Bắp Phô Mai",
+        "description": "Vị ngọt của bắp non quyện cùng phô mai béo ngậy tạo nên món bánh độc đáo khó cưỡng.",
+        "imageUrl": "assets/images/banh_quy_bap_pho_mai.jpg",
+        "views": 1112,
+        "likes": 69
+    },
+    {
+        "id": "h20",
+        "title": "Churros Tây Ban Nha",
+        "description": "Món bánh chiên giòn nổi tiếng, thường được chấm cùng chocolate nóng – tuyệt vời cho buổi chiều lạnh.",
+        "imageUrl": "assets/images/churros.jpg",
+        "views": 1440,
+        "likes": 83
+    },
+    {
+        "id": "h21",
+        "title": "Bánh Bông Lan Trứng Muối Lava",
+        "description": "Lớp bông lan mềm mịn, bên trong là nhân trứng muối tan chảy béo mặn hấp dẫn.",
+        "imageUrl": "assets/images/banh_bong_lan_trung_muoi.jpg",
+        "views": 1785,
+        "likes": 109
+    },
+    {
+        "id": "h22",
+        "title": "Kẹo Dẻo Trái Cây Nhiệt Đới",
+        "description": "Đủ hương vị trái cây như xoài, dứa, chanh dây,... kẹo dẻo ngọt dịu, thơm tự nhiên, phù hợp cho trẻ em.",
+        "imageUrl": "assets/images/keo_deo_trai_cay.jpg",
+        "views": 995,
+        "likes": 60
     }
-    
 ]

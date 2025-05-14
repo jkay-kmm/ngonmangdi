@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:ngon_mang_di/services/recipe_service.dart';
 import '../../models/recipe.dart';
-import '../../providers/recipe_service.dart';
 import '../../widgets/loading_text.dart';
 import 'recipe_detail_screen.dart';
 
