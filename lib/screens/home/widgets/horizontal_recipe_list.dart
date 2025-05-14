@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../widgets/recipe_card.dart';
-import '../home_screen.dart';
-import '../../../screens/recipe/recipe_list_screen.dart';
 
 class HorizontalRecipeList extends StatelessWidget {
   final List<dynamic> recipes;

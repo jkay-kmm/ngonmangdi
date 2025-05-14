@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../providers/recipe_provider.dart';
+import '../../providers/recipe_service.dart';
 import '../../widgets/loading_text.dart';
-import 'recipe_detail_screen.dart';
 
 class RecipeGridScreen extends StatelessWidget {
   const RecipeGridScreen({super.key});
@@ -19,7 +18,7 @@ class RecipeGridScreen extends StatelessWidget {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
-            context.go('/');
+            context.go('/home');
           },
         ),
       ),

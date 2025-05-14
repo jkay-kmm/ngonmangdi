@@ -7,9 +7,13 @@ class Ingredient {
 
   factory Ingredient.fromJson(Map<String, dynamic> json) {
     return Ingredient(
-      name: json['name'],
-      quantity: json['quantity'],
-      unit: json['unit'],
+      name: json['name'] as String,
+      quantity: json['quantity'] as String,
+      unit: json['unit'] as String,
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {'name': name, 'quantity': quantity, 'unit': unit};
   }
 }

@@ -1,13 +1,17 @@
 class Step {
-  final int order;
   final String instruction;
+  final int order;
 
-  Step({required this.order, required this.instruction});
+  Step({required this.instruction, required this.order});
 
   factory Step.fromJson(Map<String, dynamic> json) {
     return Step(
-      order: json['order'],
-      instruction: json['instruction'],
+      instruction: json['instruction'] as String,
+      order: json['order'] as int,
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {'instruction': instruction, 'order': order};
   }
 }

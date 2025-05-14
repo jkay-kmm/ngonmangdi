@@ -38,6 +38,7 @@ flutter:
     - assets/cake.json
     - assets/baby.json
     - assets/confectionery.json
+    - assets/highlight_recipes.json
 
 flutter_launcher_icons:
   android: true

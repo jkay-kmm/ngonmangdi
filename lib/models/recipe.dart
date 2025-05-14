@@ -35,7 +35,6 @@ class Recipe {
     required this.cookTime,
     required this.totalTime,
     required this.notes,
-
   });
 
   factory Recipe.fromJson(Map<String, dynamic> json) {
@@ -59,5 +58,25 @@ class Recipe {
       totalTime: json['totalTime'],
       notes: json['notes'],
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'title': title,
+      'description': description,
+      'imageUrl': imageUrl,
+      'category': category,
+      'tags': tags,
+      'duration': duration,
+      'servings': servings,
+      'difficulty': difficulty,
+      'author': author,
+      'cookTime': cookTime,
+      'totalTime': totalTime,
+      'notes': notes,
+      'ingredients': ingredients.map((e) => e.toJson()).toList(),
+      'steps': steps.map((e) => e.toJson()).toList(),
+    };
   }
 }

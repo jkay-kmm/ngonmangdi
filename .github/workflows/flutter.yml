@@ -2,14 +2,13 @@ name: Flutter CI/CD
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop ]
 
 jobs:
-  build:
+  quality:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     
@@ -22,17 +21,68 @@ jobs:
     - name: Install dependencies
       run: flutter pub get
     
+    - name: Check formatting
+      run: dart format --set-exit-if-changed .
+    
     - name: Analyze project source
       run: flutter analyze
     
-    - name: Run tests
-      run: flutter test
+    - name: Run tests with coverage
+      run: |
+        flutter test --coverage
+        genhtml coverage/lcov.info -o coverage/html
+    
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage-report
+        path: coverage/html
+
+  build:
+    needs: quality
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        environment: [dev, staging, prod]
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.19.0'
+        channel: 'stable'
+    
+    - name: Install dependencies
+      run: flutter pub get
     
     - name: Build APK
-      run: flutter build apk --release
+      run: flutter build apk --release --flavor ${{ matrix.environment }}
+      env:
+        FLAVOR: ${{ matrix.environment }}
     
     - name: Upload APK
       uses: actions/upload-artifact@v3
       with:
-        name: release-apk
-        path: build/app/outputs/flutter-apk/app-release.apk 
+        name: ${{ matrix.environment }}-apk
+        path: build/app/outputs/flutter-apk/app-${{ matrix.environment }}-release.apk
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download APK
+      uses: actions/download-artifact@v3
+      with:
+        name: prod-apk
+    
+    - name: Upload to Google Play
+      uses: r0adkll/upload-google-play@v1
+      with:
+        serviceAccountJsonPlainText: ${{ secrets.GOOGLE_PLAY_JSON_KEY }}
+        packageName: com.your.package.name
+        releaseFiles: app-prod-release.apk
+        track: production
+        status: completed 
