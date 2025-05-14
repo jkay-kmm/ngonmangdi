@@ -1,0 +1,820 @@
+[
+  {
+    "id": "1",
+    "title": "Kimchi cải thảo",
+    "description": "Kimchi là món ăn truyền thống nổi tiếng của Hàn Quốc với vị cay, chua, mặn hoà quyện, rất ngon miệng và tốt cho tiêu hoá.",
+    "imageUrl": "assets/images/confectionery/1.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "Hàn Quốc",
+      "cay",
+      "lên men"
+    ],
+    "ingredients": [
+      {
+        "name": "Cải thảo",
+        "quantity": "1",
+        "unit": "cây"
+      },
+      {
+        "name": "Muối hạt",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Bột ớt Hàn Quốc",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "5",
+        "unit": "tép"
+      },
+      {
+        "name": "Gừng",
+        "quantity": "1",
+        "unit": "củ nhỏ"
+      },
+      {
+        "name": "Hành lá",
+        "quantity": "3",
+        "unit": "cây"
+      },
+      {
+        "name": "Đường",
+        "quantity": "15",
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "30",
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Cắt cải thảo thành khúc, rửa sạch và rắc muối lên từng lớp. Ngâm 6-8 tiếng rồi rửa lại cho sạch muối."
+      },
+      {
+        "order": 2,
+        "instruction": "Xay nhuyễn tỏi, gừng, đường và trộn với bột ớt, nước mắm tạo thành hỗn hợp sốt."
+      },
+      {
+        "order": 3,
+        "instruction": "Thoa đều hỗn hợp sốt lên từng lá cải thảo, thêm hành lá cắt khúc trộn đều."
+      },
+      {
+        "order": 4,
+        "instruction": "Cho vào hũ kín, để ở nhiệt độ phòng 1-2 ngày rồi cất vào tủ lạnh bảo quản và lên men tiếp."
+      }
+    ],
+    "duration": 48,
+    "servings": 6,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 0,
+    "totalTime": 48,
+    "notes": "Kimchi đạt độ chua ngon nhất sau 3-5 ngày lên men trong tủ lạnh. Có thể dùng làm món phụ hoặc nấu canh, chiên cơm."
+  },
+
+  {
+    "id": "2",
+    "title": "Dưa cải chua",
+    "description": "Dưa cải chua giòn, có vị mặn ngọt đặc trưng, rất hợp để ăn kèm cơm.",
+    "imageUrl": "assets/images/confectionery/2.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "giòn",
+      "mặn ngọt"
+    ],
+    "ingredients": [
+      {
+        "name": "Cải thìa",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "quantity": "15",
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Giấm",
+        "quantity": "50",
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Rửa sạch cải thìa, cắt khúc vừa ăn."
+      },
+      {
+        "order": 2,
+        "instruction": "Chuẩn bị nước ngâm gồm giấm, muối, đường."
+      },
+      {
+        "order": 3,
+        "instruction": "Ngâm cải thìa vào nước ngâm đã chuẩn bị."
+      },
+      {
+        "order": 4,
+        "instruction": "Để dưa cải chua trong khoảng 1 ngày trước khi thưởng thức."
+      }
+    ],
+    "duration": 24,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 0,
+    "totalTime": 24,
+    "notes": "Nên dùng ngay sau khi ngâm để giữ được độ giòn."
+  },
+  {
+    "id": "3",
+    "title": "Cà rốt ngâm chua",
+    "description": "Cà rốt ngâm chua có màu sắc đẹp, giòn và dễ ăn.",
+    "imageUrl": "assets/images/confectionery/3.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "giòn",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Cà rốt",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Giấm",
+        "quantity": "40",
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "quantity": "25",
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "quantity": "10",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Cà rốt gọt vỏ, cắt thành từng sợi nhỏ."
+      },
+      {
+        "order": 2,
+        "instruction": "Chuẩn bị nước ngâm gồm giấm, đường, muối."
+      },
+      {
+        "order": 3,
+        "instruction": "Ngâm cà rốt vào nước ngâm trong khoảng 12 giờ."
+      }
+    ],
+    "duration": 12,
+    "servings": 2,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 0,
+    "totalTime": 12,
+    "notes": "Dùng ngay sau khi ngâm hoặc để trong tủ lạnh giữ được lâu hơn."
+  },
+  {
+    "id": "4",
+    "title": "Dưa leo ngâm chua",
+    "description": "Dưa leo ngâm chua, giòn và có vị chua ngọt, thích hợp ăn kèm với các món ăn.",
+    "imageUrl": "assets/images/confectionery/4.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "giòn",
+      "ngon"
+    ],
+    "ingredients": [
+      {
+        "name": "Dưa leo",
+        "quantity": "500",
+        "unit": "g"
+      },
+      {
+        "name": "Giấm",
+        "quantity": "70",
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "quantity": "15",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Dưa leo rửa sạch, cắt lát mỏng."
+      },
+      {
+        "order": 2,
+        "instruction": "Chuẩn bị nước ngâm gồm giấm, đường, muối."
+      },
+      {
+        "order": 3,
+        "instruction": "Ngâm dưa leo vào nước ngâm trong khoảng 6 giờ."
+      }
+    ],
+    "duration": 6,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 0,
+    "totalTime": 6,
+    "notes": "Dưa leo nên ăn ngay sau khi ngâm hoặc bảo quản trong tủ lạnh."
+  },
+  {
+    "id": "5",
+    "title": "Củ kiệu ngâm chua",
+    "description": "Củ kiệu ngâm chua thơm ngon, có vị chua và cay nhẹ, thích hợp ăn với cơm trắng.",
+    "imageUrl": "assets/images/confectionery/5.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "ngon",
+      "cay"
+    ],
+    "ingredients": [
+      {
+        "name": "Củ kiệu",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Giấm",
+        "quantity": "50",
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "quantity": "15",
+        "unit": "g"
+      },
+      {
+        "name": "Ớt",
+        "quantity": "1",
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Củ kiệu rửa sạch, cắt gốc và ngâm nước muối khoảng 3 giờ."
+      },
+      {
+        "order": 2,
+        "instruction": "Chuẩn bị nước ngâm gồm giấm, đường, muối và ớt."
+      },
+      {
+        "order": 3,
+        "instruction": "Ngâm củ kiệu vào nước ngâm trong khoảng 24 giờ."
+      }
+    ],
+    "duration": 24,
+    "servings": 3,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 0,
+    "totalTime": 24,
+    "notes": "Củ kiệu ngâm chua dùng kèm cơm hoặc ăn vặt."
+  },
+  {
+    "id": "6",
+    "title": "Cà pháo ngâm chua",
+    "description": "Cà pháo ngâm chua với vị giòn và chua ngọt, rất thích hợp làm món ăn kèm cơm.",
+    "imageUrl": "assets/images/confectionery/6.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "giòn",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Cà pháo",
+        "quantity": "500",
+        "unit": "g"
+      },
+      {
+        "name": "Giấm",
+        "quantity": "60",
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "quantity": "40",
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "quantity": "20",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Cà pháo rửa sạch, cắt lát mỏng."
+      },
+      {
+        "order": 2,
+        "instruction": "Chuẩn bị nước ngâm gồm giấm, đường, muối."
+      },
+      {
+        "order": 3,
+        "instruction": "Ngâm cà pháo vào nước ngâm trong khoảng 12 giờ."
+      }
+    ],
+    "duration": 12,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 0,
+    "totalTime": 12,
+    "notes": "Cà pháo ngâm chua có thể ăn ngay hoặc để trong tủ lạnh lâu dài."
+  },
+  {
+    "id": "7",
+    "title": "Tỏi ngâm chua",
+    "description": "Tỏi ngâm chua có vị cay nhẹ, thơm ngon, ăn kèm với các món ăn giúp kích thích khẩu vị.",
+    "imageUrl": "assets/images/confectionery/7.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "cay",
+      "ngon"
+    ],
+    "ingredients": [
+      {
+        "name": "Tỏi",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Giấm",
+        "quantity": "60",
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "quantity": "15",
+        "unit": "g"
+      },
+      {
+        "name": "Ớt",
+        "quantity": "2",
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Tỏi bóc vỏ, ớt cắt lát mỏng."
+      },
+      {
+        "order": 2,
+        "instruction": "Chuẩn bị nước ngâm gồm giấm, đường, muối."
+      },
+      {
+        "order": 3,
+        "instruction": "Ngâm tỏi và ớt vào nước ngâm trong khoảng 7 ngày."
+      },
+      {
+        "order": 4,
+        "instruction": "Sau 7 ngày, tỏi ngâm chua đã sẵn sàng để thưởng thức."
+      }
+    ],
+    "duration": 7,
+    "servings": 3,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 0,
+    "totalTime": 7,
+    "notes": "Tỏi ngâm chua càng để lâu càng ngon, có thể bảo quản trong tủ lạnh để dùng dần."
+  },
+    {
+      "id": "8",
+      "title": "Củ cải ngâm chua",
+      "description": "Củ cải ngâm chua có vị giòn, chua ngọt nhẹ, thích hợp ăn kèm với cơm hoặc các món chiên.",
+      "imageUrl": "assets/images/confectionery/8.jpg",
+      "category": "Đồ ngâm chua",
+      "tags": [
+        "giòn",
+        "chua ngọt"
+      ],
+      "ingredients": [
+        {
+          "name": "Củ cải",
+          "quantity": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Giấm",
+          "quantity": "50",
+          "unit": "ml"
+        },
+        {
+          "name": "Đường",
+          "quantity": "30",
+          "unit": "g"
+        },
+        {
+          "name": "Muối",
+          "quantity": "10",
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Củ cải gọt vỏ, cắt lát mỏng."
+        },
+        {
+          "order": 2,
+          "instruction": "Chuẩn bị nước ngâm gồm giấm, đường, muối."
+        },
+        {
+          "order": 3,
+          "instruction": "Ngâm củ cải vào nước ngâm trong khoảng 12 giờ."
+        }
+      ],
+      "duration": 12,
+      "servings": 4,
+      "difficulty": "Dễ",
+      "author": "Admin",
+      "cookTime": 0,
+      "totalTime": 12,
+      "notes": "Củ cải ngâm chua có thể bảo quản trong tủ lạnh lâu dài."
+    },
+    {
+      "id": "9",
+      "title": "Ớt ngâm chua",
+      "description": "Ớt ngâm chua có vị cay và chua nhẹ, rất hợp để ăn kèm với các món ăn hoặc làm gia vị cho các món lẩu.",
+      "imageUrl": "assets/images/confectionery/9.jpg",
+      "category": "Đồ ngâm chua",
+      "tags": [
+        "cay",
+        "chua"
+      ],
+      "ingredients": [
+        {
+          "name": "Ớt",
+          "quantity": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Giấm",
+          "quantity": "50",
+          "unit": "ml"
+        },
+        {
+          "name": "Đường",
+          "quantity": "25",
+          "unit": "g"
+        },
+        {
+          "name": "Muối",
+          "quantity": "10",
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Ớt rửa sạch, cắt bỏ cuống."
+        },
+        {
+          "order": 2,
+          "instruction": "Chuẩn bị nước ngâm gồm giấm, đường, muối."
+        },
+        {
+          "order": 3,
+          "instruction": "Ngâm ớt vào nước ngâm trong khoảng 24 giờ."
+        }
+      ],
+      "duration": 24,
+      "servings": 3,
+      "difficulty": "Dễ",
+      "author": "Admin",
+      "cookTime": 0,
+      "totalTime": 24,
+      "notes": "Ớt ngâm chua càng để lâu càng cay và ngon hơn."
+    },
+  {
+    "id": "10",
+    "title": "Sung muối ớt",
+    "description": "Sung muối ớt có vị chua nhẹ, cay nồng và giòn đặc trưng. Đây là món ăn kèm dân dã rất được ưa chuộng.",
+    "imageUrl": "assets/images/confectionery/10.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "giòn",
+      "cay",
+      "ăn kèm"
+    ],
+    "ingredients": [
+      {
+        "name": "Quả sung",
+        "quantity": "500",
+        "unit": "g"
+      },
+      {
+        "name": "Muối hạt",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Ớt tươi",
+        "quantity": "5",
+        "unit": "trái"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "3",
+        "unit": "tép"
+      },
+      {
+        "name": "Đường",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Giấm",
+        "quantity": "50",
+        "unit": "ml"
+      },
+      {
+        "name": "Nước lọc",
+        "quantity": "300",
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Sung rửa sạch, cắt bỏ cuống, ngâm nước muối loãng 30 phút để bớt nhựa, rồi để ráo."
+      },
+      {
+        "order": 2,
+        "instruction": "Đun sôi hỗn hợp nước, muối, đường, giấm rồi để nguội hoàn toàn."
+      },
+      {
+        "order": 3,
+        "instruction": "Cho sung, tỏi đập dập, ớt cắt lát vào hũ thuỷ tinh."
+      },
+      {
+        "order": 4,
+        "instruction": "Đổ nước ngâm đã nguội vào ngập sung, đậy kín. Để ở nhiệt độ phòng 1-2 ngày là dùng được."
+      }
+    ],
+    "duration": 48,
+    "servings": 6,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 5,
+    "totalTime": 48,
+    "notes": "Sung muối ngon nhất sau 2 ngày, nên bảo quản trong ngăn mát tủ lạnh để giữ độ giòn và hương vị."
+  },
+
+  {
+      "id": "11",
+      "title": "Đu đủ ngâm chua",
+      "description": "Đu đủ ngâm chua có vị chua ngọt đặc trưng, giòn ngon, thích hợp làm món ăn vặt hoặc ăn kèm với cơm.",
+    "imageUrl": "assets/images/confectionery/11.jpg",
+      "category": "Đồ ngâm chua",
+      "tags": [
+        "giòn",
+        "chua ngọt"
+      ],
+      "ingredients": [
+        {
+          "name": "Đu đủ",
+          "quantity": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Giấm",
+          "quantity": "60",
+          "unit": "ml"
+        },
+        {
+          "name": "Đường",
+          "quantity": "40",
+          "unit": "g"
+        },
+        {
+          "name": "Muối",
+          "quantity": "15",
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Đu đủ gọt vỏ, cắt thành sợi dài."
+        },
+        {
+          "order": 2,
+          "instruction": "Chuẩn bị nước ngâm gồm giấm, đường, muối."
+        },
+        {
+          "order": 3,
+          "instruction": "Ngâm đu đủ vào nước ngâm trong khoảng 12 giờ."
+        }
+      ],
+      "duration": 12,
+      "servings": 4,
+      "difficulty": "Dễ",
+      "author": "Admin",
+      "cookTime": 0,
+      "totalTime": 12,
+      "notes": "Đu đủ ngâm chua có thể bảo quản trong tủ lạnh để dùng dần."
+    },
+  {
+  "id": "12",
+  "title": "Kimchi củ cải (Kkakdugi)",
+  "description": "Kimchi củ cải hay Kkakdugi là món kimchi giòn, cay nhẹ và rất đưa cơm. Món này thường dùng kèm các món canh hoặc cơm nóng.",
+    "imageUrl": "assets/images/confectionery/12.jpg",
+  "category": "Đồ ngâm chua",
+  "tags": [
+    "cay",
+    "giòn",
+    "lên men"
+  ],
+  "ingredients": [
+    {
+      "name": "Củ cải trắng",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Muối hạt",
+      "quantity": "30",
+      "unit": "g"
+    },
+    {
+      "name": "Bột ớt Hàn Quốc",
+      "quantity": "25",
+      "unit": "g"
+    },
+    {
+      "name": "Tỏi",
+      "quantity": "4",
+      "unit": "tép"
+    },
+    {
+      "name": "Gừng",
+      "quantity": "1",
+      "unit": "củ nhỏ"
+    },
+    {
+      "name": "Nước mắm",
+      "quantity": "25",
+      "unit": "ml"
+    },
+    {
+      "name": "Đường",
+      "quantity": "20",
+      "unit": "g"
+    },
+    {
+      "name": "Hành lá",
+      "quantity": "2",
+      "unit": "cây"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Cắt củ cải thành khối vuông nhỏ, rắc muối trộn đều và để nghỉ 1-2 tiếng cho ra nước. Sau đó rửa sạch và để ráo."
+    },
+    {
+      "order": 2,
+      "instruction": "Xay tỏi, gừng, đường. Trộn với bột ớt, nước mắm để tạo hỗn hợp gia vị."
+    },
+    {
+      "order": 3,
+      "instruction": "Trộn củ cải với hỗn hợp gia vị và hành lá cắt khúc cho thấm đều."
+    },
+    {
+      "order": 4,
+      "instruction": "Cho vào hũ kín, để ở nhiệt độ phòng 1-2 ngày, sau đó bảo quản trong tủ lạnh."
+    }
+  ],
+  "duration": 48,
+  "servings": 5,
+  "difficulty": "Trung bình",
+  "author": "Admin",
+  "cookTime": 0,
+  "totalTime": 48,
+  "notes": "Kimchi củ cải nên để lên men ít nhất 2 ngày để có vị ngon nhất. Càng để lâu càng đậm vị."
+},
+  {
+    "id": "13",
+    "title": "Kimchi dưa leo (Oi Sobagi)",
+    "description": "Kimchi dưa leo hay Oi Sobagi là loại kimchi tươi, ăn liền, rất giòn và thanh mát. Phù hợp dùng trong ngày nắng nóng.",
+    "imageUrl": "assets/images/confectionery/13.jpg",
+    "category": "Đồ ngâm chua",
+    "tags": [
+      "giòn",
+      "thanh mát",
+      "ăn liền"
+    ],
+    "ingredients": [
+      {
+        "name": "Dưa leo",
+        "quantity": "4",
+        "unit": "trái"
+      },
+      {
+        "name": "Muối",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "quantity": "1",
+        "unit": "củ"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "3",
+        "unit": "tép"
+      },
+      {
+        "name": "Bột ớt Hàn Quốc",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "20",
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá",
+        "quantity": "2",
+        "unit": "cây"
+      },
+      {
+        "name": "Đường",
+        "quantity": "10",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Dưa leo rửa sạch, cắt làm 2-4 khúc tùy chiều dài, sau đó khứa chữ thập để dễ nhồi nhân. Rắc muối và để nghỉ 30 phút cho mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Cà rốt cắt sợi, hành lá thái khúc. Trộn với tỏi băm, bột ớt, nước mắm, đường để làm nhân."
+      },
+      {
+        "order": 3,
+        "instruction": "Nhồi hỗn hợp nhân vào từng trái dưa leo đã khứa."
+      },
+      {
+        "order": 4,
+        "instruction": "Cho vào hộp kín, để lạnh 6-8 tiếng là dùng được."
+      }
+    ],
+    "duration": 8,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 0,
+    "totalTime": 8,
+    "notes": "Kimchi dưa leo không nên để quá lâu, ngon nhất trong 2-3 ngày sau khi làm."
+  }
+
+]

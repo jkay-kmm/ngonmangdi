@@ -6,13 +6,17 @@ import '../../widgets/loading_text.dart';
 import 'recipe_detail_screen.dart';
 
 class RecipeListScreen extends StatelessWidget {
-  const RecipeListScreen({super.key});
+  final String? jsonFile;
+  const RecipeListScreen({super.key, this.jsonFile});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Danh sách công thức", style: TextStyle(fontFamily: "ABeeZee", fontSize: 18),),
+        title: const Text(
+          "Danh sách công thức",
+          style: TextStyle(fontFamily: "ABeeZee", fontSize: 18),
+        ),
         centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
@@ -22,7 +26,10 @@ class RecipeListScreen extends StatelessWidget {
         ),
       ),
       body: FutureBuilder<List<Recipe>>(
-        future: loadRecipes(),
+        future:
+            jsonFile != null
+                ? RecipeService1().fetchRecipesFromFile(jsonFile!)
+                : loadRecipes(),
         builder: (context, snapshot) {
           if (!snapshot.hasData) {
             return Center(
@@ -39,7 +46,6 @@ class RecipeListScreen extends StatelessWidget {
                 ],
               ),
             );
-
           }
           final recipes = snapshot.data ?? [];
           return ListView.builder(
@@ -85,7 +91,9 @@ class RecipeListScreen extends StatelessWidget {
                       recipe.title,
                       style: const TextStyle(fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text("${recipe.duration} phút | ${recipe.difficulty}"),
+                    subtitle: Text(
+                      "${recipe.duration} phút | ${recipe.difficulty}",
+                    ),
                   ),
                 ),
               );

@@ -1,0 +1,565 @@
+[
+  {
+    "id": "1",
+    "title": "Bánh Donut Socola",
+    "description": "Bánh donut mềm mịn phủ lớp socola ngọt ngào hấp dẫn cho ngày mới đầy năng lượng.",
+    "imageUrl": "assets/images/cake/1.jpg",
+    "category": "Bánh ngọt",
+    "tags": ["ngọt", "hấp dẫn"],
+    "ingredients": [
+      {"name": "Bột mì", "quantity": "250", "unit": "g"},
+      {"name": "Trứng gà", "quantity": "2", "unit": "quả"},
+      {"name": "Sữa tươi", "quantity": "100", "unit": "ml"},
+      {"name": "Bơ lạt", "quantity": "50", "unit": "g"},
+      {"name": "Socola đen", "quantity": "100", "unit": "g"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Trộn bột mì, trứng và sữa thành hỗn hợp mịn."},
+      {"order": 2, "instruction": "Nhào bột và để bột nghỉ 30 phút."},
+      {"order": 3, "instruction": "Tạo hình donut và chiên ngập dầu."},
+      {"order": 4, "instruction": "Làm tan socola và nhúng bánh."}
+    ],
+    "duration": 75,
+    "servings": 4,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 45,
+    "totalTime": 75,
+    "notes": "Dùng khi bánh còn ấm sẽ ngon hơn."
+  },
+  {
+    "id": "2",
+    "title": "Bánh Quy Bơ",
+    "description": "Bánh quy thơm mùi bơ, giòn tan, thích hợp ăn vặt hoặc dùng kèm trà.",
+    "imageUrl": "assets/images/cake/2.jpg",
+    "category": "Bánh ngọt",
+    "tags": ["giòn", "dễ làm"],
+    "ingredients": [
+      {"name": "Bơ lạt", "quantity": "150", "unit": "g"},
+      {"name": "Đường bột", "quantity": "80", "unit": "g"},
+      {"name": "Bột mì", "quantity": "200", "unit": "g"},
+      {"name": "Trứng gà", "quantity": "1", "unit": "quả"},
+      {"name": "Muối", "quantity": "1", "unit": "nhúm"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Đánh bơ và đường đến khi bông."},
+      {"order": 2, "instruction": "Thêm trứng và bột vào trộn đều."},
+      {"order": 3, "instruction": "Tạo hình bánh và nướng ở 170°C trong 15 phút."}
+    ],
+    "duration": 40,
+    "servings": 6,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 15,
+    "totalTime": 40,
+    "notes": "Bảo quản nơi khô ráo để giữ độ giòn."
+  },
+  {
+    "id": "3",
+    "title": "Kẹo Socola Hạt Dẻ",
+    "description": "Kẹo socola kết hợp với hạt dẻ tạo nên vị ngon khó cưỡng.",
+    "imageUrl": "assets/images/cake/3.jpg",
+    "category": "Kẹo",
+    "tags": ["ngọt", "giàu năng lượng"],
+    "ingredients": [
+      {"name": "Socola đen", "quantity": "200", "unit": "g"},
+      {"name": "Hạt dẻ", "quantity": "100", "unit": "g"},
+      {"name": "Sữa đặc", "quantity": "50", "unit": "ml"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Nướng hạt dẻ cho giòn."},
+      {"order": 2, "instruction": "Làm tan socola và trộn với sữa đặc."},
+      {"order": 3, "instruction": "Cho hạt dẻ vào hỗn hợp, đổ vào khuôn và làm lạnh."}
+    ],
+    "duration": 60,
+    "servings": 8,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 60,
+    "notes": "Bảo quản trong tủ lạnh để giữ được độ cứng và ngon."
+  },
+  {
+    "id": "4",
+    "title": "Bánh Bông Lan Phô Mai",
+    "description": "Bánh bông lan mềm xốp kết hợp phô mai béo ngậy hấp dẫn.",
+    "imageUrl": "assets/images/cake/4.jpg",
+    "category": "Bánh ngọt",
+    "tags": ["mềm", "béo"],
+    "ingredients": [
+      {"name": "Kem phô mai", "quantity": "200", "unit": "g"},
+      {"name": "Trứng gà", "quantity": "3", "unit": "quả"},
+      {"name": "Bột mì", "quantity": "100", "unit": "g"},
+      {"name": "Đường", "quantity": "80", "unit": "g"},
+      {"name": "Sữa tươi", "quantity": "100", "unit": "ml"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Đánh bông kem phô mai với đường."},
+      {"order": 2, "instruction": "Thêm trứng, sữa và bột vào trộn đều."},
+      {"order": 3, "instruction": "Nướng bánh ở 160°C trong 45 phút."}
+    ],
+    "duration": 70,
+    "servings": 4,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 45,
+    "totalTime": 70,
+    "notes": "Làm nguội trước khi thưởng thức sẽ ngon hơn."
+  },
+  {
+    "id": "5",
+    "title": "Bánh Caramel Flan",
+    "description": "Món tráng miệng mát lạnh với lớp caramel ngọt dịu và kem trứng béo ngậy.",
+    "imageUrl": "assets/images/cake/5.jpg",
+    "category": "Tráng miệng",
+    "tags": ["lạnh", "ngon"],
+    "ingredients": [
+      {"name": "Trứng gà", "quantity": "4", "unit": "quả"},
+      {"name": "Sữa đặc", "quantity": "100", "unit": "ml"},
+      {"name": "Sữa tươi không đường", "quantity": "250", "unit": "ml"},
+      {"name": "Đường", "quantity": "100", "unit": "g"},
+      {"name": "Nước", "quantity": "50", "unit": "ml"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Làm caramel bằng cách đun đường với nước đến khi vàng."},
+      {"order": 2, "instruction": "Trộn sữa đặc, sữa tươi và trứng."},
+      {"order": 3, "instruction": "Đổ hỗn hợp vào khuôn caramel, hấp cách thủy 30 phút."}
+    ],
+    "duration": 60,
+    "servings": 5,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 60,
+    "notes": "Để lạnh 2 giờ trước khi ăn giúp flan ngon hơn."
+  },
+  {
+    "id": "6",
+    "title": "Bánh Trung Thu Nhân Đậu Xanh",
+    "description": "Món bánh truyền thống không thể thiếu trong dịp Tết Trung Thu với nhân đậu xanh mịn màng.",
+    "imageUrl": "assets/images/cake/6.jpg",
+    "category": "Bánh truyền thống",
+    "tags": ["truyền thống", "thơm ngon"],
+    "ingredients": [
+      {"name": "Bột mì", "quantity": "300", "unit": "g"},
+      {"name": "Nước đường bánh nướng", "quantity": "200", "unit": "ml"},
+      {"name": "Dầu ăn", "quantity": "50", "unit": "ml"},
+      {"name": "Đậu xanh cà vỏ", "quantity": "200", "unit": "g"},
+      {"name": "Trứng gà", "quantity": "1", "unit": "quả"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Làm nhân đậu xanh: nấu chín, xay nhuyễn và sên với đường."},
+      {"order": 2, "instruction": "Trộn bột, nước đường và dầu để làm vỏ bánh."},
+      {"order": 3, "instruction": "Gói nhân vào vỏ, ép khuôn và nướng bánh 2 lần."}
+    ],
+    "duration": 120,
+    "servings": 6,
+    "difficulty": "Khó",
+    "author": "Admin",
+    "cookTime": 60,
+    "totalTime": 120,
+    "notes": "Nên để bánh 1-2 ngày sau nướng cho mềm và thấm vị."
+  },
+  {
+    "id": "7",
+    "title": "Kẹo Nougat Hạnh Nhân Sữa Dẻo",
+    "description": "Kẹo nougat dẻo ngọt, béo nhẹ từ sữa và thơm bùi từ hạt hạnh nhân, rất được ưa chuộng làm quà tặng.",
+    "imageUrl": "assets/images/cake/7.jpg",
+    "category": "Kẹo",
+    "tags": ["kẹo", "nougat", "quà tặng"],
+    "ingredients": [
+      { "name": "Kẹo marshmallow", "quantity": "200", "unit": "g" },
+      { "name": "Sữa bột nguyên kem", "quantity": "100", "unit": "g" },
+      { "name": "Bơ lạt", "quantity": "50", "unit": "g" },
+      { "name": "Hạnh nhân rang", "quantity": "150", "unit": "g" },
+      { "name": "Cranberry khô (tùy chọn)", "quantity": "50", "unit": "g" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Làm chảy bơ lạt trên chảo chống dính, cho marshmallow vào đảo đều đến khi tan chảy hoàn toàn." },
+      { "order": 2, "instruction": "Thêm sữa bột vào, đảo đều cho hỗn hợp hòa quyện." },
+      { "order": 3, "instruction": "Cho hạnh nhân và cranberry vào, đảo đều rồi đổ ra khuôn có lót giấy nến." },
+      { "order": 4, "instruction": "Ép phẳng và để nguội 3–4 giờ, sau đó cắt thành miếng nhỏ." }
+    ],
+    "duration": 30,
+    "servings": 20,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 15,
+    "totalTime": 30,
+    "notes": "Bảo quản trong hộp kín ở nơi khô ráo, dùng trong 7–10 ngày."
+  },
+
+  {
+    "id": "8",
+    "title": "Bánh Sữa Chua Hy Lạp",
+    "description": "Bánh lạnh mềm mịn từ sữa chua Hy Lạp, vị chua ngọt nhẹ nhàng, thích hợp cho mùa hè.",
+    "imageUrl": "assets/images/cake/8.jpg",
+    "category": "Tráng miệng",
+    "tags": ["lạnh", "ít béo"],
+    "ingredients": [
+      {"name": "Sữa chua Hy Lạp", "quantity": "250", "unit": "ml"},
+      {"name": "Kem tươi", "quantity": "200", "unit": "ml"},
+      {"name": "Gelatin", "quantity": "10", "unit": "g"},
+      {"name": "Đường", "quantity": "70", "unit": "g"},
+      {"name": "Bánh quy", "quantity": "100", "unit": "g"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Nghiền bánh quy và nén vào khuôn đáy."},
+      {"order": 2, "instruction": "Trộn sữa chua, kem, gelatin và đường."},
+      {"order": 3, "instruction": "Đổ hỗn hợp lên khuôn bánh, làm lạnh ít nhất 3 giờ."}
+    ],
+    "duration": 200,
+    "servings": 6,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 200,
+    "notes": "Thêm trái cây tươi trên mặt bánh để tăng vị."
+  },
+  {
+    "id": "9",
+    "title": "Bánh Chuối Cuộn Yến Mạch",
+    "description": "Món bánh cuộn healthy từ yến mạch và chuối, không dùng đường tinh luyện.",
+    "imageUrl": "assets/images/cake/9.jpg",
+    "category": "Healthy",
+    "tags": ["healthy", "ăn kiêng"],
+    "ingredients": [
+      {"name": "Chuối chín", "quantity": "2", "unit": "quả"},
+      {"name": "Yến mạch cán dẹt", "quantity": "100", "unit": "g"},
+      {"name": "Bơ đậu phộng", "quantity": "50", "unit": "g"},
+      {"name": "Hạnh nhân", "quantity": "20", "unit": "g"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Nghiền chuối, trộn với yến mạch."},
+      {"order": 2, "instruction": "Dàn mỏng hỗn hợp, phết bơ đậu phộng và rắc hạnh nhân."},
+      {"order": 3, "instruction": "Cuộn lại và cắt thành khoanh."}
+    ],
+    "duration": 30,
+    "servings": 2,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 10,
+    "totalTime": 30,
+    "notes": "Phù hợp bữa sáng hoặc bữa phụ lành mạnh."
+  },
+  {
+    "id": "10",
+    "title": "Cupcake Vani Kem Tươi",
+    "description": "Những chiếc cupcake xinh xắn với vị vani ngọt ngào và kem tươi mịn màng.",
+    "imageUrl": "assets/images/cake/10.jpg",
+    "category": "Bánh ngọt",
+    "tags": ["xinh xắn", "tiệc sinh nhật"],
+    "ingredients": [
+      {"name": "Bột mì", "quantity": "150", "unit": "g"},
+      {"name": "Trứng gà", "quantity": "2", "unit": "quả"},
+      {"name": "Đường", "quantity": "100", "unit": "g"},
+      {"name": "Sữa tươi", "quantity": "100", "unit": "ml"},
+      {"name": "Tinh chất vani", "quantity": "1", "unit": "muỗng cà phê"},
+      {"name": "Kem whipping", "quantity": "200", "unit": "ml"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Trộn bột, trứng, đường, sữa và vani thành hỗn hợp mịn."},
+      {"order": 2, "instruction": "Đổ vào khuôn cupcake và nướng 25 phút ở 180°C."},
+      {"order": 3, "instruction": "Đánh kem whipping và trang trí lên bánh."}
+    ],
+    "duration": 60,
+    "servings": 6,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 60,
+    "notes": "Bảo quản trong ngăn mát để giữ kem không chảy."
+  },
+  {
+    "id": "11",
+    "title": "Kẹo Lạc Truyền Thống",
+    "description": "Món kẹo tuổi thơ với vị bùi của lạc và độ ngọt vừa phải, giòn rụm hấp dẫn.",
+    "imageUrl": "assets/images/cake/11.jpg",
+    "category": "Kẹo truyền thống",
+    "tags": ["giòn", "tuổi thơ"],
+    "ingredients": [
+      {"name": "Lạc rang chín", "quantity": "200", "unit": "g"},
+      {"name": "Đường", "quantity": "150", "unit": "g"},
+      {"name": "Nước", "quantity": "100", "unit": "ml"},
+      {"name": "Gừng giã", "quantity": "1", "unit": "muỗng nhỏ"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Nấu nước đường đến khi keo lại, cho gừng vào."},
+      {"order": 2, "instruction": "Cho lạc vào đảo đều, nhanh tay đổ ra khay và cán mỏng."},
+      {"order": 3, "instruction": "Cắt thành miếng nhỏ khi còn ấm."}
+    ],
+    "duration": 30,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 30,
+    "notes": "Bảo quản trong hộp kín để tránh bị ỉu."
+  },
+  {
+    "id": "12",
+    "title": "Bánh Mì Sữa Nhật Bản",
+    "description": "Bánh mì mềm xốp, thơm mùi sữa, cực kỳ nhẹ bụng và hợp cho bữa sáng nhẹ.",
+    "imageUrl": "assets/images/cake/12.jpg",
+    "category": "Bánh mì",
+    "tags": ["bánh mì", "sữa", "nhật bản"],
+    "ingredients": [
+      {"name": "Bột mì số 13", "quantity": "300", "unit": "g"},
+      {"name": "Men nở", "quantity": "5", "unit": "g"},
+      {"name": "Sữa tươi", "quantity": "200", "unit": "ml"},
+      {"name": "Đường", "quantity": "30", "unit": "g"},
+      {"name": "Bơ", "quantity": "30", "unit": "g"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Nhào bột với sữa, đường, men, ủ 1 tiếng."},
+      {"order": 2, "instruction": "Tạo hình và nướng ở 170°C trong 20–25 phút."}
+    ],
+    "duration": 90,
+    "servings": 6,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 90,
+    "notes": "Thêm topping sữa đặc hoặc mứt trái cây nếu thích."
+  },
+
+  {
+    "id": "13",
+    "title": "Brownie Chocolate Hạt Óc Chó",
+    "description": "Bánh brownie ẩm, đậm vị cacao và điểm thêm vị bùi của hạt óc chó.",
+    "imageUrl": "assets/images/cake/13.jpg",
+    "category": "Bánh nướng",
+    "tags": ["chocolate", "ẩm", "mềm"],
+    "ingredients": [
+      {"name": "Bơ", "quantity": "150", "unit": "g"},
+      {"name": "Chocolate đen", "quantity": "200", "unit": "g"},
+      {"name": "Đường", "quantity": "120", "unit": "g"},
+      {"name": "Trứng gà", "quantity": "3", "unit": "quả"},
+      {"name": "Bột mì", "quantity": "100", "unit": "g"},
+      {"name": "Hạt óc chó", "quantity": "50", "unit": "g"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Nấu chảy bơ và chocolate, cho đường, trứng vào khuấy đều."},
+      {"order": 2, "instruction": "Thêm bột mì và hạt óc chó, đổ vào khuôn."},
+      {"order": 3, "instruction": "Nướng 25–30 phút ở 170°C."}
+    ],
+    "duration": 50,
+    "servings": 6,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 50,
+    "notes": "Ngon hơn khi ăn kèm kem vani hoặc trái cây tươi."
+  },
+  {
+    "id": "14",
+    "title": "Kẹo Dẻo Trái Cây Tự Làm",
+    "description": "Không phẩm màu, món kẹo dẻo từ nước ép trái cây và gelatin cho trẻ nhỏ.",
+    "imageUrl": "assets/images/cake/14.jpg",
+    "category": "Kẹo dẻo",
+    "tags": ["tự nhiên", "trái cây"],
+    "ingredients": [
+      {"name": "Gelatin", "quantity": "15", "unit": "g"},
+      {"name": "Nước ép cam", "quantity": "200", "unit": "ml"},
+      {"name": "Mật ong", "quantity": "2", "unit": "muỗng"},
+      {"name": "Dâu tây nghiền", "quantity": "100", "unit": "g"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Hòa gelatin với nước lạnh để nở."},
+      {"order": 2, "instruction": "Đun nước ép, dâu và mật ong, cho gelatin vào khuấy tan."},
+      {"order": 3, "instruction": "Đổ vào khuôn và để lạnh 2–3 tiếng."}
+    ],
+    "duration": 180,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 10,
+    "totalTime": 180,
+    "notes": "Thay nước ép theo sở thích: cam, nho, táo..."
+  },
+  {
+    "id": "15",
+    "title": "Bánh Tart Trứng Hồng Kông",
+    "description": "Lớp vỏ giòn rụm, nhân kem trứng mịn màng ngọt dịu chuẩn vị tiệm bánh Hong Kong.",
+    "imageUrl": "assets/images/cake/15.jpg",
+    "category": "Bánh ngọt",
+    "tags": ["giòn", "ngậy", "ăn sáng"],
+    "ingredients": [
+      {"name": "Bột mì đa dụng", "quantity": "150", "unit": "g"},
+      {"name": "Bơ lạt", "quantity": "100", "unit": "g"},
+      {"name": "Sữa đặc", "quantity": "50", "unit": "ml"},
+      {"name": "Trứng gà", "quantity": "3", "unit": "quả"},
+      {"name": "Sữa tươi", "quantity": "150", "unit": "ml"},
+      {"name": "Đường", "quantity": "50", "unit": "g"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Làm vỏ tart từ bột và bơ, cán mỏng vào khuôn."},
+      {"order": 2, "instruction": "Đánh đều trứng, sữa, đường, sữa đặc thành nhân."},
+      {"order": 3, "instruction": "Đổ nhân vào vỏ và nướng 25 phút ở 180°C."}
+    ],
+    "duration": 60,
+    "servings": 6,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 60,
+    "notes": "Ăn ngon nhất khi còn ấm, không nên để lâu."
+  },
+  {
+    "id": "16",
+    "title": "Bánh Lava Socola Tan Chảy",
+    "description": "Bánh mềm ẩm, khi cắt ra phần nhân socola tan chảy cực kỳ hấp dẫn, phù hợp làm món tráng miệng hoặc tiệc nhỏ.",
+    "imageUrl": "assets/images/cake/16.jpg",
+    "category": "Bánh ngọt",
+    "tags": ["socola", "nướng", "tráng miệng"],
+    "ingredients": [
+      { "name": "Socola đen", "quantity": "100", "unit": "g" },
+      { "name": "Bơ lạt", "quantity": "100", "unit": "g" },
+      { "name": "Trứng gà", "quantity": "2", "unit": "quả" },
+      { "name": "Đường", "quantity": "50", "unit": "g" },
+      { "name": "Bột mì đa dụng", "quantity": "30", "unit": "g" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Làm tan chảy socola với bơ, để nguội nhẹ." },
+      { "order": 2, "instruction": "Đánh tan trứng với đường, rồi trộn với hỗn hợp socola." },
+      { "order": 3, "instruction": "Rây bột vào, trộn đều, đổ vào khuôn." },
+      { "order": 4, "instruction": "Nướng 200°C khoảng 7–10 phút. Bên ngoài chín, bên trong còn lỏng." }
+    ],
+    "duration": 25,
+    "servings": 2,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 10,
+    "totalTime": 25,
+    "notes": "Ăn ngay khi còn nóng để tận hưởng phần lava tan chảy ngon nhất!"
+  },
+
+  {
+    "id": "17",
+    "title": "Bánh Su Kem",
+    "description": "Bánh su kem thơm lừng với vỏ ngoài giòn xốp, nhân kem mịn màng, ngọt ngào, rất được yêu thích trong các buổi tiệc trà.",
+    "imageUrl": "assets/images/cake/17.jpg",
+    "category": "Bánh ngọt",
+    "tags": ["su kem", "kem", "nướng"],
+    "ingredients": [
+      { "name": "Bột mì", "quantity": "125", "unit": "g" },
+      { "name": "Bơ lạt", "quantity": "60", "unit": "g" },
+      { "name": "Nước", "quantity": "200", "unit": "ml" },
+      { "name": "Trứng gà", "quantity": "3", "unit": "quả" },
+      { "name": "Sữa tươi không đường", "quantity": "250", "unit": "ml" },
+      { "name": "Đường", "quantity": "50", "unit": "g" },
+      { "name": "Tinh chất vani", "quantity": "1", "unit": "muỗng nhỏ" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Đun sôi nước với bơ, sau đó cho bột mì vào khuấy đều." },
+      { "order": 2, "instruction": "Trộn trứng vào hỗn hợp bột, tiếp tục khuấy cho đến khi mịn." },
+      { "order": 3, "instruction": "Nặn bột thành những viên nhỏ, nướng ở 180°C khoảng 25 phút đến khi bánh vàng." },
+      { "order": 4, "instruction": "Trong lúc nướng, làm kem custard bằng sữa, đường, và vani, đun lửa nhỏ cho đến khi đặc lại." },
+      { "order": 5, "instruction": "Khi bánh nguội, cắt một khe nhỏ và nhồi kem vào trong." }
+    ],
+    "duration": 45,
+    "servings": 12,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 45,
+    "notes": "Bánh su kem ngon nhất khi ăn ngay, có thể bảo quản trong tủ lạnh trong 1-2 ngày."
+  },
+
+  {
+    "id": "18",
+    "title": "Cookie Bơ Hạnh Nhân",
+    "description": "Cookie giòn tan, thơm vị bơ và hạnh nhân, rất thích hợp để làm quà hoặc ăn vặt.",
+    "imageUrl": "assets/images/cake/18.jpg",
+    "category": "Bánh quy",
+    "tags": ["giòn", "bơ", "ăn vặt"],
+    "ingredients": [
+      {"name": "Bơ lạt", "quantity": "200", "unit": "g"},
+      {"name": "Đường bột", "quantity": "100", "unit": "g"},
+      {"name": "Bột mì", "quantity": "250", "unit": "g"},
+      {"name": "Hạnh nhân lát", "quantity": "50", "unit": "g"},
+      {"name": "Trứng gà", "quantity": "1", "unit": "quả"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Đánh bơ và đường bột, thêm trứng rồi cho bột mì vào nhào."},
+      {"order": 2, "instruction": "Tạo hình, rắc hạnh nhân và nướng ở 170°C 15–20 phút."}
+    ],
+    "duration": 40,
+    "servings": 6,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 40,
+    "notes": "Có thể thay hạnh nhân bằng chocolate chip nếu thích."
+  },
+  {
+    "id": "19",
+    "title": "Kẹo Hạnh Nhân",
+    "description": "Kẹo hạnh nhân giòn tan, ngọt ngào với hương vị bơ và hạnh nhân rang, là món kẹo lý tưởng để nhâm nhi trong các buổi tiệc hay ăn vặt.",
+    "imageUrl": "assets/images/cake/19.jpg",
+    "category": "Kẹo",
+    "tags": ["kẹo giòn", "hạnh nhân", "ngọt ngào"],
+    "ingredients": [
+      { "name": "Hạnh nhân rang", "quantity": "150", "unit": "g" },
+      { "name": "Đường", "quantity": "200", "unit": "g" },
+      { "name": "Mật ong", "quantity": "1", "unit": "muỗng canh" },
+      { "name": "Bơ lạt", "quantity": "50", "unit": "g" },
+      { "name": "Nước", "quantity": "50", "unit": "ml" },
+      { "name": "Vani", "quantity": "1", "unit": "muỗng nhỏ" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Đun chảy đường trong một nồi nhỏ cho đến khi caramel hóa thành màu vàng." },
+      { "order": 2, "instruction": "Thêm mật ong, bơ, nước và vani vào khuấy đều." },
+      { "order": 3, "instruction": "Cho hạnh nhân vào và khuấy cho đến khi hỗn hợp kết dính lại." },
+      { "order": 4, "instruction": "Đổ hỗn hợp ra mặt phẳng đã được phủ giấy nướng và dàn đều. Để nguội hoàn toàn và cắt thành miếng." }
+    ],
+    "duration": 30,
+    "servings": 10,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 15,
+    "totalTime": 30,
+    "notes": "Kẹo hạnh nhân có thể bảo quản trong hộp kín để dùng dần, thích hợp ăn vặt hoặc làm quà biếu."
+  },
+
+  {
+    "id": "20",
+    "title": "Cupcake Dâu Tây Kem Bơ",
+    "description": "Cupcake mềm ẩm vị vani, phủ kem bơ dâu ngọt nhẹ, rất bắt mắt cho tiệc sinh nhật.",
+    "imageUrl": "assets/images/cake/20.jpg",
+    "category": "Bánh ngọt",
+    "tags": ["dâu tây", "kem bơ", "tiệc"],
+    "ingredients": [
+      {"name": "Bột mì", "quantity": "150", "unit": "g"},
+      {"name": "Trứng gà", "quantity": "2", "unit": "quả"},
+      {"name": "Đường", "quantity": "100", "unit": "g"},
+      {"name": "Bơ lạt", "quantity": "100", "unit": "g"},
+      {"name": "Sữa tươi", "quantity": "50", "unit": "ml"},
+      {"name": "Dâu tây nghiền", "quantity": "50", "unit": "g"}
+    ],
+    "steps": [
+      {"order": 1, "instruction": "Trộn nguyên liệu bánh và đổ vào khuôn cupcake, nướng 20 phút."},
+      {"order": 2, "instruction": "Làm kem bơ dâu và phết lên bánh sau khi nguội."}
+    ],
+    "duration": 45,
+    "servings": 6,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 45,
+    "notes": "Trang trí thêm dâu tươi để tăng hấp dẫn."
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

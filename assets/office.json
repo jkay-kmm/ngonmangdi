@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "1",
+    "title": "Ngày 1",
+    "description": "Với sự đa dạng trong món ăn giúp chúng ta tạo nên hứng thú, canh mướp hương vơ trứng cút rim .",
+    "imageUrl": "assets/images/office/1.jpg",
+    "category": "Món chính",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Gạo lức",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Mướp hương",
+        "quantity": "1",
+        "unit": "quả"
+      },
+      {
+        "name": "Thịt bằm ",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Trứng cút",
+        "quantity": "15",
+        "unit": "quả"
+      },
+      {
+        "name": "Lọ sữa chua yakult",
+        "quantity": "65",
+        "unit": "ml"
+      }
+
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      },
+      {
+        "order": 4,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 5,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 6,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 62,
+    "servings": 1,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 55,
+    "totalTime": 62,
+    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
+  },
+  {
+    "id": "2",
+    "title": "Ngày 2",
+    "description": "Bún bò Huế - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/2.jpg",
+    "category": "Món nước",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 63,
+    "servings": 4,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 54,
+    "totalTime": 63,
+    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
+  },
+  {
+    "id": "3",
+    "title": "Ngày 3",
+    "description": "Gỏi cuốn tôm thịt - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/3.jpg",
+    "category": "Món chay",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 43,
+    "servings": 2,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 27,
+    "totalTime": 43,
+    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
+  },
+  {
+    "id": "4",
+    "title": "Ngày 4",
+    "description": "Phở bò - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/4.jpg",
+    "category": "Món nước",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 54,
+    "servings": 2,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 48,
+    "totalTime": 54,
+    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+  },
+  {
+    "id": "5",
+    "title": "Ngày 5",
+    "description": "Mì xào bò - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/5.jpg",
+    "category": "Tráng miệng",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 50,
+    "servings": 3,
+    "difficulty": "Khó",
+    "author": "Admin",
+    "cookTime": 31,
+    "totalTime": 50,
+    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+  },
+  {
+    "id": "6",
+    "title": "Ngày 6",
+    "description": "Đậu hũ xào nấm - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/6.jpg",
+    "category": "Món chay",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 61,
+    "servings": 1,
+    "difficulty": "Khó",
+    "author": "Admin",
+    "cookTime": 41,
+    "totalTime": 61,
+    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+  },
+  {
+    "id": "7",
+    "title": "Ngày 7",
+    "description": "Canh rong biển chay - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/7.jpg",
+    "category": "Món nước",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 52,
+    "servings": 2,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 43,
+    "totalTime": 52,
+    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+  },
+  {
+    "id": "8",
+    "title": "Ngày 8",
+    "description": "Sữa chua trái cây - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/8.jpg",
+    "category": "Món chay",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 33,
+    "servings": 3,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 28,
+    "totalTime": 33,
+    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
+  },
+  {
+    "id": "9",
+    "title": "Ngày 9",
+    "description": "Cơm gà xối mỡ - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/9.jpg",
+    "category": "Món chay",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 66,
+    "servings": 1,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 53,
+    "totalTime": 66,
+    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
+  },
+  {
+    "id": "10",
+    "title": "Ngày 10",
+    "description": "Cơm chiên chay - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/10.jpg",
+    "category": "Tráng miệng",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 46,
+    "servings": 4,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 28,
+    "totalTime": 46,
+    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
+  },
+  {
+    "id": "11",
+    "title": "Ngày 11",
+    "description": "Cháo thịt bằm - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/11.jpg",
+    "category": "Món chay",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 78,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 60,
+    "totalTime": 78,
+    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
+  },
+  {
+    "id": "12",
+    "title": "Ngày 12",
+    "description": "Bánh mì trứng - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/12.jpg",
+    "category": "Món nước",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 73,
+    "servings": 2,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 56,
+    "totalTime": 73,
+    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
+  },
+  {
+    "id": "13",
+    "title": "Ngày 13",
+    "description": "Mì quảng - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/13.jpg",
+    "category": "Món chính",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 70,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 52,
+    "totalTime": 70,
+    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
+  },
+  {
+    "id": "14",
+    "title": "Ngày 14",
+    "description": "Bánh xèo - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/14.jpg",
+    "category": "Món chính",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 56,
+    "servings": 1,
+    "difficulty": "Khó",
+    "author": "Admin",
+    "cookTime": 51,
+    "totalTime": 56,
+    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+  },
+  {
+    "id": "15",
+    "title": "Ngày 15",
+    "description": "Nem rán - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/15.jpg",
+    "category": "Món chay",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 35,
+    "servings": 3,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 23,
+    "totalTime": 35,
+    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+  },
+  {
+    "id": "16",
+    "title": "Ngày 16",
+    "description": "Cà ri gà - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/16.jpg",
+    "category": "Món chính",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 48,
+    "servings": 1,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 43,
+    "totalTime": 48,
+    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+  },
+  {
+    "id": "17",
+    "title": "Ngày 17",
+    "description": "Bún thịt nướng - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/17.jpg",
+    "category": "Món chính",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 49,
+    "servings": 3,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 41,
+    "totalTime": 49,
+    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+  },
+  {
+    "id": "18",
+    "title": "Ngày 18",
+    "description": "Chè đậu xanh - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/18.jpg",
+    "category": "Món nước",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 57,
+    "servings": 4,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 50,
+    "totalTime": 57,
+    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+  },
+  {
+    "id": "19",
+    "title": "Ngày 19",
+    "description": "Bánh chuối hấp - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/19.jpg",
+    "category": "Món chay",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 63,
+    "servings": 2,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 44,
+    "totalTime": 63,
+    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
+  },
+  {
+    "id": "20",
+    "title": "Ngày 20",
+    "description": "Gà kho gừng - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/20.jpg",
+    "category": "Tráng miệng",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 24,
+    "servings": 2,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 15,
+    "totalTime": 24,
+    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+  },
+  {
+    "id": "21",
+    "title": "Ngày 21",
+    "description": "Cá kho tộ - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/21.jpg",
+    "category": "Tráng miệng",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 70,
+    "servings": 2,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 55,
+    "totalTime": 70,
+    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+  },
+  {
+    "id": "22",
+    "title": "Ngày 22",
+    "description": "Hủ tiếu - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/22.jpg",
+    "category": "Món nước",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 39,
+    "servings": 1,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 33,
+    "totalTime": 39,
+    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
+  },
+  {
+    "id": "23",
+    "title": "Ngày 23",
+    "description": "Bánh canh cua - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/23.jpg",
+    "category": "Món chính",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 29,
+    "servings": 2,
+    "difficulty": "Khó",
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 29,
+    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+  },
+  {
+    "id": "24",
+    "title": "Ngày 24",
+    "description": "Cơm rang dưa bò - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/24.jpg",
+    "category": "Món chính",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 37,
+    "servings": 2,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 31,
+    "totalTime": 37,
+    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+  },
+  {
+    "id": "25",
+    "title": "Ngày 25",
+    "description": "Gỏi xoài tôm khô - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "imageUrl": "assets/images/office/25.jpg",
+    "category": "Tráng miệng",
+    "tags": [
+      "ngon",
+      "dễ làm"
+    ],
+    "ingredients": [
+      {
+        "name": "Nguyên liệu A",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nguyên liệu B",
+        "quantity": "1",
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Chuẩn bị nguyên liệu."
+      },
+      {
+        "order": 2,
+        "instruction": "Chế biến món ăn."
+      },
+      {
+        "order": 3,
+        "instruction": "Trình bày và thưởng thức."
+      }
+    ],
+    "duration": 39,
+    "servings": 3,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 22,
+    "totalTime": 39,
+    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+  }
+]

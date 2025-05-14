@@ -1,501 +1,1023 @@
 [
   {
-    "id": 1,
-    "name": "Cháo cá lóc và rau mồng tơi",
-    "ageRange": "9-12 tháng",
+    "id": "1",
+    "title": "Cháo cá lóc và rau mồng tơi",
+    "description": "Món cháo bổ dưỡng cho bé từ 9-12 tháng, giàu protein và chất xơ.",
+    "imageUrl": "assets/images/baby/1.jpg",
+    "category": "Món ăn cho bé",
+    "tags": [
+      "dinh dưỡng",
+      "cho bé",
+      "9-12 tháng"
+    ],
     "ingredients": [
-      "30g cá lóc phi lê",
-      "20g rau mồng tơi",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Cá lóc phi lê",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Rau mồng tơi",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Cá lóc hấp chín, dằm nhỏ, lọc bỏ xương.",
-      "Rau mồng tơi rửa sạch, trụng qua nước sôi rồi băm nhuyễn.",
-      "Khi cháo chín, cho cá lóc và rau mồng tơi vào nấu thêm 5 phút.",
-      "Khuấy đều, thêm một ít dầu ăn trẻ em."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Cá lóc hấp chín, dằm nhỏ, lọc bỏ xương."
+      },
+      {
+        "order": 3,
+        "instruction": "Rau mồng tơi rửa sạch, trụng qua nước sôi rồi băm nhuyễn."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho cá lóc và rau mồng tơi vào nấu thêm 5 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Khuấy đều, thêm một ít dầu ăn trẻ em."
+      }
     ],
-    "note": "Cá lóc là nguồn protein dồi dào, rau mồng tơi giàu chất xơ, hỗ trợ tiêu hóa cho bé.",
-    "image": "https://example.com/images/chao-ca-loc-rau-mong-toi.jpg"
+    "duration": 40,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 35,
+    "totalTime": 40,
+    "notes": "Cá lóc là nguồn protein dồi dào, rau mồng tơi giàu chất xơ, hỗ trợ tiêu hóa cho bé."
   },
   {
-    "id": 2,
-    "name": "Cháo thịt bò và bí đỏ",
-    "ageRange": "9-12 tháng",
+    "id": "2",
+    "title": "Cháo thịt bò và bí đỏ",
+    "description": "Món cháo bổ dưỡng cho bé từ 9-12 tháng tuổi, kết hợp thịt bò giàu sắt và bí đỏ giàu vitamin A.",
+    "imageUrl": "assets/images/baby/2.jpg",
+    "category": "Món ăn cho bé",
+    "tags": [
+      "dinh dưỡng",
+      "cho bé",
+      "9-12 tháng"
+    ],
     "ingredients": [
-      "30g thịt bò băm",
-      "30g bí đỏ",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Thịt bò băm",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Bí đỏ",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Thịt bò xào chín mềm.",
-      "Bí đỏ hấp chín, nghiền nhuyễn.",
-      "Khi cháo chín, cho thịt bò và bí đỏ vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn cho bé."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Thịt bò xào chín mềm."
+      },
+      {
+        "order": 3,
+        "instruction": "Bí đỏ hấp chín, nghiền nhuyễn."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho thịt bò và bí đỏ vào nấu thêm 3 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Khuấy đều, thêm một chút dầu ăn cho bé."
+      }
     ],
-    "note": "Thịt bò giàu sắt và protein, bí đỏ chứa nhiều vitamin A tốt cho mắt bé.",
-    "image": "https://example.com/images/chao-thit-bo-bi-do.jpg"
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Thịt bò giàu sắt và protein, bí đỏ chứa nhiều vitamin A tốt cho mắt bé."
   },
   {
-    "id": 3,
-    "name": "Cháo tôm và bông cải xanh",
-    "ageRange": "9-12 tháng",
+    "id": "3",
+    "title": "Cháo tôm và bông cải xanh",
+    "description": "Món cháo ngon cho bé 9-12 tháng tuổi, giàu canxi và vitamin C từ tôm và bông cải xanh.",
+    "imageUrl": "assets/images/baby/3.jpg",
+    "category": "Món ăn cho bé",
+    "tags": [
+      "dinh dưỡng",
+      "cho bé",
+      "9-12 tháng"
+    ],
     "ingredients": [
-      "30g tôm tươi",
-      "20g bông cải xanh",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Tôm tươi",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Bông cải xanh",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Tôm luộc chín, bóc vỏ, băm nhỏ.",
-      "Bông cải xanh rửa sạch, hấp chín, nghiền nhỏ.",
-      "Khi cháo chín, cho tôm và bông cải xanh vào nấu thêm 2 phút.",
-      "Khuấy đều, thêm một thìa cà phê dầu ô liu."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Tôm luộc chín, bóc vỏ, băm nhỏ."
+      },
+      {
+        "order": 3,
+        "instruction": "Bông cải xanh rửa sạch, hấp chín, nghiền nhỏ."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho tôm và bông cải xanh vào nấu thêm 2 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Khuấy đều, thêm một thìa cà phê dầu ô liu."
+      }
     ],
-    "note": "Tôm là nguồn canxi tốt, bông cải xanh giàu vitamin C và chất xơ.",
-    "image": "https://example.com/images/chao-tom-bong-cai-xanh.jpg"
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Tôm là nguồn canxi tốt, bông cải xanh giàu vitamin C và chất xơ."
   },
   {
-    "id": 4,
-    "name": "Cháo gà và cà rốt",
-    "ageRange": "9-12 tháng",
+    "id": "4",
+    "title": "Cháo gà và cà rốt",
+    "description": "Món cháo mềm mịn, dễ tiêu hóa cho bé 9-12 tháng tuổi, với thịt gà và cà rốt giàu dinh dưỡng.",
+    "imageUrl": "assets/images/baby/4.jpg",
+    "category": "Món ăn cho bé",
+    "tags": [
+      "dinh dưỡng",
+      "cho bé",
+      "9-12 tháng"
+    ],
     "ingredients": [
-      "30g thịt gà",
-      "20g cà rốt",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Thịt gà",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Thịt gà luộc chín, xé nhỏ.",
-      "Cà rốt hấp chín, nghiền nhuyễn.",
-      "Khi cháo chín, cho thịt gà và cà rốt vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu gấc."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Thịt gà luộc chín, xé nhỏ."
+      },
+      {
+        "order": 3,
+        "instruction": "Cà rốt hấp chín, nghiền nhuyễn."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho thịt gà và cà rốt vào nấu thêm 3 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Khuấy đều, thêm một chút dầu gấc."
+      }
     ],
-    "note": "Thịt gà dễ tiêu hóa, cà rốt giàu beta-carotene tốt cho thị lực.",
-    "image": "https://example.com/images/chao-ga-ca-rot.jpg"
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Thịt gà dễ tiêu hóa, cà rốt giàu beta-carotene tốt cho thị lực."
   },
   {
-    "id": 5,
-    "name": "Cháo trứng gà và rau ngót",
-    "ageRange": "9-12 tháng",
+    "id": "5",
+    "title": "Cháo trứng gà và rau ngót",
+    "description": "Cháo bổ dưỡng cho bé từ 9-12 tháng với trứng gà giàu protein và rau ngót giàu vitamin.",
+    "imageUrl": "assets/images/baby/5.jpg",
+    "category": "Món ăn cho bé",
+    "tags": [
+      "dinh dưỡng",
+      "cho bé",
+      "9-12 tháng"
+    ],
     "ingredients": [
-      "1 lòng đỏ trứng gà",
-      "20g rau ngót",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Lòng đỏ trứng gà",
+        "quantity": "1",
+        "unit": "quả"
+      },
+      {
+        "name": "Rau ngót",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Rau ngót rửa sạch, băm nhỏ.",
-      "Đánh tan lòng đỏ trứng gà.",
-      "Khi cháo chín, cho rau ngót vào nấu thêm 2 phút, sau đó từ từ cho lòng đỏ trứng vào, khuấy nhanh tay.",
-      "Thêm một ít dầu ăn cho bé."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Rau ngót rửa sạch, băm nhỏ."
+      },
+      {
+        "order": 3,
+        "instruction": "Đánh tan lòng đỏ trứng gà."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho rau ngót vào nấu thêm 2 phút, sau đó từ từ cho lòng đỏ trứng vào, khuấy nhanh tay."
+      },
+      {
+        "order": 5,
+        "instruction": "Thêm một ít dầu ăn cho bé."
+      }
     ],
-    "note": "Trứng gà cung cấp protein và choline, rau ngót giàu vitamin và khoáng chất.",
-    "image": "https://example.com/images/chao-trung-ga-rau-ngot.jpg"
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Trứng gà cung cấp protein và choline, rau ngót giàu vitamin và khoáng chất."
+  },
+
+  {
+    "id": "6",
+    "title": "Cháo cá hồi và đậu Hà Lan",
+    "description": "Cháo bổ dưỡng với cá hồi giàu omega-3 và đậu Hà Lan giàu chất xơ, phù hợp cho bé 9-12 tháng.",
+    "imageUrl": "assets/images/baby/6.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
+    "ingredients": [
+      { "name": "Cá hồi phi lê", "quantity": "30", "unit": "g" },
+      { "name": "Đậu Hà Lan", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Cá hồi hấp chín, dằm nhỏ, lọc bỏ xương." },
+      { "order": 3, "instruction": "Đậu Hà Lan luộc chín, nghiền nhuyễn." },
+      { "order": 4, "instruction": "Khi cháo chín, cho cá hồi và đậu Hà Lan vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu oliu." }
+    ],
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Cá hồi giàu omega-3 tốt cho não bộ, đậu Hà Lan cung cấp chất xơ và vitamin."
+  },
+
+  {
+    "id": "7",
+    "title": "Cháo gan gà và khoai tây",
+    "description": "Cháo giàu sắt và vitamin A từ gan gà kết hợp cùng khoai tây mềm mịn, thích hợp cho bé ăn dặm.",
+    "imageUrl": "assets/images/baby/7.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
+    "ingredients": [
+      { "name": "Gan gà", "quantity": "20", "unit": "g" },
+      { "name": "Khoai tây", "quantity": "30", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Gan gà luộc chín, băm nhỏ." },
+      { "order": 3, "instruction": "Khoai tây hấp chín, nghiền nhuyễn." },
+      { "order": 4, "instruction": "Khi cháo chín, cho gan gà và khoai tây vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu ăn dặm." }
+    ],
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Gan gà giàu sắt và vitamin A, khoai tây cung cấp tinh bột và kali."
+  },
+
+  {
+    "id": "8",
+    "title": "Cháo thịt heo và rau cải ngọt",
+    "description": "Cháo mềm mịn kết hợp thịt heo và rau cải ngọt bổ dưỡng, tốt cho bé từ 9-12 tháng.",
+    "imageUrl": "assets/images/baby/8.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
+    "ingredients": [
+      { "name": "Thịt heo nạc", "quantity": "30", "unit": "g" },
+      { "name": "Rau cải ngọt", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Thịt heo luộc chín, băm nhỏ." },
+      { "order": 3, "instruction": "Rau cải ngọt rửa sạch, băm nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho thịt heo và rau cải ngọt vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu mè." }
+    ],
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Thịt heo cung cấp protein, rau cải ngọt giàu vitamin và khoáng chất."
+  },
+
+  {
+    "id": "9",
+    "title": "Cháo lươn và đậu xanh",
+    "description": "Cháo giàu protein từ lươn và chất xơ từ đậu xanh, bổ sung vitamin nhóm B cho bé.",
+    "imageUrl": "assets/images/baby/9.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
+    "ingredients": [
+      { "name": "Thịt lươn", "quantity": "30", "unit": "g" },
+      { "name": "Đậu xanh", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Lươn làm sạch, hấp chín, gỡ thịt, băm nhỏ." },
+      { "order": 3, "instruction": "Đậu xanh nấu chín mềm, nghiền nhuyễn." },
+      { "order": 4, "instruction": "Khi cháo chín, cho lươn và đậu xanh vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu ăn cho bé." }
+    ],
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Thịt lươn giàu protein và vitamin nhóm B, đậu xanh cung cấp chất xơ và protein thực vật."
   },
   {
-    "id": 6,
-    "name": "Cháo cá hồi và đậu Hà Lan",
-    "ageRange": "9-12 tháng",
+    "id": "10",
+    "title": "Cháo tim heo và bí đao",
+    "description": "Cháo tim heo giàu sắt kết hợp bí đao thanh nhiệt, tốt cho hệ tiêu hóa của bé.",
+    "imageUrl": "assets/images/baby/10.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "30g cá hồi phi lê",
-      "20g đậu Hà Lan",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Tim heo", "quantity": "20", "unit": "g" },
+      { "name": "Bí đao", "quantity": "30", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Cá hồi hấp chín, dằm nhỏ, lọc bỏ xương.",
-      "Đậu Hà Lan luộc chín, nghiền nhuyễn.",
-      "Khi cháo chín, cho cá hồi và đậu Hà Lan vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu oliu."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Tim heo luộc chín, băm nhỏ." },
+      { "order": 3, "instruction": "Bí đao gọt vỏ, bỏ hạt, luộc mềm, nghiền nhuyễn." },
+      { "order": 4, "instruction": "Khi cháo chín, cho tim heo và bí đao vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu oliu." }
     ],
-    "note": "Cá hồi giàu omega-3 tốt cho não bộ, đậu Hà Lan cung cấp chất xơ và vitamin.",
-    "image": "https://example.com/images/chao-ca-hoi-dau-ha-lan.jpg"
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Tim heo giàu sắt và vitamin nhóm B, bí đao giúp thanh nhiệt."
+  },
+
+  {
+    "id": "11",
+    "title": "Cháo cá diêu hồng và rau dền",
+    "description": "Cháo dễ tiêu hóa với cá diêu hồng và rau dền giàu sắt, bổ sung vitamin cho bé.",
+    "imageUrl": "assets/images/baby/11.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
+    "ingredients": [
+      { "name": "Cá diêu hồng phi lê", "quantity": "30", "unit": "g" },
+      { "name": "Rau dền", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Cá diêu hồng hấp chín, dằm nhỏ, lọc bỏ xương." },
+      { "order": 3, "instruction": "Rau dền rửa sạch, băm nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho cá diêu hồng và rau dền vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu ăn dặm." }
+    ],
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Cá diêu hồng dễ tiêu hóa, rau dền giàu sắt và vitamin."
   },
   {
-    "id": 7,
-    "name": "Cháo gan gà và khoai tây",
-    "ageRange": "9-12 tháng",
+    "id": "12",
+    "title": "Cháo đậu phụ và nấm rơm",
+    "description": "Cháo đậu phụ cung cấp protein thực vật và nấm rơm bổ sung vitamin nhóm B.",
+    "imageUrl": "assets/images/baby/12.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "20g gan gà",
-      "30g khoai tây",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Đậu phụ non", "quantity": "30", "unit": "g" },
+      { "name": "Nấm rơm", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Gan gà luộc chín, băm nhỏ.",
-      "Khoai tây hấp chín, nghiền nhuyễn.",
-      "Khi cháo chín, cho gan gà và khoai tây vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn dặm."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Đậu phụ nghiền nhuyễn." },
+      { "order": 3, "instruction": "Nấm rơm rửa sạch, băm nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho đậu phụ và nấm rơm vào nấu thêm 2 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu mè." }
     ],
-    "note": "Gan gà giàu sắt và vitamin A, khoai tây cung cấp tinh bột và kali.",
-    "image": "https://example.com/images/chao-gan-ga-khoai-tay.jpg"
+    "duration": 30,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 30,
+    "notes": "Đậu phụ là nguồn protein thực vật tốt, nấm rơm giàu vitamin nhóm B."
   },
   {
-    "id": 8,
-    "name": "Cháo thịt heo và rau cải ngọt",
-    "ageRange": "9-12 tháng",
+    "id": "13",
+    "title": "Cháo lòng gà và cải thìa",
+    "description": "Cháo bổ dưỡng với lòng gà giàu sắt và cải thìa giàu vitamin giúp tăng cường sức đề kháng cho bé.",
+    "imageUrl": "assets/images/baby/13.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "30g thịt heo nạc",
-      "20g rau cải ngọt",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Lòng gà", "quantity": "20", "unit": "g" },
+      { "name": "Cải thìa", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Thịt heo luộc chín, băm nhỏ.",
-      "Rau cải ngọt rửa sạch, băm nhỏ.",
-      "Khi cháo chín, cho thịt heo và rau cải ngọt vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu mè."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Lòng gà luộc chín, băm nhỏ." },
+      { "order": 3, "instruction": "Cải thìa rửa sạch, băm nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho lòng gà và cải thìa vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu ăn cho bé." }
     ],
-    "note": "Thịt heo cung cấp protein, rau cải ngọt giàu vitamin và khoáng chất.",
-    "image": "https://example.com/images/chao-thit-heo-rau-cai-ngot.jpg"
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Lòng gà cung cấp sắt và protein, cải thìa giàu vitamin và chất xơ."
+  },
+
+  {
+    "id": "14",
+    "title": "Cháo bí xanh và tôm khô",
+    "description": "Cháo bí xanh mát lành kết hợp tôm khô giàu canxi, bổ sung dinh dưỡng cho bé từ 9-12 tháng.",
+    "imageUrl": "assets/images/baby/14.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
+    "ingredients": [
+      { "name": "Bí xanh", "quantity": "30", "unit": "g" },
+      { "name": "Tôm khô", "quantity": "5", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
+    ],
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Bí xanh gọt vỏ, bỏ hạt, luộc mềm, nghiền nhuyễn." },
+      { "order": 3, "instruction": "Tôm khô ngâm mềm, giã nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho bí xanh và tôm khô vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu oliu." }
+    ],
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Bí xanh giúp thanh nhiệt, tôm khô cung cấp canxi."
   },
   {
-    "id": 9,
-    "name": "Cháo lươn và đậu xanh",
-    "ageRange": "9-12 tháng",
+    "id": "15",
+    "title": "Cháo cua đồng và rau muống",
+    "description": "Cháo cua đồng giàu canxi kết hợp với rau muống thanh mát, thích hợp cho bé từ 9-12 tháng tuổi.",
+    "imageUrl": "assets/images/baby/15.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "30g thịt lươn",
-      "20g đậu xanh",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Thịt cua đồng", "quantity": "20", "unit": "g" },
+      { "name": "Rau muống", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Lươn làm sạch, hấp chín, gỡ thịt, băm nhỏ.",
-      "Đậu xanh nấu chín mềm, nghiền nhuyễn.",
-      "Khi cháo chín, cho lươn và đậu xanh vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn cho bé."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Thịt cua đồng xay nhuyễn, lọc lấy nước, nấu chín." },
+      { "order": 3, "instruction": "Rau muống rửa sạch, băm nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho nước cua và rau muống vào nấu thêm 2 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu ăn dặm." }
     ],
-    "note": "Thịt lươn giàu protein và vitamin nhóm B, đậu xanh cung cấp chất xơ và protein thực vật.",
-    "image": "https://example.com/images/chao-luon-dau-xanh.jpg"
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Cua đồng giàu canxi, rau muống chứa nhiều vitamin và chất xơ."
   },
   {
-    "id": 10,
-    "name": "Cháo tim heo và bí đao",
-    "ageRange": "9-12 tháng",
+    "id": "16",
+    "title": "Cháo cá trắm và thì là",
+    "description": "Món cháo thơm ngon với cá trắm giàu protein và thì là hỗ trợ tiêu hóa, phù hợp cho bé từ 9-12 tháng tuổi.",
+    "imageUrl": "assets/images/baby/16.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "20g tim heo",
-      "30g bí đao",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Cá trắm phi lê", "quantity": "30", "unit": "g" },
+      { "name": "Thì là", "quantity": "5", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Tim heo luộc chín, băm nhỏ.",
-      "Bí đao gọt vỏ, bỏ hạt, luộc mềm, nghiền nhuyễn.",
-      "Khi cháo chín, cho tim heo và bí đao vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu oliu."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Cá trắm hấp chín, dằm nhỏ, lọc bỏ xương." },
+      { "order": 3, "instruction": "Thì là rửa sạch, băm nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho cá trắm và thì là vào nấu thêm 2 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu mè." }
     ],
-    "note": "Tim heo giàu sắt và vitamin nhóm B, bí đao giúp thanh nhiệt.",
-    "image": "https://example.com/images/chao-tim-heo-bi-dao.jpg"
+    "duration": 30,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 30,
+    "notes": "Cá trắm chứa nhiều protein, thì là giúp tăng hương vị và hỗ trợ tiêu hóa cho bé."
   },
   {
-    "id": 11,
-    "name": "Cháo cá diêu hồng và rau dền",
-    "ageRange": "9-12 tháng",
+    "id": "17",
+    "title": "Cháo sườn non và su su",
+    "description": "Món cháo mềm mịn, kết hợp giữa sườn non giàu đạm và su su dễ tiêu hóa, phù hợp cho bé từ 9-12 tháng tuổi.",
+    "imageUrl": "assets/images/baby/17.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "30g cá diêu hồng phi lê",
-      "20g rau dền",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Sườn non", "quantity": "20", "unit": "g" },
+      { "name": "Su su", "quantity": "30", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Cá diêu hồng hấp chín, dằm nhỏ, lọc bỏ xương.",
-      "Rau dền rửa sạch, băm nhỏ.",
-      "Khi cháo chín, cho cá diêu hồng và rau dền vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn dặm."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Sườn non luộc mềm, băm nhỏ." },
+      { "order": 3, "instruction": "Su su gọt vỏ, luộc mềm, nghiền nhuyễn." },
+      { "order": 4, "instruction": "Khi cháo chín, cho sườn non và su su vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu ăn cho bé." }
     ],
-    "note": "Cá diêu hồng dễ tiêu hóa, rau dền giàu sắt và vitamin.",
-    "image": "https://example.com/images/chao-ca-dieu-hong-rau-den.jpg"
+    "duration": 35,
+    "servings": 1,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 35,
+    "notes": "Sườn non cung cấp protein và canxi, su su mềm, mát, tốt cho hệ tiêu hóa của trẻ nhỏ."
   },
   {
-    "id": 12,
-    "name": "Cháo đậu phụ và nấm rơm",
-    "ageRange": "9-12 tháng",
+    "id": "18",
+    "title": "Cháo nghêu và mướp hương",
+    "description": "Món cháo thanh mát, bổ dưỡng với thịt nghêu giàu khoáng và mướp hương dễ tiêu, phù hợp cho bé từ 9-12 tháng tuổi.",
+    "imageUrl": "assets/images/baby/18.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "30g đậu phụ non",
-      "20g nấm rơm",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Thịt nghêu", "quantity": "30", "unit": "g" },
+      { "name": "Mướp hương", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Đậu phụ nghiền nhuyễn.",
-      "Nấm rơm rửa sạch, băm nhỏ.",
-      "Khi cháo chín, cho đậu phụ và nấm rơm vào nấu thêm 2 phút.",
-      "Khuấy đều, thêm một chút dầu mè."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Nghêu luộc chín, lấy thịt, băm nhỏ." },
+      { "order": 3, "instruction": "Mướp hương gọt vỏ, bỏ ruột, luộc mềm, nghiền nhuyễn." },
+      { "order": 4, "instruction": "Khi cháo chín, cho thịt nghêu và mướp hương vào nấu thêm 2 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu oliu." }
     ],
-    "note": "Đậu phụ là nguồn protein thực vật tốt, nấm rơm giàu vitamin nhóm B.",
-    "image": "https://example.com/images/chao-dau-phu-nam-rom.jpg"
+    "duration": 30,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 30,
+    "notes": "Thịt nghêu giàu kẽm và sắt, mướp hương dễ tiêu hóa và có tác dụng thanh nhiệt rất tốt cho bé."
   },
   {
-    "id": 13,
-    "name": "Cháo lòng gà và cải thìa",
-    "ageRange": "9-12 tháng",
+    "id": "19",
+    "title": "Cháo gà tây và súp lơ trắng",
+    "description": "Món cháo thơm nhẹ, bổ dưỡng từ thịt gà tây và súp lơ trắng, cung cấp nhiều protein và vitamin cho bé 9-12 tháng.",
+    "imageUrl": "assets/images/baby/19.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "20g lòng gà",
-      "20g cải thìa",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Thịt gà tây", "quantity": "30", "unit": "g" },
+      { "name": "Súp lơ trắng", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Lòng gà luộc chín, băm nhỏ.",
-      "Cải thìa rửa sạch, băm nhỏ.",
-      "Khi cháo chín, cho lòng gà và cải thìa vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn cho bé."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Thịt gà tây luộc chín, xé nhỏ." },
+      { "order": 3, "instruction": "Súp lơ trắng rửa sạch, hấp chín, nghiền nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho thịt gà tây và súp lơ trắng vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu ăn cho bé." }
     ],
-    "note": "Lòng gà cung cấp sắt và protein, cải thìa giàu vitamin và chất xơ.",
-    "image": "https://example.com/images/chao-long-ga-cai-thia.jpg"
+    "duration": 30,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 30,
+    "notes": "Thịt gà tây là nguồn protein nạc tốt cho sự phát triển cơ bắp, súp lơ trắng bổ sung vitamin K và C."
   },
   {
-    "id": 14,
-    "name": "Cháo bí xanh và tôm khô",
-    "ageRange": "9-12 tháng",
+    "id": "20",
+    "title": "Cháo cá thu và bí ngòi",
+    "description": "Cháo cá thu kết hợp cùng bí ngòi, chứa nhiều omega-3 và vitamin D, giúp phát triển trí não cho bé từ 9-12 tháng.",
+    "imageUrl": "assets/images/baby/20.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "30g bí xanh",
-      "5g tôm khô",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Cá thu phi lê", "quantity": "30", "unit": "g" },
+      { "name": "Bí ngòi", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Bí xanh gọt vỏ, bỏ hạt, luộc mềm, nghiền nhuyễn.",
-      "Tôm khô ngâm mềm, giã nhỏ.",
-      "Khi cháo chín, cho bí xanh và tôm khô vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu oliu."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Cá thu hấp chín, dằm nhỏ, lọc bỏ xương." },
+      { "order": 3, "instruction": "Bí ngòi rửa sạch, hấp chín, nghiền nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho cá thu và bí ngòi vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu oliu." }
     ],
-    "note": "Bí xanh giúp thanh nhiệt, tôm khô cung cấp canxi.",
-    "image": "https://example.com/images/chao-bi-xanh-tom-kho.jpg"
+    "duration": 30,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 30,
+    "notes": "Cá thu giàu omega-3 và vitamin D giúp phát triển trí não, bí ngòi lại giúp dễ tiêu hóa và thanh nhiệt."
   },
   {
-    "id": 15,
-    "name": "Cháo cua đồng và rau muống",
-    "ageRange": "9-12 tháng",
+    "id": "21",
+    "title": "Cháo thịt vịt và cải xanh",
+    "description": "Cháo thịt vịt kết hợp cùng cải xanh mang đến hương vị thơm ngon, bổ sung sắt và vitamin cho bé 9-12 tháng.",
+    "imageUrl": "assets/images/baby/21.jpg",
+    "category": "Món ăn cho bé",
+    "tags": ["dinh dưỡng", "cho bé", "9-12 tháng"],
     "ingredients": [
-      "20g thịt cua đồng",
-      "20g rau muống",
-      "20g gạo tẻ",
-      "300ml nước"
+      { "name": "Thịt vịt", "quantity": "30", "unit": "g" },
+      { "name": "Cải xanh", "quantity": "20", "unit": "g" },
+      { "name": "Gạo tẻ", "quantity": "20", "unit": "g" },
+      { "name": "Nước", "quantity": "300", "unit": "ml" }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Thịt cua đồng xay nhuyễn, lọc lấy nước, nấu chín.",
-      "Rau muống rửa sạch, băm nhỏ.",
-      "Khi cháo chín, cho nước cua và rau muống vào nấu thêm 2 phút.",
-      "Khuấy đều, thêm một chút dầu ăn dặm."
+    "steps": [
+      { "order": 1, "instruction": "Gạo vo sạch, nấu cháo đến khi mềm." },
+      { "order": 2, "instruction": "Thịt vịt luộc chín, xé nhỏ." },
+      { "order": 3, "instruction": "Cải xanh rửa sạch, băm nhỏ." },
+      { "order": 4, "instruction": "Khi cháo chín, cho thịt vịt và cải xanh vào nấu thêm 3 phút." },
+      { "order": 5, "instruction": "Khuấy đều, thêm một chút dầu ăn dặm." }
     ],
-    "note": "Cua đồng giàu canxi, rau muống chứa nhiều vitamin và chất xơ.",
-    "image": "https://example.com/images/chao-cua-dong-rau-muong.jpg"
+    "duration": 30,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 30,
+    "notes": "Thịt vịt cung cấp protein và sắt cần thiết cho bé, cải xanh giàu vitamin A, C, K và chất xơ."
   },
+
   {
-    "id": 16,
-    "name": "Cháo cá trắm và thì là",
-    "ageRange": "9-12 tháng",
+    "id": "22",
+    "title": "Cháo cá lóc và rau mồng tơi",
+    "description": "Cháo dinh dưỡng với cá lóc giàu đạm và rau mồng tơi hỗ trợ tiêu hóa, thích hợp cho bé 9-12 tháng.",
+    "imageUrl": "assets/images/baby/22.jpg",
+    "category": "Cháo ăn dặm",
+    "tags": [
+      "dễ tiêu",
+      "nhiều dinh dưỡng"
+    ],
     "ingredients": [
-      "30g cá trắm phi lê",
-      "5g thì là",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Cá lóc phi lê",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Rau mồng tơi",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Cá trắm hấp chín, dằm nhỏ, lọc bỏ xương.",
-      "Thì là rửa sạch, băm nhỏ.",
-      "Khi cháo chín, cho cá trắm và thì là vào nấu thêm 2 phút.",
-      "Khuấy đều, thêm một chút dầu mè."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Cá lóc hấp chín, dằm nhỏ, lọc bỏ xương."
+      },
+      {
+        "order": 3,
+        "instruction": "Rau mồng tơi rửa sạch, trụng qua nước sôi rồi băm nhuyễn."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho cá lóc và rau mồng tơi vào nấu thêm 5 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Khuấy đều, thêm một ít dầu ăn trẻ em."
+      }
     ],
-    "note": "Cá trắm chứa nhiều protein, thì là giúp tăng hương vị và tiêu hóa.",
-    "image": "https://example.com/images/chao-ca-tram-thi-la.jpg"
+    "duration": 45,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 40,
+    "totalTime": 45,
+    "notes": "Cá lóc là nguồn protein dồi dào, rau mồng tơi giàu chất xơ, hỗ trợ tiêu hóa cho bé."
   },
+
   {
-    "id": 17,
-    "name": "Cháo sườn non và su su",
-    "ageRange": "9-12 tháng",
+    "id": "23",
+    "title": "Cháo thịt bò và bí đỏ",
+    "description": "Món cháo bổ dưỡng với thịt bò giàu sắt và bí đỏ nhiều vitamin A, tốt cho sự phát triển thị giác của bé.",
+    "imageUrl": "assets/images/baby/23.jpg",
+    "category": "Cháo ăn dặm",
+    "tags": [
+      "bổ máu",
+      "tốt cho mắt"
+    ],
     "ingredients": [
-      "20g sườn non",
-      "30g su su",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Thịt bò băm",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Bí đỏ",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Sườn non luộc mềm, băm nhỏ.",
-      "Su su gọt vỏ, luộc mềm, nghiền nhuyễn.",
-      "Khi cháo chín, cho sườn non và su su vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn cho bé."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Thịt bò xào chín mềm."
+      },
+      {
+        "order": 3,
+        "instruction": "Bí đỏ hấp chín, nghiền nhuyễn."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho thịt bò và bí đỏ vào nấu thêm 3 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Khuấy đều, thêm một chút dầu ăn cho bé."
+      }
     ],
-    "note": "Sườn non cung cấp protein và canxi, su su dễ tiêu hóa.",
-    "image": "https://example.com/images/chao-suon-non"
-  },{
-  "id": 18,
-  "name": "Cháo nghêu và mướp hương",
-  "ageRange": "9-12 tháng",
-  "ingredients": [
-    "30g thịt nghêu",
-    "20g mướp hương",
-    "20g gạo tẻ",
-    "300ml nước"
-  ],
-  "instructions": [
-    "Gạo vo sạch, nấu cháo đến khi mềm.",
-    "Nghêu luộc chín, lấy thịt, băm nhỏ.",
-    "Mướp hương gọt vỏ, bỏ ruột, luộc mềm, nghiền nhuyễn.",
-    "Khi cháo chín, cho thịt nghêu và mướp hương vào nấu thêm 2 phút.",
-    "Khuấy đều, thêm một chút dầu oliu."
-  ],
-  "note": "Thịt nghêu giàu kẽm và sắt, mướp hương dễ tiêu hóa và thanh nhiệt.",
-  "image": "https://example.com/images/chao-ngheu-muop-huong.jpg"
-},
-  {
-    "id": 19,
-    "name": "Cháo gà tây và súp lơ trắng",
-    "ageRange": "9-12 tháng",
-    "ingredients": [
-      "30g thịt gà tây",
-      "20g súp lơ trắng",
-      "20g gạo tẻ",
-      "300ml nước"
-    ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Thịt gà tây luộc chín, xé nhỏ.",
-      "Súp lơ trắng rửa sạch, hấp chín, nghiền nhỏ.",
-      "Khi cháo chín, cho thịt gà tây và súp lơ trắng vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn cho bé."
-    ],
-    "note": "Thịt gà tây là nguồn protein nạc, súp lơ trắng giàu vitamin K và C.",
-    "image": "https://example.com/images/chao-ga-tay-sup-lo-trang.jpg"
+    "duration": 40,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 35,
+    "totalTime": 40,
+    "notes": "Thịt bò giàu sắt và protein, bí đỏ chứa nhiều vitamin A tốt cho mắt bé."
   },
+
   {
-    "id": 20,
-    "name": "Cháo cá thu và bí ngòi",
-    "ageRange": "9-12 tháng",
+    "id": "24",
+    "title": "Cháo tôm và bông cải xanh",
+    "description": "Cháo tôm kết hợp với bông cải xanh giàu vitamin C, mang lại một bữa ăn bổ dưỡng và dễ tiêu hóa cho bé.",
+    "imageUrl": "assets/images/baby/24.jpg",
+    "category": "Cháo ăn dặm",
+    "tags": [
+      "canxi",
+      "dễ tiêu hóa"
+    ],
     "ingredients": [
-      "30g cá thu phi lê",
-      "20g bí ngòi",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Tôm tươi",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Bông cải xanh",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Cá thu hấp chín, dằm nhỏ, lọc bỏ xương.",
-      "Bí ngòi rửa sạch, hấp chín, nghiền nhỏ.",
-      "Khi cháo chín, cho cá thu và bí ngòi vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu oliu."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Tôm luộc chín, bóc vỏ, băm nhỏ."
+      },
+      {
+        "order": 3,
+        "instruction": "Bông cải xanh rửa sạch, hấp chín, nghiền nhỏ."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho tôm và bông cải xanh vào nấu thêm 2 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Khuấy đều, thêm một thìa cà phê dầu ô liu."
+      }
     ],
-    "note": "Cá thu giàu omega-3 và vitamin D, bí ngòi dễ tiêu hóa.",
-    "image": "https://example.com/images/chao-ca-thu-bi-ngoi.jpg"
+    "duration": 30,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 30,
+    "notes": "Tôm là nguồn canxi tốt, bông cải xanh giàu vitamin C và chất xơ."
   },
+
   {
-    "id": 21,
-    "name": "Cháo thịt vịt và cải xanh",
-    "ageRange": "9-12 tháng",
+    "id": "25",
+    "title": "Cháo gà và cà rốt",
+    "description": "Cháo gà kết hợp với cà rốt cung cấp protein dễ tiêu hóa và vitamin A tốt cho thị lực của bé.",
+    "imageUrl": "assets/images/baby/25.jpg",
+    "category": "Cháo ăn dặm",
+    "tags": [
+      "dễ tiêu hóa",
+      "tốt cho mắt"
+    ],
     "ingredients": [
-      "30g thịt vịt",
-      "20g cải xanh",
-      "20g gạo tẻ",
-      "300ml nước"
+      {
+        "name": "Thịt gà",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "quantity": "300",
+        "unit": "ml"
+      }
     ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Thịt vịt luộc chín, xé nhỏ.",
-      "Cải xanh rửa sạch, băm nhỏ.",
-      "Khi cháo chín, cho thịt vịt và cải xanh vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn dặm."
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Gạo vo sạch, nấu cháo đến khi mềm."
+      },
+      {
+        "order": 2,
+        "instruction": "Thịt gà luộc chín, xé nhỏ."
+      },
+      {
+        "order": 3,
+        "instruction": "Cà rốt hấp chín, nghiền nhuyễn."
+      },
+      {
+        "order": 4,
+        "instruction": "Khi cháo chín, cho thịt gà và cà rốt vào nấu thêm 3 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Khuấy đều, thêm một chút dầu gấc."
+      }
     ],
-    "note": "Thịt vịt cung cấp protein và sắt, cải xanh giàu vitamin và khoáng chất.",
-    "image": "https://example.com/images/chao-thit-vit-cai-xanh.jpg"
-  },
-  {
-    "id": 22,
-    "name": "Cháo cá lóc và rau mồng tơi",
-    "ageRange": "9-12 tháng",
-    "ingredients": [
-      "30g cá lóc phi lê",
-      "20g rau mồng tơi",
-      "20g gạo tẻ",
-      "300ml nước"
-    ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Cá lóc hấp chín, dằm nhỏ, lọc bỏ xương.",
-      "Rau mồng tơi rửa sạch, trụng qua nước sôi rồi băm nhuyễn.",
-      "Khi cháo chín, cho cá lóc và rau mồng tơi vào nấu thêm 5 phút.",
-      "Khuấy đều, thêm một ít dầu ăn trẻ em."
-    ],
-    "note": "Cá lóc là nguồn protein dồi dào, rau mồng tơi giàu chất xơ, hỗ trợ tiêu hóa cho bé.",
-    "image": "https://example.com/images/chao-ca-loc-rau-mong-toi.jpg"
-  },
-  {
-    "id": 23,
-    "name": "Cháo thịt bò và bí đỏ",
-    "ageRange": "9-12 tháng",
-    "ingredients": [
-      "30g thịt bò băm",
-      "30g bí đỏ",
-      "20g gạo tẻ",
-      "300ml nước"
-    ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Thịt bò xào chín mềm.",
-      "Bí đỏ hấp chín, nghiền nhuyễn.",
-      "Khi cháo chín, cho thịt bò và bí đỏ vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu ăn cho bé."
-    ],
-    "note": "Thịt bò giàu sắt và protein, bí đỏ chứa nhiều vitamin A tốt cho mắt bé.",
-    "image": "https://example.com/images/chao-thit-bo-bi-do.jpg"
-  },
-  {
-    "id": 24,
-    "name": "Cháo tôm và bông cải xanh",
-    "ageRange": "9-12 tháng",
-    "ingredients": [
-      "30g tôm tươi",
-      "20g bông cải xanh",
-      "20g gạo tẻ",
-      "300ml nước"
-    ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Tôm luộc chín, bóc vỏ, băm nhỏ.",
-      "Bông cải xanh rửa sạch, hấp chín, nghiền nhỏ.",
-      "Khi cháo chín, cho tôm và bông cải xanh vào nấu thêm 2 phút.",
-      "Khuấy đều, thêm một thìa cà phê dầu ô liu."
-    ],
-    "note": "Tôm là nguồn canxi tốt, bông cải xanh giàu vitamin C và chất xơ.",
-    "image": "https://example.com/images/chao-tom-bong-cai-xanh.jpg"
-  },
-  {
-    "id": 25,
-    "name": "Cháo gà và cà rốt",
-    "ageRange": "9-12 tháng",
-    "ingredients": [
-      "30g thịt gà",
-      "20g cà rốt",
-      "20g gạo tẻ",
-      "300ml nước"
-    ],
-    "instructions": [
-      "Gạo vo sạch, nấu cháo đến khi mềm.",
-      "Thịt gà luộc chín, xé nhỏ.",
-      "Cà rốt hấp chín, nghiền nhuyễn.",
-      "Khi cháo chín, cho thịt gà và cà rốt vào nấu thêm 3 phút.",
-      "Khuấy đều, thêm một chút dầu gấc."
-    ],
-    "note": "Thịt gà dễ tiêu hóa, cà rốt giàu beta-carotene tốt cho thị lực.",
-    "image": "https://example.com/images/chao-ga-ca-rot.jpg"
+    "duration": 30,
+    "servings": 1,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 25,
+    "totalTime": 30,
+    "notes": "Thịt gà dễ tiêu hóa, cà rốt giàu beta-carotene tốt cho thị lực."
   }
 ]

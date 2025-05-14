@@ -42,17 +42,22 @@ class HomeScreen extends StatelessWidget {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const SearchScreen()),
+                        MaterialPageRoute(
+                          builder: (context) => const SearchScreen(),
+                        ),
                       );
                     },
-                    child: AbsorbPointer( // Ngăn người dùng nhập ở đây
+                    child: AbsorbPointer(
+                      // Ngăn người dùng nhập ở đây
                       child: TextField(
                         decoration: InputDecoration(
                           hintText: 'Tìm kiếm công thức',
                           prefixIcon: const Icon(Icons.search),
                           filled: true,
                           fillColor: Colors.grey.shade100,
-                          contentPadding: const EdgeInsets.symmetric(vertical: 0),
+                          contentPadding: const EdgeInsets.symmetric(
+                            vertical: 0,
+                          ),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(12),
                             borderSide: BorderSide.none,
@@ -67,7 +72,7 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: 12),
                   SectionHeader(
                     title: "Công thức phổ biến",
-                    onSeeMorePressed: () => context.push('/recipe_list_screen'),
+                    onSeeMorePressed: () => context.push('/recipe_grid_screen'),
                   ),
                   const SizedBox(height: 8),
                   HorizontalRecipeList(recipes: recipes, clickable: true),
@@ -76,7 +81,7 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: 24),
                   SectionHeader(
                     title: "Công thức mới",
-                    onSeeMorePressed: () => context.push('/recipe_list_screen'),
+                    onSeeMorePressed: () => context.push('/recipe_grid_screen'),
                   ),
                   const SizedBox(height: 8),
                   HorizontalRecipeList(recipes: recipes),

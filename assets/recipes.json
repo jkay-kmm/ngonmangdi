@@ -1,33 +1,37 @@
 [
   {
-    "image": "assets/images/1.jpg",
+    "image": "assets/images/office/1.jpg",
     "title": "Cơm văn phòng",
     "desc": "Bỏ ra 20 phút để tự nấu cơm ngon ...",
     "rating": 4.8,
+    "jsonFile": "office.json",
     "country": "Việt Nam",
     "bgColor": "#FFE0C0"
   },
   {
-    "image": "assets/images/2.jpg",
+    "image": "assets/images/baby/2.jpg",
     "title": "Ăn dặm cho bé",
     "desc": "Sự đa dạng món ăn giúp bé thích thú hơn...",
     "rating": 4.5,
+    "jsonFile": "baby.json",
     "country": "Việt Nam",
     "bgColor": "#D2F6C5"
   },
   {
-    "image": "assets/images/26.jpg",
-    "title": "Cơm nhà",
+    "image": "assets/images/cake/2.jpg",
+    "title": "Đồ ngọt",
     "desc": "Bữa cơm nhà ấm cúng, hâm nóng tình cảm cả nhà....",
     "rating": 4.9,
+    "jsonFile": "cake.json",
     "country": "Việt Nam",
     "bgColor": "#CDEBFF"
   },
   {
-    "image": "assets/images/3.jpg",
+    "image": "assets/images/confectionery/3.jpg",
     "title": "Đồ ngâm chua",
     "desc": "Bữa cơm nhà ấm cúng, hâm nóng tình cảm cả nhà....",
     "rating": 4.9,
+    "jsonFile": "confectionery.json",
     "country": "Việt Nam",
     "bgColor": "#DED2F9"
   }

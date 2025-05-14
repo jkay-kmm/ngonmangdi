@@ -11,8 +11,6 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_riverpod: ^2.6.1
-  http: ^1.3.0
   go_router: ^15.1.1
 
 dev_dependencies:
@@ -24,9 +22,22 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+
+
+#      images
     - assets/images/
+    - assets/images/baby/
+    - assets/images/cake/
+    - assets/images/office/
+    - assets/images/confectionery/
+
+
+#    json
     - assets/recipes.json
-    - assets/all_recipes.json
+    - assets/office.json
+    - assets/cake.json
+    - assets/baby.json
+    - assets/confectionery.json
 
 flutter_launcher_icons:
   android: true
