@@ -1,0 +1,382 @@
+[
+    {
+        "id": "h1",
+        "title": "KIM CHI CẢI THẢO (CT người Hàn)",
+        "description": "Ở Hàn mùa làm kim chi để cải thảo ngon ngọt nhất là tháng 10-11 âm lịch hàng năm. Cải thảo Hàn làm kim chi ngon hơn cải trồng VN các bác ạ .Mình gửi các bạn yêu bếp công thức làm kim chi do người Hàn dạy mình. Nguyên liệu đều mua tại siêu thị đồ Hàn Quốc.",
+        "imageUrl": "assets/images/confectionery/25.jpg",
+        "category": "Bánh Ngọt",
+        "tags": [
+            "Bánh quy",
+            "Hạnh nhân",
+            "Ăn vặt"
+        ],
+        "duration": 30,
+        "cookTime": 15,
+        "totalTime": 45,
+        "servings": 4,
+        "difficulty": "Dễ",
+        "notes": "Lưu ý thêm về công thức...",
+        "ingredients": [
+            {
+                "name": "Cải thảo",
+                "quantity": "2.5",
+                "unit": "kg"
+            },
+            {
+                "name": "Hành lá ",
+                "quantity": "20",
+                "unit": "g"
+            },
+            {
+                "name": "Hành baro",
+                "quantity": "2",
+                "unit": "củ"
+            },
+            {
+                "name": "Cà rốt, củ cải , hành tây , tỏi, ớt sừng cay loại to, gừng",
+                "quantity": "1",
+                "unit": "củ"
+            },
+            {
+                "name": "Táo lê",
+                "quantity": "150",
+                "unit": "g"
+            },
+            {
+                "name": "Muối hạt",
+                "quantity": "500",
+                "unit": "g"
+            },
+            {
+                "name": "Bột gạo nếp ",
+                "quantity": "500",
+                "unit": "g"
+            },
+            {
+                "name": "Bột ớt Hàn quốc",
+                "quantity": "400",
+                "unit": "g"
+            }
+        ],
+        "steps": [
+            {
+                "order": 1,
+                "instruction": "Chọn nguyên liệu tốt nhất.",
+                "detail": "Ảnh này đầy đủ theo các bước mình viết làm ví dụ, các bạn tăng giảm NL theo tỉ lệ nhé!",
+                "image": "assets/images/confectionery/18.jpg"
+            },
+            {
+                "order": 2,
+                "instruction": "Chọn cải thảo tươi",
+                "detail": "Cải thảo Hàn mỗi cây nặng 3-6kg, cây cải chắc và cọng lá dày lắm. Đặt cái phích 3L bên cạnh để các bác tưởng tượng độ to của cây cải thảo >3kg kia..",
+                "image": "assets/images/confectionery/19.jpg"
+            },
+            {
+                "order": 3,
+                "instruction": "Sơ chế cải thảo",
+                "detail": "Vì cây to nên mình bổ 6 cho dễ thấm. Theo kinh nghiệm của Hà thì chỉ bổ phần cuống sau đó dùng tay xé thì ít bị vụn lá so với dùng dao cắt cả cây 😊",
+                "image": "assets/images/confectionery/20.jpg"
+            },
+            {
+                "order": 4,
+                "instruction": "Ngâm mềm cải thảo ",
+                "detail": "Ướp muối, có 1 cây mà như đầy chậu 30L Nhúng nước muối cho ướt sau đó rải muối các kẽ lá. Đảo mặt 2 lần trong quá trình ngâm muối",
+                "image": "assets/images/confectionery/21.jpg"
+            },
+            {
+                "order": 5,
+                "instruction": "Phơi ráo nước cải thảo .",
+                "detail": "Thời tiết HN như hiện tại (giữa tháng 12DL có nắng hanh) thì ngâm muối 1 ngày sau rửa 1 nước rồi đem phơi nắng 8am-2pm, lật bên trong miếng cải cho héo đều. Kim chi ngon giòn hơn khi cải được phơi nắng đó.",
+                "image": "assets/images/confectionery/22.jpg"
+            },
+            {
+                "order": 6,
+                "instruction": "Chế biến nước ngâm cải ",
+                "detail": "Trong quá trình phơi cải thảo thì đun nước dashi (gồm tôm - tảo biển - cá - nấm khô, hành tây, táo, lê Hàn, hành baro) và nấu cơm nếp xong xay mịn. Nước dashi thơm ngọt đậm vị cực ý 😋",
+                "image": "assets/images/confectionery/23.jpg"
+            },
+            {
+                "order": 7,
+                "instruction": "Quét sốt lên cải ",
+                "detail": "Sốt quết cải gồm: nước dashi, cơm nếp, nước mơ ngâm đường, nước mắm 40 độ đạm, cà rốt - táo - lê - củ cải bào sợi, tỏi ớt sừng gừng xay, hành lá, hẹ, mắm tép, ớt bột. Trộn đều để 30p, sốt trộn phải đặc sệt như tương.",
+                "image": "assets/images/confectionery/24.jpg"
+            },
+            {
+                "order": 8,
+                "instruction": "Thành phẩm ",
+                "detail": "Gồi xong giờ đậy kín hộp để ngoài 1 ngày sau mới bảo quản ngăn mát tủ lạnh. Cảm ơn các bạn đã xem tới đây nha 💜",
+                "image": "assets/images/confectionery/25.jpg"
+            }
+        ]
+    },
+    {
+        "id": "h2",
+        "title": "Cơm cuộn rong biển (kimbap)",
+        "description": "Cơm cuộn thì siêu dễ ăn và làm cũng nhanh nữa. Vừa ngon vừa bắt mắt 👀  cả người lớn và trẻ em đều thích. Cùng làm với mình nha!!!.",
+        "imageUrl": "assets/images/office/36.jpg",
+        "category": "Bánh Ngọt",
+        "tags": [
+            "Bánh quy",
+            "Bơ",
+            "Truyền thống"
+        ],
+        "duration": 10,
+        "cookTime": 15,
+        "totalTime": 25,
+        "servings": 5,
+        "difficulty": "Dễ",
+        "notes": "Có thể bảo quản trong hộp kín ở nhiệt độ phòng từ 5-7 ngày.",
+        "ingredients": [
+            {
+                "name": "Gói lá kim (rong biển) loại nướng qua rồi",
+                "quantity": "1",
+                "unit": "gói"
+            },
+            {
+                "name": " Dưa leo ( mình dùng dưa leo nhà trồng) bào sợi hoặc chẻ thanh dài tuỳ thích",
+                "quantity": "2",
+                "unit": "quả"
+            },
+            {
+                "name": "Cà rốt bào sợi ( cà rốt cứng nên mình bào sợi nhỏ)",
+                "quantity": "1",
+                "unit": "củ"
+            },
+            {
+                "name": "Thanh cua ( mình mua ở k-mart)",
+                "quantity": "1",
+                "unit": "gói"
+            },
+            {
+                "name": "Củ cải ngâm chua ngọt",
+                "quantity": "80",
+                "unit": "g"
+            },
+            {
+                "name": "Trứng gà chiên ít dầu",
+                "quantity": "6 ",
+                "unit": "quả"
+            },
+            {
+                "name": "Chả giò",
+                "quantity": "4",
+                "unit": "cây"
+            },
+            {
+                "name": "Vừng đen, vừng trứng ",
+                "quantity": "10",
+                "unit": "g"
+            }
+        ],
+        "steps": [
+            {
+                "order": 1,
+                "instruction": "Chuẩn bị cơm cuộn.",
+                "detail": "Cơm nóng mình trộn 1 chút xíu dầu mè để cơm thơm và đỡ bị dính lúc cuộn nhé. Mình rải cơm ra đều trên mặt lá và tán đều ra. Mn nhớ dàn mỏng cơm ra để ko bị cuộn to quá nhé..",
+                "image": "assets/images/office/37.jpg"
+            },
+            {
+                "order": 2,
+                "instruction": "Thêm gia vị cho đặc sắc hơn.",
+                "detail": "Mình rải lên mặt cơm 1 lớp muối mè đen để cơm cuộn có vị thơm, béo, muối cũng giúp cơm ko bị nhạt nè.",
+                "image": "assets/images/office/38.jpg"
+            },
+            {
+                "order": 3,
+                "instruction": "Thêm các topping cho món .",
+                "detail": "Rải topping: cà rốt, dưa leo, củ cải, chả, thanh cua, trứng lên và cuộn tròn lại.Các bạn cuộn chặt tay vào để khi ăn ko bị rơi topping ra ngoài nhé..",
+                "image": "assets/images/office/38.jpg"
+            },
+            {
+                "order": 4,
+                "instruction": "Thêm vừng.",
+                "detail": "Mình quét lên cuộn cơm 1 lớp dầu mè sau đó rắc thêm ít mè trắng ( rang chín) lên như này nè..",
+                "image": "assets/images/office/39.jpg"
+            },
+            {
+                "order": 5,
+                "instruction": "Trình bày và thưởng thức.",
+                "detail": "Đây là thành phẩm ạ.",
+                "image": "assets/images/office/40.jpg"
+            }
+        ]
+    },
+    {
+        "id": "h3",
+        "title": "Tôm rang ngon bá cháy",
+        "description": "Đơn giản thôi, để ý chút là thấy món tôm rang sẽ khác hẳn, tôm nhỏ hay to không quan trọng, quan trọng là biết cách rang nó sẽ đều ngon cả.",
+        "imageUrl": "assets/images/confectionery/16.jpg",
+        "category": "Bánh Ngọt",
+        "tags": [
+            "Bánh quy",
+            "Bơ",
+            "Truyền thống"
+        ],
+        "duration": 25,
+        "cookTime": 15,
+        "totalTime": 40,
+        "servings": 5,
+        "difficulty": "Dễ",
+        "notes": "Có thể bảo quản trong hộp kín ở nhiệt độ phòng từ 5-7 ngày.",
+        "ingredients": [
+            {
+                "name": "Tôm nhỏ ",
+                "quantity": "500",
+                "unit": "g"
+            },
+            {
+                "name": "Đường xay",
+                "quantity": "20",
+                "unit": "g"
+            },
+            {
+                "name": "Lá chanh",
+                "quantity": "2-3",
+                "unit": "lá"
+            },
+            {
+                "name": "Nước mắm ",
+                "quantity": "1",
+                "unit": "thìa"
+            },
+            {
+                "name": "Mỡ động vật",
+                "quantity": "1",
+                "unit": "muỗng cà phê"
+            }
+        ],
+        "steps": [
+            {
+                "order": 1,
+                "instruction": "Sơ chế tôm nhỏ ",
+                "detail": "Tôm nhỏ cũng phải cắt râu đi mới đỡ khó chịu",
+                "image": "assets/images/office/30.jpg"
+            },
+            {
+                "order": 2,
+                "instruction": "Rang tôm lần 1",
+                "detail": "Sau khi rửa sạch sẽ, mình cho vào đảo thật khô tôm đã rồi mới cho mỡ",
+                "image": "assets/images/office/31.jpg"
+            },
+            {
+                "order": 3,
+                "instruction": "Sau lần 1",
+                "detail": "Sau rang lần 1 tôm vẫn có độ đục, ăn luôn sẽ cảm thấy còn độ tanh, ko bùi.",
+                "image": "assets/images/office/32.jpg"
+            },
+            {
+                "order": 4,
+                "instruction": "Rang lần 2 .",
+                "detail": "Thêm mỡ rang lần 2, thêm mắm",
+                "image": "assets/images/office/33.jpg"
+            },
+            {
+                "order": 5,
+                "instruction": "Thêm gia vị",
+                "detail": "Đảo đến khi trong như này là thêm đường",
+                "image": "assets/images/office/34.jpg"
+            },
+            {
+                "order": 6,
+                "instruction": "Thêm lá chanh ",
+                "detail": "Lá chanh giúp món tôm rang thơm và tạo hương vị đặc trưng",
+                "image": "assets/images/office/35.jpg"
+            },
+            {
+                "order": 7,
+                "instruction": "Hoàn thành món tôm rang ngon bá cháy ",
+                "detail": "Trưng bày ra đĩa và thưởng thức thôi ",
+                "image": "assets/images/confectionery/16.jpg"
+            }
+        ]
+    },
+    {
+        "id": "h4",
+        "title": "Củ cải chua trong veo giòn sừn sựt ",
+        "description": "Và giữa muôn vàn sự cầu kỳ của Tết mình lại ưu tiên sự đơn giản - chọn củ cải ngâm chua cho Tết này. Thêm củ carrot cho đẹp mắt và cũng cực kỳ ngon. Chua chua, ngọt ngọt, đậm đà vừa tới, từng sợi cứ trong veo trong vắt lại giòn sừn sựt. Thú thật, mình chưa thấy món củ cải chua nào ngon đến vậy .",
+        "imageUrl": "assets/images/confectionery/26.jpg",
+        "category": "Bánh Ngọt",
+        "tags": [
+            "Bánh quy",
+            "Bơ",
+            "Truyền thống"
+        ],
+        "duration": 15,
+        "cookTime": 5,
+        "totalTime": 20,
+        "servings": 5,
+        "difficulty": "Dễ",
+        "notes": "Có thể bảo quản trong hộp kín ở nhiệt độ phòng từ 5-7 ngày.",
+        "ingredients": [
+            {
+                "name": "Cà rốt ",
+                "quantity": "3",
+                "unit": "củ"
+            },
+            {
+                "name": "Củ cải",
+                "quantity": "3",
+                "unit": "củ"
+            },
+            {
+                "name": "Nước",
+                "quantity": "1200",
+                "unit": "ml"
+            },
+            {
+                "name": "Giấm gạo",
+                "quantity": "200",
+                "unit": "ml"
+            },
+            {
+                "name": "Đường",
+                "quantity": "7",
+                "unit": "muỗng cà phê"
+            },
+            {
+                "name": "Muối",
+                "quantity": "1",
+                "unit": "thìa"
+            }
+        ],
+        "steps": [
+            {
+                "order": 1,
+                "instruction": "Sơ chế cà rốt , củ cải ",
+                "detail": "Nạo vỏ, rửa sạch để ráo nước",
+                "image": "assets/images/confectionery/27.jpg"
+            },
+            {
+                "order": 2,
+                "instruction": "Thái hình thành từng lát",
+                "detail": "Thái như hình cho đẹp nha ",
+                "image": "assets/images/confectionery/28.jpg"
+            },
+            {
+                "order": 3,
+                "instruction": "Ước với nguyên liệu",
+                "detail": "Ướp với 2 thìa muối.",
+                "image": "assets/images/confectionery/29.jpg"
+            },
+            {
+                "order": 4,
+                "instruction": "Vắt nước .",
+                "detail": "Sau 30 phút vắt kiệt nước",
+                "image": "assets/images/confectionery/30.jpg"
+            },
+            {
+                "order": 5,
+                "instruction": "Pha chế nước ngâm",
+                "detail": "Chuẩn bị nước ngâm, với 2/3 thìa muối như hình, Thêm 7 thìa đường (hoặc 6 thìa nếu thấy ngọt, cái này tuỳ khẩu vị), 200ml giấm, 1200ml nước, đun sôi để nguộ",
+                "image": "assets/images/confectionery/31.jpg"
+            },
+            {
+                "order": 6,
+                "instruction": "Ngâm củ cải",
+                "detail": "Cho tất cả vào ngâm và sau 3h thì ăn được rồi nhé . Để tủ lạnh để bảo quản ăn dần ",
+                "image":"assets/images/confectionery/32.jpg"
+            }
+            
+        ]
+    }
+]

@@ -73,8 +73,8 @@ void main() {
           Ingredient(name: 'ingredient2', quantity: '200', unit: 'g'),
         ],
         steps: [
-          recipe_step.Step(instruction: 'step1', order: 1),
-          recipe_step.Step(instruction: 'step2', order: 2),
+          recipe_step.Step(instruction: 'step1', order: 1, detail: 'detail1', image: 'assets/images/image_box.jpg'),
+          recipe_step.Step(instruction: 'step2', order: 2, detail: 'detail2', image: 'assets/images/image_box.jpg'),
         ],
       );
 

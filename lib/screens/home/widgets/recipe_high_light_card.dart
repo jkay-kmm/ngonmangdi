@@ -18,7 +18,7 @@ class RecipeHighlightCard extends StatelessWidget {
         children: [
           Image.asset(
             recipe.imageUrl,
-            height: 150,
+            height: 200,
             width: double.infinity,
             fit: BoxFit.cover,
             errorBuilder: (context, error, stackTrace) {

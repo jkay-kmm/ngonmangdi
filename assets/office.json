@@ -40,35 +40,47 @@
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Sơ chế nguyên liệu.",
+        "detail": "Chuẩn bị nguyên liệu.",
+        "image": "assets/images/office/1.jpg"
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Chế biến món ăn.",
+        "detail": "Chế biến món ăn.",
+        "image": "assets/images/office/2.jpg"
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Trình bày và thưởng thức.",
+        "detail": "Trình bày và thưởng thức.",
+        "image": "assets/images/office/3.jpg"
       },
       {
         "order": 4,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Chuẩn bị nguyên liệu.",
+        "detail": "Chuẩn bị nguyên liệu.",
+        "image": "assets/images/office/4.jpg"
       },
       {
         "order": 5,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Chế biến món ăn.",
+        "detail": "Chế biến món ăn.",
+        "image": "assets/images/office/5.jpg"
       },
       {
         "order": 6,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Trình bày và thưởng thức.",
+        "detail": "Trình bày và thưởng thức.",
+        "image": "assets/images/office/6.jpg"
       }
     ],
-    "duration": 62,
+    "duration": 12,
     "servings": 1,
     "difficulty": "Trung bình",
     "author": "Admin",
-    "cookTime": 55,
-    "totalTime": 62,
+    "cookTime": 15,
+    "totalTime": 27,
     "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
   },
   {

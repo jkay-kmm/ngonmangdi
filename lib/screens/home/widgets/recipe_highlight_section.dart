@@ -5,6 +5,7 @@ import '../../../models/recipe.dart';
 import '../../../models/recipe_highlight.dart';
 import '../../recipe/recipe_detail_screen.dart';
 import 'recipe_high_light_card.dart';
+import 'package:go_router/go_router.dart';
 
 Future<List<RecipeHighlight>> fetchHighlightRecipes() async {
   try {
@@ -21,7 +22,7 @@ Future<List<RecipeHighlight>> fetchHighlightRecipes() async {
 
 Future<Recipe> fetchRecipeDetailsById(String id) async {
   final String response = await rootBundle.loadString(
-    'assets/highlight_recipes.json',
+    'assets/recipe_detail.json',
   );
   final List<dynamic> data = json.decode(response);
   final recipeJson = data.firstWhere(
@@ -68,10 +69,10 @@ class RecipeHighlightSection extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
               child: Text(
-                "Có thể bạn sẽ thích",
-                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                "Gợi ý một số món ăn nổi bật !",
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
                   fontWeight: FontWeight.bold,
-                  color: Color(0xFFF7653B), // Thêm màu cam đậm
+                  color: Color(0xFFF7653B),
                 ),
               ),
             ),
@@ -85,20 +86,19 @@ class RecipeHighlightSection extends StatelessWidget {
                         recipe.id,
                       );
                       if (context.mounted) {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder:
-                                (_) => RecipeDetailScreen(recipe: fullRecipe),
-                          ),
+                        context.push(
+                          '/recipe_detail_screen',
+                          extra: fullRecipe,
                         );
                       }
-                    } catch (e) {
+                    } catch (e, stack) {
+                      print('LỖI: $e');
+                      print('STACK: $stack');
                       if (context.mounted) {
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text(
-                              "Không thể tải chi tiết công thức: \${recipe.title}",
+                              "Không thể tải chi tiết công thức: ${recipe.title}\n$e",
                             ),
                           ),
                         );

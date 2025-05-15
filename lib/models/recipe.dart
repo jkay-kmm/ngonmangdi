@@ -14,7 +14,7 @@ class Recipe {
   final int duration;
   final int servings;
   final String difficulty;
-  final String author;
+  final String? author;
   final int? cookTime;
   final int? totalTime;
   final String? notes;

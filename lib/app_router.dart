@@ -1,5 +1,7 @@
 import 'package:go_router/go_router.dart';
+import 'package:ngon_mang_di/models/recipe.dart';
 import 'package:ngon_mang_di/screens/home/home_screen.dart';
+import 'package:ngon_mang_di/screens/recipe/recipe_detail_screen.dart';
 import 'package:ngon_mang_di/screens/recipe/recipe_list_screen.dart';
 import 'package:ngon_mang_di/screens/recipe/recipe_grid_screen.dart';
 import 'package:ngon_mang_di/screens/splash/splash_screen.dart';
@@ -7,14 +9,8 @@ import 'package:ngon_mang_di/screens/splash/splash_screen.dart';
 final GoRouter appRouter = GoRouter(
   initialLocation: '/',
   routes: [
-    GoRoute(
-      path: '/',
-      builder: (context, state) => const SplashScreen(),
-    ),
-    GoRoute(
-      path: '/home',
-      builder: (context, state) => const HomeScreen(),
-    ),
+    GoRoute(path: '/', builder: (context, state) => const SplashScreen()),
+    GoRoute(path: '/home', builder: (context, state) => const HomeScreen()),
     GoRoute(
       path: '/recipe_list_screen',
       builder: (context, state) {
@@ -25,6 +21,13 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: '/recipe_grid_screen',
       builder: (context, state) => const RecipeGridScreen(),
+    ),
+    GoRoute(
+      path: '/recipe_detail_screen',
+      builder: (context, state) {
+        final recipe = state.extra as Recipe;
+        return RecipeDetailScreen(recipe: recipe);
+      },
     ),
   ],
 );
