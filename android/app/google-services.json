@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "709378192552",
+    "project_id": "ngonmangdi",
+    "storage_bucket": "ngonmangdi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709378192552:android:65385185ccae5b52b67e9d",
+        "android_client_info": {
+          "package_name": "com.example.ngon_mang_di"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMWnfyusvlqKuilzW_P_QjWV3klFVnuu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
