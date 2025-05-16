@@ -6,7 +6,12 @@
   [![Flutter](https://img.shields.io/badge/Flutter-3.7.0-blue.svg)](https://flutter.dev)
   [![Firebase](https://img.shields.io/badge/Firebase-11.4.5-orange.svg)](https://firebase.google.com)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.example.ngon_mang_di)
 </div>
+
+## 📱 Tải Ứng Dụng
+
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.example.ngon_mang_di)
 
 ## 📱 Giới Thiệu
 
@@ -23,10 +28,6 @@ Ngon Mạng Đi là ứng dụng di động giúp người dùng khám phá và 
 ## 🛠 Công Nghệ Sử Dụng
 
 - **Frontend**: Flutter
-- **Backend**: Firebase
-- **Database**: Firebase Realtime Database
-- **Authentication**: Firebase Auth
-- **Storage**: Firebase Storage
 - **Notifications**: Firebase Cloud Messaging
 
 ## 🚀 Bắt Đầu
@@ -80,6 +81,12 @@ flutter run
 - Thiết kế Material Design
 - Hỗ trợ chế độ tối/sáng
 - Responsive trên mọi kích thước màn hình
+
+## 📱 Tải Ứng Dụng
+
+Bạn có thể tải ứng dụng Ngon Mạng Đi từ Google Play Store:
+
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.example.ngon_mang_di)
 
 ## 🤝 Đóng Góp
 
