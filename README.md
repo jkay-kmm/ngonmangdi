@@ -10,16 +10,16 @@
 </div>
 ## ✨ Features
 
-<p align="center">
-  <img src="assets/images/10.png" alt="Feature 1" width="15%">
-  <img src="assets/images/11.png" alt="Feature 2" width="15%">
-  <img src="assets/images/12.png" alt="Feature 3" width="15%">
-  <img src="assets/images/13.png" alt="Feature 4" width="15%">
-  <img src="assets/images/14.png" alt="Feature 5" width="15%">
-  <img src="assets/images/15.png" alt="Feature 6" width="15%">
-  <img src="assets/images/16.png" alt="Feature 7" width="15%">
-  <img src="assets/images/17.png" alt="Feature 8" width="15%">
-  <img src="assets/images/18.png" alt="Feature 9" width="15%">
+<p align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; background-color: #f8f9fa; border-radius: 10px; margin: 20px 0;">
+  <img src="assets/images/10.png" alt="Feature 1" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="assets/images/11.png" alt="Feature 2" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="assets/images/12.png" alt="Feature 3" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="assets/images/13.png" alt="Feature 4" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="assets/images/14.png" alt="Feature 5" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="assets/images/15.png" alt="Feature 6" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="assets/images/16.png" alt="Feature 7" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="assets/images/17.png" alt="Feature 8" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="assets/images/18.png" alt="Feature 9" style="height: 200px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 </p>
 
 
