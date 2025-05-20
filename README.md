@@ -8,10 +8,20 @@
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
   [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.example.ngon_mang_di)
 </div>
+## ✨ Features
 
-## 📱 Tải Ứng Dụng
+<p align="center">
+  <img src="assets/images/10.png" alt="Feature 1" width="15%">
+  <img src="assets/images/11.png" alt="Feature 2" width="15%">
+  <img src="assets/images/12.png" alt="Feature 3" width="15%">
+  <img src="assets/images/13.png" alt="Feature 4" width="15%">
+  <img src="assets/images/14.png" alt="Feature 5" width="15%">
+  <img src="assets/images/15.png" alt="Feature 6" width="15%">
+  <img src="assets/images/16.png" alt="Feature 7" width="15%">
+  <img src="assets/images/17.png" alt="Feature 8" width="15%">
+  <img src="assets/images/18.png" alt="Feature 9" width="15%">
+</p>
 
-[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.example.ngon_mang_di)
 
 ## 📱 Giới Thiệu
 
@@ -98,12 +108,11 @@ Dự án này được cấp phép theo giấy phép MIT - xem file [LICENSE](LI
 
 ## 📞 Liên Hệ
 
-- Email: your-email@example.com
-- Website: https://your-website.com
+- Email: nguyenthanhtrungtt20@gmail.com
 - Facebook: [Ngon Mạng Đi](https://facebook.com/ngonmangdi)
 
 ---
 
 <div align="center">
-  Made with ❤️ by Your Team Name
+  Made with ❤️ by TrungNguyen
 </div>
