@@ -5,6 +5,7 @@ import 'package:ngon_mang_di/models/recipe_highlight.dart';
 import 'package:ngon_mang_di/screens/home/widgets/create_recipe_box.dart';
 import 'package:ngon_mang_di/screens/home/widgets/horizontal_recipe_list.dart';
 import 'package:ngon_mang_di/screens/home/widgets/recipe_highlight_section.dart';
+import 'package:ngon_mang_di/screens/home/widgets/recipe_recommendation_section.dart';
 import 'package:ngon_mang_di/screens/home/widgets/search_input_field.dart';
 import 'package:ngon_mang_di/screens/home/widgets/title_bar.dart';
 import 'package:flutter/services.dart';
@@ -25,6 +26,8 @@ class _HomeScreenState extends State<HomeScreen>
   late Animation<Offset> _slideAnimation;
   final RecipeService _recipeService = RecipeService();
   late Future<List<RecipeHighlight>> _highlightRecipesFuture;
+  final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
+      GlobalKey<RefreshIndicatorState>();
 
   @override
   void initState() {
@@ -41,13 +44,41 @@ class _HomeScreenState extends State<HomeScreen>
     );
 
     _animationController.forward();
-    _highlightRecipesFuture = fetchHighlightRecipes();
+    _refreshData();
+  }
+
+  Future<void> _refreshData() async {
+    // Refresh công thức nổi bật
+    setState(() {
+      _highlightRecipesFuture = fetchHighlightRecipes();
+    });
+
+    // Tạo delay để simulate loading và tránh giật màn hình
+    await Future.delayed(const Duration(milliseconds: 800));
   }
 
   @override
   void dispose() {
     _animationController.dispose();
     super.dispose();
+  }
+
+  void _showRecommendationFilters() {
+    // Tạo một modal đơn giản để mở filter
+    showDialog(
+      context: context,
+      builder:
+          (context) => AlertDialog(
+            title: const Text('Tùy chỉnh gợi ý'),
+            content: const Text('Tính năng này sẽ được phát triển sau.'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text('Đóng'),
+              ),
+            ],
+          ),
+    );
   }
 
   @override
@@ -74,34 +105,53 @@ class _HomeScreenState extends State<HomeScreen>
 
             return SlideTransition(
               position: _slideAnimation,
-              child: SingleChildScrollView(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 16,
-                  vertical: 20,
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const SearchInputField(),
-                    const SizedBox(height: 16),
-                    const TitleBar(),
-                    const SizedBox(height: 12),
-                    SectionHeader(
-                      title: "Công thức phổ biến",
-                      onSeeMorePressed:
-                          () => context.push('/recipe_grid_screen'),
-                    ),
-                    const SizedBox(height: 8),
-                    HorizontalRecipeList(
-                      recipes: generalRecipes,
-                      clickable: true,
-                    ),
-                    const SizedBox(height: 18),
-                    const CreateRecipeBox(),
-                    const SizedBox(height: 18),
-                    RecipeHighlightSection(future: _highlightRecipesFuture),
-                    const SizedBox(height: 20),
-                  ],
+              child: RefreshIndicator(
+                key: _refreshIndicatorKey,
+                onRefresh: _refreshData,
+                color: Colors.orange,
+                backgroundColor: Colors.white,
+                strokeWidth: 3.0,
+                child: SingleChildScrollView(
+                  physics: const AlwaysScrollableScrollPhysics(),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 20,
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const SearchInputField(),
+                      const SizedBox(height: 16),
+                      const TitleBar(),
+                      const SizedBox(height: 32),
+                      SectionHeader(
+                        title: "Để NgonMangDi gợi ý 👉",
+                        customButtonText: "Tùy chỉnh",
+                        onCustomButtonPressed: _showRecommendationFilters,
+                      ),
+                      const SizedBox(height: 8),
+                      const RecipeRecommendationSection(
+                        title: 'Để NgonMangDi gợi ý 👉',
+                        limit: 5,
+                      ),
+                      const SizedBox(height: 40),
+                      SectionHeader(
+                        title: "Công thức phổ biến",
+                        onSeeMorePressed:
+                            () => context.push('/recipe_grid_screen'),
+                      ),
+                      const SizedBox(height: 8),
+                      HorizontalRecipeList(
+                        recipes: generalRecipes,
+                        clickable: true,
+                      ),
+                      const SizedBox(height: 18),
+                      const CreateRecipeBox(),
+                      const SizedBox(height: 18),
+                      RecipeHighlightSection(future: _highlightRecipesFuture),
+                      const SizedBox(height: 20),
+                    ],
+                  ),
                 ),
               ),
             );

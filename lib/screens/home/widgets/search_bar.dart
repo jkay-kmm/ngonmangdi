@@ -51,13 +51,19 @@ class _SearchScreenState extends State<SearchScreen> {
   void _onSearch(String query) {
     setState(() {
       if (query.isEmpty) {
-        _filtered = _allRecipes;
+        _filtered =
+            _allRecipes
+                .where((recipe) => !recipe.title.toLowerCase().contains('cháo'))
+                .toList();
       } else {
         _filtered =
             _allRecipes
                 .where(
                   (recipe) =>
-                      recipe.title.toLowerCase().contains(query.toLowerCase()),
+                      recipe.title.toLowerCase().contains(
+                        query.toLowerCase(),
+                      ) &&
+                      !recipe.title.toLowerCase().contains('cháo'),
                 )
                 .toList();
       }
