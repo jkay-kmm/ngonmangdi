@@ -10,5 +10,10 @@
 -keep class com.google.firebase.** { *; }
 -keep class com.google.android.gms.** { *; }
 
-# Keep your application classes
--keep class com.example.ngon_mang_di.** { *; } 
+# Play Core libraries
+-keep class com.google.android.play.core.** { *; }
+-keep class com.google.android.play.** { *; }
+-keep class com.google.android.play.core.tasks.** { *; }
+
+# Keep your application classes  
+-keep class com.ngonmangdi.app.** { *; } 

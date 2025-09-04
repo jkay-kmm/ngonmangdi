@@ -52,6 +52,11 @@ class _RecipeRecommendationSectionState
     }
   }
 
+  // Public method để expose showRecommendationFilters
+  void showRecommendationFilters(BuildContext context) {
+    _showRecommendationFilters(context);
+  }
+
   Future<void> _initializeRecommendations() async {
     await _recommendationService.initialize();
     if (widget.userPreferences != null) {

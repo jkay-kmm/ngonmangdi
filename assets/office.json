@@ -1,1142 +1,1907 @@
 [
   {
     "id": "1",
-    "title": "Ngày 1",
-    "description": "Với sự đa dạng trong món ăn giúp chúng ta tạo nên hứng thú, canh mướp hương vơ trứng cút rim .",
+    "title": "Cơm hộp thịt kho trứng",
+    "description": "Cơm hộp đầy đủ dinh dưỡng với thịt ba chỉ kho tàu, trứng luộc và rau củ. Hoàn hảo cho bữa trưa văn phòng.",
     "imageUrl": "assets/images/office/1.jpg",
-    "category": "Món chính",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Cơm hộp",
+    "tags": ["đầy đủ dinh dưỡng", "dễ mang đi", "có thể chuẩn bị trước"],
     "ingredients": [
       {
-        "name": "Gạo lức",
+        "name": "Gạo jasmine",
+        "quantity": "150",
+        "unit": "g"
+      },
+      {
+        "name": "Thịt ba chỉ",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Mướp hương",
-        "quantity": "1",
+        "name": "Trứng gà",
+        "quantity": "2",
         "unit": "quả"
       },
       {
-        "name": "Thịt bằm ",
+        "name": "Cà rốt",
         "quantity": "50",
         "unit": "g"
       },
       {
-        "name": "Trứng cút",
-        "quantity": "15",
-        "unit": "quả"
+        "name": "Đậu que",
+        "quantity": "30",
+        "unit": "g"
       },
       {
-        "name": "Lọ sữa chua yakult",
-        "quantity": "65",
-        "unit": "ml"
+        "name": "Nước mắm",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Đường phèn",
+        "quantity": "1",
+        "unit": "thìa canh"
       }
-
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Sơ chế nguyên liệu.",
-        "detail": "Chuẩn bị nguyên liệu.",
-        "image": "assets/images/office/1.jpg"
+        "instruction": "Vo gạo sạch, nấu cơm chín tơi. Luộc trứng chín và bóc vỏ."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn.",
-        "detail": "Chế biến món ăn.",
-        "image": "assets/images/office/2.jpg"
+        "instruction": "Thịt ba chỉ cắt miếng vừa ăn, ướp với nước mắm và đường 15 phút."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức.",
-        "detail": "Trình bày và thưởng thức.",
-        "image": "assets/images/office/3.jpg"
+        "instruction": "Cà rốt và đậu que rửa sạch, cắt khúc nhỏ."
       },
       {
         "order": 4,
-        "instruction": "Chuẩn bị nguyên liệu.",
-        "detail": "Chuẩn bị nguyên liệu.",
-        "image": "assets/images/office/4.jpg"
+        "instruction": "Phi thơm hành tím, cho thịt vào kho với nước màu và gia vị. Kho 20 phút."
       },
       {
         "order": 5,
-        "instruction": "Chế biến món ăn.",
-        "detail": "Chế biến món ăn.",
-        "image": "assets/images/office/5.jpg"
+        "instruction": "Thêm trứng vào kho cùng thịt thêm 10 phút."
       },
       {
         "order": 6,
-        "instruction": "Trình bày và thưởng thức.",
-        "detail": "Trình bày và thưởng thức.",
-        "image": "assets/images/office/6.jpg"
+        "instruction": "Xào nhanh rau củ với chút dầu ăn."
+      },
+      {
+        "order": 7,
+        "instruction": "Xếp cơm, thịt kho trứng và rau vào hộp. Có thể ăn ngay hoặc mang đi."
       }
     ],
-    "duration": 12,
-    "servings": 1,
-    "difficulty": "Trung bình",
+    "duration": 45,
+    "servings": 2,
+    "difficulty": "Dễ",
     "author": "Admin",
-    "cookTime": 15,
-    "totalTime": 27,
-    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
+    "cookTime": 35,
+    "totalTime": 45,
+    "notes": "Có thể chuẩn bị trước và bảo quản trong tủ lạnh 2-3 ngày."
   },
   {
-    "id": "2",
-    "title": "Ngày 2",
-    "description": "Bún bò Huế - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "id": "2", 
+    "title": "Salad cá ngừ trộn mayonnaise",
+    "description": "Salad tươi mát với cá ngừ đóng hộp, rau xanh và mayonnaise, giàu protein và ít carbs.",
     "imageUrl": "assets/images/office/2.jpg",
-    "category": "Món nước",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Salad healthy",
+    "tags": ["healthy", "giảm cân", "nhiều protein", "nhanh gọn"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Cá ngừ đóng hộp",
+        "quantity": "150",
+        "unit": "g"
+      },
+      {
+        "name": "Xà lách iceberg",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua cherry",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
+        "name": "Dưa chuột",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Trứng luộc",
+        "quantity": "2",
+        "unit": "quả"
+      },
+      {
+        "name": "Mayonnaise",
+        "quantity": "3",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Chanh",
+        "quantity": "1/2",
+        "unit": "quả"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Xà lách rửa sạch, để ráo và xé to. Cà chua cherry cắt đôi."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Dưa chuột gọt vỏ, cắt lát mỏng. Trứng luộc chín, bóc vỏ và cắt múi."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Cá ngừ vớt ra, để ráo và dùng nĩa nghiền nhỏ."
+      },
+      {
+        "order": 4,
+        "instruction": "Trộn mayonnaise với nước cốt chanh tạo thành sauce."
+      },
+      {
+        "order": 5,
+        "instruction": "Xếp rau, cá ngừ và trứng vào bát. Rưới sauce và trộn đều."
+      },
+      {
+        "order": 6,
+        "instruction": "Trang trí thêm tiêu đen và ăn ngay."
       }
     ],
-    "duration": 63,
-    "servings": 4,
-    "difficulty": "Trung bình",
+    "duration": 15,
+    "servings": 2,
+    "difficulty": "Dễ",
     "author": "Admin",
-    "cookTime": 54,
-    "totalTime": 63,
-    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
+    "cookTime": 5,
+    "totalTime": 15,
+    "notes": "Nên ăn ngay sau khi làm để rau giữ được độ giòn."
   },
   {
     "id": "3",
-    "title": "Ngày 3",
-    "description": "Gỏi cuốn tôm thịt - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Bánh mì sandwich gà nướng",
+    "description": "Bánh mì sandwich với gà nướng thơm lừng, rau sống tươi mát, phù hợp cho bữa sáng văn phòng.",
     "imageUrl": "assets/images/office/3.jpg",
-    "category": "Món chay",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Bánh mì",
+    "tags": ["nhanh gọn", "no lâu", "có thể mang đi", "giàu protein"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
+        "name": "Bánh mì sandwich",
+        "quantity": "4",
+        "unit": "lát"
+      },
+      {
+        "name": "Ức gà",
+        "quantity": "150",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
+        "name": "Xà lách",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
         "quantity": "1",
-        "unit": "cái"
+        "unit": "quả"
+      },
+      {
+        "name": "Phô mai lát",
+        "quantity": "2",
+        "unit": "lát"
+      },
+      {
+        "name": "Mayonnaise",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Muối",
+        "quantity": "1/2",
+        "unit": "thìa cà phê"
+      },
+      {
+        "name": "Tiêu đen",
+        "quantity": "1/4",
+        "unit": "thìa cà phê"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Ức gà rửa sạch, ướp với muối, tiêu 15 phút."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Nướng ức gà trên chảo chống dính đến khi chín vàng đều 2 mặt."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Để gà nguội, cắt lát mỏng. Xà lách rửa sạch, để ráo."
+      },
+      {
+        "order": 4,
+        "instruction": "Cà chua rửa sạch, cắt lát dày 0.5cm."
+      },
+      {
+        "order": 5,
+        "instruction": "Nướng bánh mì đến khi vàng giòn."
+      },
+      {
+        "order": 6,
+        "instruction": "Phết mayonnaise lên bánh mì, xếp lần lượt xà lách, gà, phô mai, cà chua."
+      },
+      {
+        "order": 7,
+        "instruction": "Đặt lát bánh mì còn lại lên trên, ép nhẹ và cắt đôi."
       }
     ],
-    "duration": 43,
+    "duration": 25,
     "servings": 2,
-    "difficulty": "Trung bình",
+    "difficulty": "Dễ",
     "author": "Admin",
-    "cookTime": 27,
-    "totalTime": 43,
-    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
+    "cookTime": 15,
+    "totalTime": 25,
+    "notes": "Có thể chuẩn bị gà nướng trước, bảo quản tủ lạnh và dùng dần."
   },
   {
     "id": "4",
-    "title": "Ngày 4",
-    "description": "Phở bò - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/4.jpg",
-    "category": "Món nước",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "title": "Mì ý sốt kem nấm",
+    "description": "Mì ý với sốt kem béo ngậy, nấm tươi thơm ngon, dễ làm và no lâu cho bữa trưa.",
+    "imageUrl": "assets/images/office/4.jpg", 
+    "category": "Mì ý",
+    "tags": ["béo ngậy", "thơm ngon", "no lâu", "dễ làm"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Mì ý",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Nấm rơm",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
+        "name": "Kem tươi",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "Phô mai parmesan",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "2",
+        "unit": "tép"
+      },
+      {
+        "name": "Hành tây",
+        "quantity": "1/2",
+        "unit": "củ"
+      },
+      {
+        "name": "Dầu olive",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Muối",
+        "quantity": "1/2",
+        "unit": "thìa cà phê"
+      },
+      {
+        "name": "Tiêu đen",
+        "quantity": "1/4",
+        "unit": "thìa cà phê"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Đun sôi nước với muối, cho mì ý vào luộc theo hướng dẫn trên bao bì."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Nấm rơm rửa sạch, cắt lát. Tỏi và hành tây băm nhỏ."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Phi thơm tỏi và hành tây với dầu olive."
+      },
+      {
+        "order": 4,
+        "instruction": "Cho nấm vào xào đến khi mềm."
+      },
+      {
+        "order": 5,
+        "instruction": "Đổ kem tươi vào, đun nhỏ lửa đến khi sốt sệt."
+      },
+      {
+        "order": 6,
+        "instruction": "Thêm phô mai parmesan, khuấy đều. Nêm muối, tiêu."
+      },
+      {
+        "order": 7,
+        "instruction": "Cho mì đã luộc vào trộn đều với sốt. Trang trí và thưởng thức."
       }
     ],
-    "duration": 54,
+    "duration": 20,
     "servings": 2,
-    "difficulty": "Trung bình",
+    "difficulty": "Dễ",
     "author": "Admin",
-    "cookTime": 48,
-    "totalTime": 54,
-    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+    "cookTime": 15,
+    "totalTime": 20,
+    "notes": "Có thể thay nấm rơm bằng nấm mộc nhĩ hoặc nấm tươi khác."
   },
   {
     "id": "5",
-    "title": "Ngày 5",
-    "description": "Mì xào bò - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Cháo gà nấm hương",
+    "description": "Cháo gà thơm ngon với nấm hương bổ dưỡng, phù hợp cho những ngày mệt mỏi hoặc ốm nhẹ.",
     "imageUrl": "assets/images/office/5.jpg",
-    "category": "Tráng miệng",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Cháo",
+    "tags": ["bổ dưỡng", "dễ tiêu hóa", "ấm bụng", "phục hồi sức khỏe"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Gạo tẻ",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
+        "name": "Thịt gà",
+        "quantity": "150",
+        "unit": "g"
+      },
+      {
+        "name": "Nấm hương khô",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Hành lá",
+        "quantity": "2",
+        "unit": "cây"
+      },
+      {
+        "name": "Gừng",
         "quantity": "1",
-        "unit": "cái"
+        "unit": "lát"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "1",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Muối",
+        "quantity": "1/2",
+        "unit": "thìa cà phê"
+      },
+      {
+        "name": "Tiêu",
+        "quantity": "1/4",
+        "unit": "thìa cà phê"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Nấm hương ngâm nước ấm 30 phút cho mềm, thái lát."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Thịt gà rửa sạch, luộc với gừng đến khi chín. Vớt ra xé sợi."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Gạo vo sạch, cho vào nồi với nước luộc gà."
+      },
+      {
+        "order": 4,
+        "instruction": "Nấu cháo trên lửa nhỏ, khuấy đều để gạo nở đều."
+      },
+      {
+        "order": 5,
+        "instruction": "Khi cháo sánh, cho nấm hương và thịt gà vào nấu thêm 10 phút."
+      },
+      {
+        "order": 6,
+        "instruction": "Nêm nếm với nước mắm, muối và tiêu."
+      },
+      {
+        "order": 7,
+        "instruction": "Rắc hành lá lên trên, tắt bếp và thưởng thức nóng."
       }
     ],
-    "duration": 50,
+    "duration": 60,
     "servings": 3,
-    "difficulty": "Khó",
+    "difficulty": "Dễ",
     "author": "Admin",
-    "cookTime": 31,
-    "totalTime": 50,
-    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+    "cookTime": 45,
+    "totalTime": 60,
+    "notes": "Có thể nấu nhiều và bảo quản tủ lạnh, hâm nóng khi ăn."
   },
   {
     "id": "6",
-    "title": "Ngày 6",
-    "description": "Đậu hũ xào nấm - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Bún bò Huế chay",
+    "description": "Phiên bản chay của bún bò Huế với nước dúng thanh ngọt, đậu hũ và nấm, vẫn đậm đà hương vị.",
     "imageUrl": "assets/images/office/6.jpg",
-    "category": "Món chay",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Bún",
+    "tags": ["chay", "thanh đạm", "nhiều rau", "healthy"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
+        "name": "Bún tươi",
+        "quantity": "300",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
+        "name": "Đậu hũ",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Nấm mộc nhĩ",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
+        "quantity": "2",
+        "unit": "quả"
+      },
+      {
+        "name": "Sả",
+        "quantity": "2",
+        "unit": "cây"
+      },
+      {
+        "name": "Hành tím",
+        "quantity": "3",
+        "unit": "củ"
+      },
+      {
+        "name": "Tương ớt chay",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "3",
+        "unit": "thìa canh"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Nấm mộc nhĩ ngâm nở, rửa sạch và cắt miếng nhỏ."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Đậu hũ cắt miếng vuông, chiên vàng đều các mặt."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 61,
-    "servings": 1,
-    "difficulty": "Khó",
-    "author": "Admin",
-    "cookTime": 41,
-    "totalTime": 61,
-    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
-  },
-  {
-    "id": "7",
-    "title": "Ngày 7",
-    "description": "Canh rong biển chay - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/7.jpg",
-    "category": "Món nước",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
+        "instruction": "Cà chua cắt múi, sả đập dập. Hành tím băm nhỏ."
       },
       {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "order": 4,
+        "instruction": "Phi thơm hành tím, cho cà chua vào xào đến khi nhừ."
       },
       {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
+        "order": 5,
+        "instruction": "Thêm nước, sả và tương ớt. Đun sôi 15 phút."
       },
       {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 52,
-    "servings": 2,
-    "difficulty": "Dễ",
-    "author": "Admin",
-    "cookTime": 43,
-    "totalTime": 52,
-    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
-  },
-  {
-    "id": "8",
-    "title": "Ngày 8",
-    "description": "Sữa chua trái cây - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/8.jpg",
-    "category": "Món chay",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
+        "order": 6,
+        "instruction": "Cho đậu hũ và nấm vào nấu thêm 10 phút."
       },
       {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 33,
-    "servings": 3,
-    "difficulty": "Dễ",
-    "author": "Admin",
-    "cookTime": 28,
-    "totalTime": 33,
-    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
-  },
-  {
-    "id": "9",
-    "title": "Ngày 9",
-    "description": "Cơm gà xối mỡ - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/9.jpg",
-    "category": "Món chay",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 66,
-    "servings": 1,
-    "difficulty": "Trung bình",
-    "author": "Admin",
-    "cookTime": 53,
-    "totalTime": 66,
-    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
-  },
-  {
-    "id": "10",
-    "title": "Ngày 10",
-    "description": "Cơm chiên chay - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/10.jpg",
-    "category": "Tráng miệng",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 46,
-    "servings": 4,
-    "difficulty": "Trung bình",
-    "author": "Admin",
-    "cookTime": 28,
-    "totalTime": 46,
-    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
-  },
-  {
-    "id": "11",
-    "title": "Ngày 11",
-    "description": "Cháo thịt bằm - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/11.jpg",
-    "category": "Món chay",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 78,
-    "servings": 4,
-    "difficulty": "Dễ",
-    "author": "Admin",
-    "cookTime": 60,
-    "totalTime": 78,
-    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
-  },
-  {
-    "id": "12",
-    "title": "Ngày 12",
-    "description": "Bánh mì trứng - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/12.jpg",
-    "category": "Món nước",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 73,
-    "servings": 2,
-    "difficulty": "Dễ",
-    "author": "Admin",
-    "cookTime": 56,
-    "totalTime": 73,
-    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
-  },
-  {
-    "id": "13",
-    "title": "Ngày 13",
-    "description": "Mì quảng - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/13.jpg",
-    "category": "Món chính",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 70,
-    "servings": 4,
-    "difficulty": "Dễ",
-    "author": "Admin",
-    "cookTime": 52,
-    "totalTime": 70,
-    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
-  },
-  {
-    "id": "14",
-    "title": "Ngày 14",
-    "description": "Bánh xèo - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/14.jpg",
-    "category": "Món chính",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 56,
-    "servings": 1,
-    "difficulty": "Khó",
-    "author": "Admin",
-    "cookTime": 51,
-    "totalTime": 56,
-    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
-  },
-  {
-    "id": "15",
-    "title": "Ngày 15",
-    "description": "Nem rán - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/15.jpg",
-    "category": "Món chay",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "order": 7,
+        "instruction": "Trụng bún qua nước sôi, múc vào tô cùng nước dùng."
       }
     ],
     "duration": 35,
     "servings": 3,
+    "difficulty": "Trung bình",
+    "author": "Admin", 
+    "cookTime": 25,
+    "totalTime": 35,
+    "notes": "Có thể thêm rau thơm như ngò gai, kinh giới để tăng hương vị."
+  },
+  {
+    "id": "7",
+    "title": "Cơm chiên dương châu",
+    "description": "Cơm chiên với xúc xích, tôm khô và rau củ đầy màu sắc, thơm ngon và bổ dưỡng.",
+    "imageUrl": "assets/images/office/7.jpg",
+    "category": "Cơm chiên",
+    "tags": ["thơm ngon", "đầy màu sắc", "no lâu", "truyền thống"],
+    "ingredients": [
+      {
+        "name": "Cơm nguội",
+        "quantity": "400",
+        "unit": "g"
+      },
+      {
+        "name": "Xúc xích",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Tôm khô",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Trứng gà",
+        "quantity": "2",
+        "unit": "quả"
+      },
+      {
+        "name": "Đậu Hà Lan",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Hành lá",
+        "quantity": "2",
+        "unit": "cây"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "3",
+        "unit": "thìa canh"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Tôm khô ngâm nước ấm 15 phút, băm nhỏ."
+      },
+      {
+        "order": 2,
+        "instruction": "Xúc xích cắt lát mỏng. Cà rốt cắt hạt lựu."
+      },
+      {
+        "order": 3,
+        "instruction": "Đập trứng, tráng thành tờ mỏng rồi cắt sợi."
+      },
+      {
+        "order": 4,
+        "instruction": "Đun nóng dầu, phi thơm tôm khô."
+      },
+      {
+        "order": 5,
+        "instruction": "Cho xúc xích vào xào đến khi vàng."
+      },
+      {
+        "order": 6,
+        "instruction": "Thêm cơm vào đảo đều, tách từng hạt cơm."
+      },
+      {
+        "order": 7,
+        "instruction": "Cho rau và trứng vào, đảo đều. Rắc hành lá và thưởng thức."
+      }
+    ],
+    "duration": 20,
+    "servings": 2,
     "difficulty": "Dễ",
     "author": "Admin",
-    "cookTime": 23,
-    "totalTime": 35,
-    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+    "cookTime": 15,
+    "totalTime": 20,
+    "notes": "Dùng cơm để qua đêm sẽ chiên ngon hơn cơm mới nấu."
+  },
+  {
+    "id": "8",
+    "title": "Soup cua asparagus",
+    "description": "Soup kem béo ngậy với thịt cua tươi ngọt và măng tây giòn, thanh đạm mà bổ dưỡng.",
+    "imageUrl": "assets/images/office/8.jpg",
+    "category": "Soup",
+    "tags": ["sang trọng", "bổ dưỡng", "thanh đạm", "ngọt mát"],
+    "ingredients": [
+      {
+        "name": "Thịt cua",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Măng tây",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Kem tươi",
+        "quantity": "150",
+        "unit": "ml"
+      },
+      {
+        "name": "Nước dùng gà",
+        "quantity": "500",
+        "unit": "ml"
+      },
+      {
+        "name": "Hành tây",
+        "quantity": "1/2",
+        "unit": "củ"
+      },
+      {
+        "name": "Bột năng",
+        "quantity": "1",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Muối",
+        "quantity": "1/2",
+        "unit": "thìa cà phê"
+      },
+      {
+        "name": "Tiêu trắng",
+        "quantity": "1/4",
+        "unit": "thìa cà phê"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Măng tây rửa sạch, cắt bỏ gốc cứng, thái khúc 2cm."
+      },
+      {
+        "order": 2,
+        "instruction": "Hành tây băm nhỏ. Thịt cua nhặt sạch vỏ."
+      },
+      {
+        "order": 3,
+        "instruction": "Phi thơm hành tây với chút dầu."
+      },
+      {
+        "order": 4,
+        "instruction": "Đổ nước dùng vào, đun sôi rồi cho măng tây vào nấu 5 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Pha bột năng với nước lạnh, đổ vào soup để đặc."
+      },
+      {
+        "order": 6,
+        "instruction": "Cho thịt cua và kem tươi vào, nấu thêm 3 phút."
+      },
+      {
+        "order": 7,
+        "instruction": "Nêm muối, tiêu. Múc ra tô và thưởng thức nóng."
+      }
+    ],
+    "duration": 25,
+    "servings": 3,
+    "difficulty": "Trung bình", 
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 25,
+    "notes": "Có thể thay thịt cua bằng cua đóng hộp nếu không có cua tươi."
+  },
+  {
+    "id": "9", 
+    "title": "Bánh cuốn nóng",
+    "description": "Bánh cuốn mỏng mịn với nhân thịt nấm thơm ngon, ăn kèm chả cá và nước mắm chua ngọt.",
+    "imageUrl": "assets/images/office/9.jpg",
+    "category": "Bánh cuốn",
+    "tags": ["truyền thống", "mỏng mịn", "nhân thơm ngon", "ăn sáng"],
+    "ingredients": [
+      {
+        "name": "Bánh cuốn khô",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Thịt heo xay",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nấm mộc nhĩ",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Hành tím",
+        "quantity": "2",
+        "unit": "củ"
+      },
+      {
+        "name": "Chả cá",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Rau thơm",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Giấm",
+        "quantity": "1",
+        "unit": "thìa canh"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Nấm mộc nhĩ ngâm nở, rửa sạch và thái nhỏ."
+      },
+      {
+        "order": 2,
+        "instruction": "Phi thơm hành tím, cho thịt xay vào xào đến chín."
+      },
+      {
+        "order": 3,
+        "instruction": "Thêm nấm vào xào cùng, nêm gia vị vừa ăn."
+      },
+      {
+        "order": 4,
+        "instruction": "Bánh cuốn khô hấp lại cho mềm."
+      },
+      {
+        "order": 5,
+        "instruction": "Trải bánh cuốn, cho nhân vào giữa rồi cuốn lại."
+      },
+      {
+        "order": 6,
+        "instruction": "Chả cá thái lát mỏng, rau thơm rửa sạch."
+      },
+      {
+        "order": 7,
+        "instruction": "Xếp bánh cuốn ra đĩa, kèm chả cá và nước mắm chua ngọt."
+      }
+    ],
+    "duration": 30,
+    "servings": 3,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 30,
+    "notes": "Bánh cuốn ngon nhất khi ăn nóng, vừa cuốn xong."
+  },
+  {
+    "id": "10",
+    "title": "Phở gà nấm hương",
+    "description": "Tô phở gà thơm lừng với nước dùng trong vắt, thịt gà mềm ngọt và nấm hương thơm ngon.",
+    "imageUrl": "assets/images/office/10.jpg",
+    "category": "Phở",
+    "tags": ["truyền thống", "nước dùng ngọt", "thịt gà mềm", "nấm hương"],
+    "ingredients": [
+      {
+        "name": "Bánh phở tươi",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Thịt gà",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Nấm hương khô",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "quantity": "2",
+        "unit": "lát"
+      },
+      {
+        "name": "Hành tím",
+        "quantity": "3",
+        "unit": "củ"
+      },
+      {
+        "name": "Ngò gai",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Đường phèn",
+        "quantity": "1",
+        "unit": "thìa cà phê"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Nấm hương ngâm nước ấm 30 phút cho nở."
+      },
+      {
+        "order": 2,
+        "instruction": "Thịt gà rửa sạch, luộc với gừng đến khi chín mềm."
+      },
+      {
+        "order": 3,
+        "instruction": "Vớt gà ra để nguội, xé thành sợi. Giữ nước luộc làm nước dùng."
+      },
+      {
+        "order": 4,
+        "instruction": "Nấm hương thái lát mỏng, cho vào nước dùng nấu 10 phút."
+      },
+      {
+        "order": 5,
+        "instruction": "Phi thơm hành tím, cho vào nước dùng."
+      },
+      {
+        "order": 6,
+        "instruction": "Nêm nước dùng với nước mắm và đường phèn."
+      },
+      {
+        "order": 7,
+        "instruction": "Trụng bánh phở, múc vào tô cùng thịt gà và nước dùng nóng."
+      }
+    ],
+    "duration": 45,
+    "servings": 3,
+    "difficulty": "Trung bình",
+    "author": "Admin", 
+    "cookTime": 35,
+    "totalTime": 45,
+    "notes": "Nước dùng phở ngon nhất khi ninh từ xương gà, có thể chuẩn bị trước."
+  },
+  {
+    "id": "11",
+    "title": "Canh chua cá basa",
+    "description": "Món canh chua Nam Bộ với cá basa tươi ngon, dứa chua ngọt và rau thơm đặc trưng.",
+    "imageUrl": "assets/images/office/11.jpg",
+    "category": "Canh chua",
+    "tags": ["chua ngọt", "tươi mát", "Nam Bộ", "nhiều rau"],
+    "ingredients": [
+      {
+        "name": "Cá basa",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Dứa",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Đậu bắp",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
+        "quantity": "2",
+        "unit": "quả"
+      },
+      {
+        "name": "Me khô",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Tóp mỡ",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Giá đỗ",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Rau răm",
+        "quantity": "20",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Cá basa rửa sạch, cắt khúc vừa ăn, ướp gia vị."
+      },
+      {
+        "order": 2,
+        "instruction": "Dứa gọt vỏ, cắt múi. Đậu bắp thái khúc chéo."
+      },
+      {
+        "order": 3,
+        "instruction": "Me khô ngâm nước ấm, lọc lấy nước cốt."
+      },
+      {
+        "order": 4,
+        "instruction": "Phi thơm tóp mỡ, cho cà chua vào xào nhừ."
+      },
+      {
+        "order": 5,
+        "instruction": "Đổ nước, cho nước me vào đun sôi."
+      },
+      {
+        "order": 6,
+        "instruction": "Cho dứa và đậu bắp vào nấu 5 phút."
+      },
+      {
+        "order": 7,
+        "instruction": "Thêm cá và giá đỗ, nấu đến khi cá chín. Rắc rau răm và thưởng thức."
+      }
+    ],
+    "duration": 30,
+    "servings": 3,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 20,
+    "totalTime": 30,
+    "notes": "Canh chua ngon nhất khi có vị chua vừa phải, không quá gắt."
+  },
+  {
+    "id": "12",
+    "title": "Bún riêu cua đồng",
+    "description": "Bún riêu với cua đồng tươi ngon, nước dùng chua ngọt đậm đà và rau thơm đặc trưng.",
+    "imageUrl": "assets/images/office/12.jpg",
+    "category": "Bún riêu",
+    "tags": ["cua đồng", "chua ngọt", "đậm đà", "rau thơm"],
+    "ingredients": [
+      {
+        "name": "Bún tươi",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Cua đồng",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Riêu cua",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
+        "quantity": "3",
+        "unit": "quả"
+      },
+      {
+        "name": "Đậu phụ",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Tôm khô",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Me khô",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Rau muống",
+        "quantity": "100",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Cua đồng rửa sạch, đem giã lấy nước cốt."
+      },
+      {
+        "order": 2,
+        "instruction": "Tôm khô ngâm nở, phi thơm."
+      },
+      {
+        "order": 3,
+        "instruction": "Cà chua cắt múi, xào với tôm khô đến nhừ."
+      },
+      {
+        "order": 4,
+        "instruction": "Đổ nước, thêm nước cốt cua vào đun sôi."
+      },
+      {
+        "order": 5,
+        "instruction": "Cho riêu cua và me khô đã lọc nước vào."
+      },
+      {
+        "order": 6,
+        "instruction": "Đậu phụ chiên vàng, cắt miếng cho vào nồi."
+      },
+      {
+        "order": 7,
+        "instruction": "Trụng bún và rau muống, múc vào tô cùng nước riêu."
+      }
+    ],
+    "duration": 40,
+    "servings": 3,
+    "difficulty": "Khó",
+    "author": "Admin",
+    "cookTime": 30,
+    "totalTime": 40,
+    "notes": "Cua đồng tươi sẽ cho nước dùng ngọt và thơm hơn cua biển."
+  },
+  {
+    "id": "13",
+    "title": "Gỏi cuốn tôm thịt",
+    "description": "Gỏi cuốn tươi mát với tôm luộc, thịt luộc và rau thơm, chấm nước mắm chua ngọt.",
+    "imageUrl": "assets/images/office/13.jpg",
+    "category": "Gỏi cuốn",
+    "tags": ["tươi mát", "healthy", "nhiều rau", "ít calo"],
+    "ingredients": [
+      {
+        "name": "Bánh tráng",
+        "quantity": "10",
+        "unit": "cái"
+      },
+      {
+        "name": "Tôm sú",
+        "quantity": "150",
+        "unit": "g"
+      },
+      {
+        "name": "Thịt ba chỉ",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Bún tươi",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Xà lách",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Rau thơm",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Chấm nước mắm",
+        "quantity": "100",
+        "unit": "ml"
+      },
+      {
+        "name": "Cà rốt",
+        "quantity": "30",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Tôm luộc chín, bóc vỏ và cắt đôi dọc."
+      },
+      {
+        "order": 2,
+        "instruction": "Thịt ba chỉ luộc chín, cắt lát mỏng."
+      },
+      {
+        "order": 3,
+        "instruction": "Bún trụng qua nước sôi cho mềm, để ráo."
+      },
+      {
+        "order": 4,
+        "instruction": "Xà lách và rau thơm rửa sạch, để ráo."
+      },
+      {
+        "order": 5,
+        "instruction": "Bánh tráng chấm nước, trải lên khăn ẩm."
+      },
+      {
+        "order": 6,
+        "instruction": "Đặt rau, bún, tôm, thịt lên bánh tráng rồi cuốn chặt."
+      },
+      {
+        "order": 7,
+        "instruction": "Cắt đôi gỏi cuốn, xếp ra đĩa kèm nước chấm."
+      }
+    ],
+    "duration": 25,
+    "servings": 3,
+    "difficulty": "Dễ",
+    "author": "Admin", 
+    "cookTime": 15,
+    "totalTime": 25,
+    "notes": "Gỏi cuốn ngon nhất khi vừa cuốn xong, bánh tráng vẫn còn mềm."
+  },
+  {
+    "id": "14",
+    "title": "Cơm âm phủ chay",
+    "description": "Món cơm âm phủ chay với các loại nấm và rau củ, đậm đà hương vị mà thanh đạm.",
+    "imageUrl": "assets/images/office/14.jpg",
+    "category": "Cơm chay",
+    "tags": ["chay", "thanh đạm", "nhiều nấm", "healthy"],
+    "ingredients": [
+      {
+        "name": "Cơm nguội",
+        "quantity": "400",
+        "unit": "g"
+      },
+      {
+        "name": "Nấm rơm",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nấm đông cô",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Đậu que",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "3",
+        "unit": "tép"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "3",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Xì dầu chay",
+        "quantity": "2",
+        "unit": "thìa canh"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Nấm đông cô ngâm nở, thái lát. Nấm rơm rửa sạch."
+      },
+      {
+        "order": 2,
+        "instruction": "Cà rốt và đậu que cắt khúc nhỏ."
+      },
+      {
+        "order": 3,
+        "instruction": "Phi thơm tỏi với dầu ăn."
+      },
+      {
+        "order": 4,
+        "instruction": "Cho các loại nấm vào xào đến mềm."
+      },
+      {
+        "order": 5,
+        "instruction": "Thêm rau củ vào xào cùng 3 phút."
+      }, 
+      {
+        "order": 6,
+        "instruction": "Cho cơm vào đảo đều, tách từng hạt cơm."
+      },
+      {
+        "order": 7,
+        "instruction": "Nêm xì dầu chay và tiêu, đảo đều rồi tắt bếp."
+      }
+    ],
+    "duration": 20,
+    "servings": 2,
+    "difficulty": "Dễ",
+    "author": "Admin",
+    "cookTime": 15,
+    "totalTime": 20,
+    "notes": "Sử dụng cơm để qua đêm sẽ chiên ngon và không bị nát."
+  },
+  {
+    "id": "15",
+    "title": "Chè đậu xanh nước cốt dừa",
+    "description": "Chè đậu xanh thơm béo với nước cốt dừa, món tráng miệng thanh mát cho ngày nóng.",
+    "imageUrl": "assets/images/office/15.jpg",
+    "category": "Chè",
+    "tags": ["tráng miệng", "thanh mát", "béo ngậy", "ngọt dịu"],
+    "ingredients": [
+      {
+        "name": "Đậu xanh cà",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "Đường cát",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Bột năng",
+        "quantity": "1",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Muối",
+        "quantity": "1/4",
+        "unit": "thìa cà phê"
+      },
+      {
+        "name": "Lá dứa",
+        "quantity": "2",
+        "unit": "lá"
+      },
+      {
+        "name": "Nước",
+        "quantity": "500",
+        "unit": "ml"
+      },
+      {
+        "name": "Đá viên",
+        "quantity": "100",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Đậu xanh vo sạch, ngâm nước 2 tiếng."
+      },
+      {
+        "order": 2,
+        "instruction": "Luộc đậu với lá dứa đến khi mềm nhừ."
+      },
+      {
+        "order": 3,
+        "instruction": "Nghiền đậu thành bột mịn, thêm đường khuấy đều."
+      },
+      {
+        "order": 4,
+        "instruction": "Pha bột năng với chút nước cốt dừa."
+      },
+      {
+        "order": 5,
+        "instruction": "Đun nóng nước cốt dừa với muối và bột năng đã pha."
+      },
+      {
+        "order": 6,
+        "instruction": "Khuấy đều đến khi nước cốt dừa sánh."
+      },
+      {
+        "order": 7,
+        "instruction": "Múc đậu xanh vào tô, rưới nước cốt dừa và cho đá."
+      }
+    ],
+    "duration": 60,
+    "servings": 4,
+    "difficulty": "Trung bình",
+    "author": "Admin",
+    "cookTime": 45,
+    "totalTime": 60,
+    "notes": "Có thể thêm thạch hoặc trân châu để tăng độ hấp dẫn."
   },
   {
     "id": "16",
-    "title": "Ngày 16",
-    "description": "Cà ri gà - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Bánh xèo miền Tây",
+    "description": "Bánh xèo giòn rụm với nhân tôm thịt và giá đỗ, ăn kèm rau sống và nước chấm đặc biệt.",
     "imageUrl": "assets/images/office/16.jpg",
-    "category": "Món chính",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Bánh xèo", 
+    "tags": ["giòn rụm", "đặc sản miền Tây", "tôm thịt", "rau sống"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Bột bánh xèo",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Tôm tươi",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Thịt ba chỉ",
+        "quantity": "150",
+        "unit": "g"
+      },
+      {
+        "name": "Giá đỗ",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
+        "name": "Hành lá",
+        "quantity": "3",
+        "unit": "cây"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "Nghệ bột",
         "quantity": "1",
-        "unit": "cái"
+        "unit": "thìa cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "100",
+        "unit": "ml"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Pha bột bánh xèo với nước cốt dừa và nghệ, để nghỉ 30 phút."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Tôm bóc vỏ, thịt cắt lát mỏng."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Phi thơm hành tím, xào tôm thịt đến chín."
+      },
+      {
+        "order": 4,
+        "instruction": "Đun nóng chảo chống dính, cho dầu vào."
+      },
+      {
+        "order": 5,
+        "instruction": "Múc bột bánh xèo vào chảo, xoay đều tạo lớp mỏng."
+      },
+      {
+        "order": 6,
+        "instruction": "Cho nhân tôm thịt và giá đỗ vào nửa bánh."
+      },
+      {
+        "order": 7,
+        "instruction": "Đậy nắp đến khi bánh vàng giòn, gập đôi và múc ra đĩa."
       }
     ],
-    "duration": 48,
-    "servings": 1,
+    "duration": 45,
+    "servings": 4,
     "difficulty": "Trung bình",
     "author": "Admin",
-    "cookTime": 43,
-    "totalTime": 48,
-    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+    "cookTime": 30,
+    "totalTime": 45,
+    "notes": "Lửa to sẽ giúp bánh giòn nhanh, tránh để lửa nhỏ bánh sẽ dai."
   },
   {
     "id": "17",
-    "title": "Ngày 17",
-    "description": "Bún thịt nướng - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Mì quảng gà",
+    "description": "Mì quảng đặc sản miền Trung với nước dùng đậm đà, thịt gà và tôm, rau sống đa dạng.",
     "imageUrl": "assets/images/office/17.jpg",
-    "category": "Món chính",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Mì quảng",
+    "tags": ["đặc sản miền Trung", "nước dùng đậm đà", "gà tôm", "rau sống"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Mì quảng khô",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Thịt gà",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "Tôm tươi",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
+        "name": "Trứng cút",
+        "quantity": "6",
+        "unit": "quả"
+      },
+      {
+        "name": "Hành tím",
+        "quantity": "3",
+        "unit": "củ"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "2",
+        "unit": "tép"
+      },
+      {
+        "name": "Gia vị mì quảng",
         "quantity": "1",
-        "unit": "cái"
+        "unit": "gói"
+      },
+      {
+        "name": "Rau sống",
+        "quantity": "100",
+        "unit": "g"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Thịt gà luộc chín, xé sợi. Giữ nước luộc."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Tôm bóc vỏ, trứng cút luộc chín."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Phi thơm hành tím, tỏi với dầu."
+      },
+      {
+        "order": 4,
+        "instruction": "Cho gia vị mì quảng vào xào thơm."
+      },
+      {
+        "order": 5,
+        "instruction": "Đổ nước luộc gà vào, đun sôi 10 phút."
+      },
+      {
+        "order": 6,
+        "instruction": "Cho tôm và trứng cút vào nấu 5 phút."
+      },
+      {
+        "order": 7,
+        "instruction": "Trụng mì, múc vào tô cùng gà và nước dùng."
       }
     ],
-    "duration": 49,
+    "duration": 40,
     "servings": 3,
     "difficulty": "Trung bình",
     "author": "Admin",
-    "cookTime": 41,
-    "totalTime": 49,
-    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+    "cookTime": 30,
+    "totalTime": 40,
+    "notes": "Nước dùng mì quảng ngon nhất khi ninh từ xương heo và gà."
   },
   {
     "id": "18",
-    "title": "Ngày 18",
-    "description": "Chè đậu xanh - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Bánh mì pate",
+    "description": "Bánh mì pate truyền thống với pate gan, rau cải, đậu phộng rang và nước sốt đặc biệt.",
     "imageUrl": "assets/images/office/18.jpg",
-    "category": "Món nước",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Bánh mì",
+    "tags": ["truyền thống", "pate gan", "rau cải", "đậu phộng"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Bánh mì",
+        "quantity": "2",
+        "unit": "ổ"
+      },
+      {
+        "name": "Pate gan",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
+        "name": "Rau cải",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "quantity": "30",
+        "unit": "g"
+      },
+      {
+        "name": "Tương ớt",
         "quantity": "1",
-        "unit": "cái"
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Mayonnaise",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Dưa chua",
+        "quantity": "20",
+        "unit": "g"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Bánh mì cắt dọc, khoét ruột tạo hốc."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Rau cải rửa sạch, cà rốt cắt sợi mỏng."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Trộn rau cải, cà rốt với chút mayonnaise."
+      },
+      {
+        "order": 4,
+        "instruction": "Phết pate đều bên trong bánh mì."
+      },
+      {
+        "order": 5,
+        "instruction": "Cho rau trộn vào bánh mì."
+      },
+      {
+        "order": 6,
+        "instruction": "Thêm dưa chua và rắc đậu phộng rang."
+      },
+      {
+        "order": 7,
+        "instruction": "Chấm tương ớt theo khẩu vị và thưởng thức."
       }
     ],
-    "duration": 57,
-    "servings": 4,
+    "duration": 10,
+    "servings": 2,
     "difficulty": "Dễ",
     "author": "Admin",
-    "cookTime": 50,
-    "totalTime": 57,
-    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
+    "cookTime": 5,
+    "totalTime": 10,
+    "notes": "Bánh mì nướng giòn sẽ thơm ngon hơn bánh mì thường."
   },
   {
     "id": "19",
-    "title": "Ngày 19",
-    "description": "Bánh chuối hấp - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Chả cá Hà Nội",
+    "description": "Chả cá Hà Nội thơm lừng với thì là, hành lá, bánh tráng nướng và bún tươi.",
     "imageUrl": "assets/images/office/19.jpg",
-    "category": "Món chay",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Chả cá",
+    "tags": ["đặc sản Hà Nội", "thì là", "hành lá", "bún tươi"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Cá lăng",
+        "quantity": "400",
+        "unit": "g"
+      },
+      {
+        "name": "Thì là",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
+        "name": "Hành lá",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Bún tươi",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Nghệ tươi",
+        "quantity": "20",
+        "unit": "g"
+      },
+      {
+        "name": "Mắm tôm",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "3",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Bánh tráng nướng",
+        "quantity": "4",
         "unit": "cái"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Cá lăng rửa sạch, cắt khúc vừa ăn."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Nghệ tươi giã nhuyễn, ướp cá 30 phút."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Thì là và hành lá rửa sạch, cắt khúc 3cm."
+      },
+      {
+        "order": 4,
+        "instruction": "Đun nóng dầu trong chảo gang."
+      },
+      {
+        "order": 5,
+        "instruction": "Cho cá vào chiên đến khi vàng đều 2 mặt."
+      },
+      {
+        "order": 6,
+        "instruction": "Thêm thì là và hành lá vào xào cùng."
+      },
+      {
+        "order": 7,
+        "instruction": "Ăn kèm bún tươi, bánh tráng nướng và mắm tôm."
       }
     ],
-    "duration": 63,
-    "servings": 2,
-    "difficulty": "Dễ",
+    "duration": 35,
+    "servings": 3,
+    "difficulty": "Trung bình",
     "author": "Admin",
-    "cookTime": 44,
-    "totalTime": 63,
-    "notes": "Ăn kèm với rau sống sẽ ngon hơn."
+    "cookTime": 25,
+    "totalTime": 35,
+    "notes": "Chả cá ngon nhất khi ăn nóng, cá vừa chín tới."
   },
   {
     "id": "20",
-    "title": "Ngày 20",
-    "description": "Gà kho gừng - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Cơm tấm sườn nướng",
+    "description": "Cơm tấm Sài Gòn với sườn nướng thơm lừng, chả trứng và nước mắm chua ngọt.",
     "imageUrl": "assets/images/office/20.jpg",
-    "category": "Tráng miệng",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Cơm tấm",
+    "tags": ["Sài Gòn", "sườn nướng", "chả trứng", "nước mắm chua ngọt"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
+        "name": "Cơm tấm",
+        "quantity": "300",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
+        "name": "Sườn heo",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Trứng gà",
+        "quantity": "3",
+        "unit": "quả"
+      },
+      {
+        "name": "Dưa chua",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "3",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Đường",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Tỏi ớt",
         "quantity": "1",
-        "unit": "cái"
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Rau thơm",
+        "quantity": "50",
+        "unit": "g"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Sườn ướp với gia vị, nướng trên than hoa đến chín."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Đập trứng, tráng thành lớp mỏng rồi cắt sợi."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Pha nước mắm chua ngọt với đường và tỏi ớt."
+      },
+      {
+        "order": 4,
+        "instruction": "Cơm tấm nấu chín, để trong rổ cho ráo nước."
+      },
+      {
+        "order": 5,
+        "instruction": "Rau thơm rửa sạch, xếp ra đĩa riêng."
+      },
+      {
+        "order": 6,
+        "instruction": "Xếp cơm tấm, sườn nướng và chả trứng ra đĩa."
+      },
+      {
+        "order": 7,
+        "instruction": "Ăn kèm dưa chua, rau sống và nước mắm pha."
       }
     ],
-    "duration": 24,
-    "servings": 2,
+    "duration": 50,
+    "servings": 3,
     "difficulty": "Trung bình",
     "author": "Admin",
-    "cookTime": 15,
-    "totalTime": 24,
-    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+    "cookTime": 40,
+    "totalTime": 50,
+    "notes": "Sườn nướng than hoa sẽ thơm ngon hơn nướng lò."
   },
   {
     "id": "21",
-    "title": "Ngày 21",
-    "description": "Cá kho tộ - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Hủ tiếu Nam Vang",
+    "description": "Hủ tiếu Nam Vang với nước dùng ngọt, tôm khô, thịt heo và gan, ăn kèm rau sống.",
     "imageUrl": "assets/images/office/21.jpg",
-    "category": "Tráng miệng",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Hủ tiếu",
+    "tags": ["Nam Vang", "nước dùng ngọt", "tôm khô", "thịt heo"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Hủ tiếu khô",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "Thịt heo xay",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
+        "name": "Gan heo",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Tôm khô",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Xương heo",
+        "quantity": "500",
+        "unit": "g"
+      },
+      {
+        "name": "Củ cải trắng",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Hành lá",
+        "quantity": "3",
+        "unit": "cây"
+      },
+      {
+        "name": "Rau sống",
+        "quantity": "100",
+        "unit": "g"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Ninh xương heo 2 tiếng để lấy nước dùng trong."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Tôm khô ngâm nở, phi thơm."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Gan heo luộc chín, thái lát mỏng."
+      },
+      {
+        "order": 4,
+        "instruction": "Viên thịt heo xay thành từng viên nhỏ."
+      },
+      {
+        "order": 5,
+        "instruction": "Củ cải thái sợi, trụng qua nước sôi."
+      },
+      {
+        "order": 6,
+        "instruction": "Nêm nước dùng vừa ăn, cho thịt viên vào nấu."
+      },
+      {
+        "order": 7,
+        "instruction": "Trụng hủ tiếu, múc vào tô cùng nước dùng và topping."
       }
     ],
-    "duration": 70,
-    "servings": 2,
-    "difficulty": "Dễ",
+    "duration": 150,
+    "servings": 3,
+    "difficulty": "Khó",
     "author": "Admin",
-    "cookTime": 55,
-    "totalTime": 70,
-    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+    "cookTime": 140,
+    "totalTime": 150,
+    "notes": "Nước dùng ngon nhất khi ninh xương lâu để ra ngọt tự nhiên."
   },
   {
     "id": "22",
-    "title": "Ngày 22",
-    "description": "Hủ tiếu - món ăn hấp dẫn và đậm đà hương vị Việt.",
+    "title": "Nem nướng Nha Trang",
+    "description": "Nem nướng Nha Trang thơm lừng với thịt heo và mỡ, ăn kèm bánh tráng và rau sống.",
     "imageUrl": "assets/images/office/22.jpg",
-    "category": "Món nước",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
+    "category": "Nem nướng",
+    "tags": ["Nha Trang", "thịt heo", "mỡ", "bánh tráng"],
     "ingredients": [
       {
-        "name": "Nguyên liệu A",
+        "name": "Thịt heo xay",
+        "quantity": "400",
+        "unit": "g"
+      },
+      {
+        "name": "Mỡ heo",
         "quantity": "100",
         "unit": "g"
       },
       {
-        "name": "Nguyên liệu B",
+        "name": "Tỏi",
+        "quantity": "3",
+        "unit": "tép"
+      },
+      {
+        "name": "Đường",
         "quantity": "1",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "2",
+        "unit": "thìa canh"
+      },
+      {
+        "name": "Bánh tráng",
+        "quantity": "20",
         "unit": "cái"
+      },
+      {
+        "name": "Rau sống",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "Nước chấm",
+        "quantity": "100",
+        "unit": "ml"
       }
     ],
     "steps": [
       {
         "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
+        "instruction": "Thịt và mỡ heo xay nhuyễn, ướp với tỏi băm."
       },
       {
         "order": 2,
-        "instruction": "Chế biến món ăn."
+        "instruction": "Thêm đường, nước mắm vào thịt, trộn đều."
       },
       {
         "order": 3,
-        "instruction": "Trình bày và thưởng thức."
+        "instruction": "Ủ thịt trong tủ lạnh 2 tiếng cho thấm gia vị."
+      },
+      {
+        "order": 4,
+        "instruction": "Nặn thịt thành những viên dài, xiên que tre."
+      },
+      {
+        "order": 5,
+        "instruction": "Nướng nem trên than hoa đến khi vàng đều."
+      },
+      {
+        "order": 6,
+        "instruction": "Bánh tráng nướng qua lửa cho giòn."
+      },
+      {
+        "order": 7,
+        "instruction": "Cuốn nem với bánh tráng, rau sống và chấm nước mắm."
       }
     ],
-    "duration": 39,
-    "servings": 1,
+    "duration": 40,
+    "servings": 4,
     "difficulty": "Trung bình",
     "author": "Admin",
-    "cookTime": 33,
-    "totalTime": 39,
-    "notes": "Dùng ngay sau khi nấu xong để giữ được độ ngon."
-  },
-  {
-    "id": "23",
-    "title": "Ngày 23",
-    "description": "Bánh canh cua - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/23.jpg",
-    "category": "Món chính",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 29,
-    "servings": 2,
-    "difficulty": "Khó",
-    "author": "Admin",
-    "cookTime": 20,
-    "totalTime": 29,
-    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
-  },
-  {
-    "id": "24",
-    "title": "Ngày 24",
-    "description": "Cơm rang dưa bò - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/24.jpg",
-    "category": "Món chính",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 37,
-    "servings": 2,
-    "difficulty": "Dễ",
-    "author": "Admin",
-    "cookTime": 31,
-    "totalTime": 37,
-    "notes": "Thêm một chút tiêu xay sẽ làm món ăn đậm đà hơn."
-  },
-  {
-    "id": "25",
-    "title": "Ngày 25",
-    "description": "Gỏi xoài tôm khô - món ăn hấp dẫn và đậm đà hương vị Việt.",
-    "imageUrl": "assets/images/office/25.jpg",
-    "category": "Tráng miệng",
-    "tags": [
-      "ngon",
-      "dễ làm"
-    ],
-    "ingredients": [
-      {
-        "name": "Nguyên liệu A",
-        "quantity": "100",
-        "unit": "g"
-      },
-      {
-        "name": "Nguyên liệu B",
-        "quantity": "1",
-        "unit": "cái"
-      }
-    ],
-    "steps": [
-      {
-        "order": 1,
-        "instruction": "Chuẩn bị nguyên liệu."
-      },
-      {
-        "order": 2,
-        "instruction": "Chế biến món ăn."
-      },
-      {
-        "order": 3,
-        "instruction": "Trình bày và thưởng thức."
-      }
-    ],
-    "duration": 39,
-    "servings": 3,
-    "difficulty": "Dễ",
-    "author": "Admin",
-    "cookTime": 22,
-    "totalTime": 39,
-    "notes": "Có thể thay thế nguyên liệu tùy khẩu vị."
+    "cookTime": 25,
+    "totalTime": 40,
+    "notes": "Nem ngon nhất khi vừa nướng xong, còn nóng và thơm khói."
   }
 ]

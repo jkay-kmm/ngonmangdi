@@ -15,12 +15,12 @@ class RecipeGridScreen extends StatelessWidget {
           style: TextStyle(fontFamily: "ABeeZee", fontSize: 18),
         ),
         centerTitle: true,
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () {
-            context.go('/home');
-          },
-        ),
+        // leading: IconButton(
+        //   icon: const Icon(Icons.arrow_back),
+        //   onPressed: () {
+        //     context.go('/home');
+        //   },
+        // ),
       ),
       body: FutureBuilder<List<dynamic>>(
         future: RecipeService().fetchRecipes(),

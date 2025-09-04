@@ -10,6 +10,8 @@ import 'package:ngon_mang_di/screens/home/widgets/search_input_field.dart';
 import 'package:ngon_mang_di/screens/home/widgets/title_bar.dart';
 import 'package:flutter/services.dart';
 import 'package:ngon_mang_di/services/recipe_service.dart';
+import 'package:ngon_mang_di/widgets/error_state_widget.dart';
+import 'package:ngon_mang_di/widgets/loading_widget.dart';
 
 import '../../widgets/section_header.dart';
 
@@ -28,6 +30,7 @@ class _HomeScreenState extends State<HomeScreen>
   late Future<List<RecipeHighlight>> _highlightRecipesFuture;
   final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
       GlobalKey<RefreshIndicatorState>();
+  final GlobalKey _recommendationSectionKey = GlobalKey();
 
   @override
   void initState() {
@@ -64,40 +67,41 @@ class _HomeScreenState extends State<HomeScreen>
   }
 
   void _showRecommendationFilters() {
-    // Tạo một modal đơn giản để mở filter
-    showDialog(
-      context: context,
-      builder:
-          (context) => AlertDialog(
-            title: const Text('Tùy chỉnh gợi ý'),
-            content: const Text('Tính năng này sẽ được phát triển sau.'),
-            actions: [
-              TextButton(
-                onPressed: () => Navigator.pop(context),
-                child: const Text('Đóng'),
-              ),
-            ],
-          ),
-    );
+    // Gọi hàm tùy chỉnh từ RecommendationSection
+    final state = _recommendationSectionKey.currentState as dynamic;
+    state?.showRecommendationFilters(context);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: SafeArea(
         child: FutureBuilder<List<dynamic>>(
           future: _recipeService.fetchRecipes(),
           builder: (context, snapshotGeneralRecipes) {
             if (snapshotGeneralRecipes.connectionState !=
                 ConnectionState.done) {
-              return const Center(child: CircularProgressIndicator());
+              return const LoadingWidget(message: 'Đang tải công thức...');
+            }
+
+            if (snapshotGeneralRecipes.hasError) {
+              return ErrorStateWidget.serverError(
+                onRetry: () {
+                  setState(() {
+                    // Refresh data
+                  });
+                },
+              );
             }
 
             if (!snapshotGeneralRecipes.hasData ||
-                snapshotGeneralRecipes.data == null) {
-              return const Center(
-                child: Text("Không thể tải dữ liệu công thức chung"),
+                snapshotGeneralRecipes.data == null ||
+                snapshotGeneralRecipes.data!.isEmpty) {
+              return ErrorStateWidget.noData(
+                title: 'Chưa có công thức nào',
+                message: 'Hãy quay lại sau để khám phá thêm công thức mới',
+                icon: Icons.restaurant_outlined,
               );
             }
 
@@ -113,9 +117,11 @@ class _HomeScreenState extends State<HomeScreen>
                 strokeWidth: 3.0,
                 child: SingleChildScrollView(
                   physics: const AlwaysScrollableScrollPhysics(),
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                    vertical: 20,
+                  padding: const EdgeInsets.only(
+                    left: 16,
+                    right: 16,
+                    top: 20,
+                    bottom: 40,
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -129,23 +135,24 @@ class _HomeScreenState extends State<HomeScreen>
                         customButtonText: "Tùy chỉnh",
                         onCustomButtonPressed: _showRecommendationFilters,
                       ),
-                      const SizedBox(height: 8),
-                      const RecipeRecommendationSection(
+                      const SizedBox(height: 16),
+                      RecipeRecommendationSection(
+                        key: _recommendationSectionKey,
                         title: 'Để NgonMangDi gợi ý 👉',
                         limit: 5,
                       ),
-                      const SizedBox(height: 40),
-                      SectionHeader(
-                        title: "Công thức phổ biến",
-                        onSeeMorePressed:
-                            () => context.push('/recipe_grid_screen'),
-                      ),
-                      const SizedBox(height: 8),
-                      HorizontalRecipeList(
-                        recipes: generalRecipes,
-                        clickable: true,
-                      ),
-                      const SizedBox(height: 18),
+                      // const SizedBox(height: 40),
+                      // SectionHeader(
+                      //   title: "Công thức phổ biến",
+                      //   onSeeMorePressed:
+                      //       () => context.push('/recipe_grid_screen'),
+                      // ),
+                      // const SizedBox(height: 8),
+                      // HorizontalRecipeList(
+                      //   recipes: generalRecipes,
+                      //   clickable: true,
+                      // ),
+                      const SizedBox(height: 25),
                       const CreateRecipeBox(),
                       const SizedBox(height: 18),
                       RecipeHighlightSection(future: _highlightRecipesFuture),
